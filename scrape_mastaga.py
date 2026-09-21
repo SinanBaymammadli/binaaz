@@ -157,14 +157,20 @@ const LISTINGS = {json.dumps(with_coords, ensure_ascii=False)};
 
 
 async def scroll_load_all(page):
-    """Scroll to bottom repeatedly until no new cards appear."""
+    """Scroll in viewport-sized steps to trigger IntersectionObserver infinite scroll."""
+    await page.set_viewport_size({"width": 1280, "height": 900})
     prev_count = 0
     stall_rounds = 0
     round_num = 0
     while stall_rounds < 3:
         round_num += 1
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        await page.wait_for_timeout(1800)
+        scroll_height = await page.evaluate("() => document.body.scrollHeight")
+        pos = 0
+        while pos < scroll_height:
+            pos += 800
+            await page.evaluate(f"window.scrollTo(0, {pos})")
+            await page.wait_for_timeout(200)
+        await page.wait_for_timeout(1500)
         count = await page.evaluate("() => document.querySelectorAll('.item-card').length")
         if count > prev_count:
             print(f"  scroll {round_num}: {count} cards loaded")

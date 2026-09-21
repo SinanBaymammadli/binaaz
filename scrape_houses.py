@@ -93,12 +93,19 @@ def parse_card_text(text):
 
 
 async def scroll_load_all(page):
-    prev, stalls = 0, 0
-    rnd = 0
+    """Scroll in viewport-sized steps to trigger IntersectionObserver infinite scroll."""
+    await page.set_viewport_size({"width": 1280, "height": 900})
+    prev, stalls, rnd = 0, 0, 0
     while stalls < 3:
         rnd += 1
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        await page.wait_for_timeout(1800)
+        # Step through page viewport by viewport instead of jumping to bottom
+        scroll_height = await page.evaluate("() => document.body.scrollHeight")
+        pos = 0
+        while pos < scroll_height:
+            pos += 800
+            await page.evaluate(f"window.scrollTo(0, {pos})")
+            await page.wait_for_timeout(200)
+        await page.wait_for_timeout(1500)
         count = await page.evaluate("() => document.querySelectorAll('.item-card').length")
         if count > prev:
             print(f"  scroll {rnd}: {count} cards")
