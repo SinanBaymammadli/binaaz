@@ -135,7 +135,9 @@ async def main() -> None:
         print(f"Found {len(cards)} listings")
 
         if len(cards) < 5:
-            print("Too few results — likely Cloudflare blocked. Aborting.")
+            msg = f"⚠️ Scraper blocked — only {len(cards)} listings found. Likely Cloudflare."
+            print(msg)
+            send_telegram(msg)
             return
 
         current_ids = {c["id"] for c in cards}
