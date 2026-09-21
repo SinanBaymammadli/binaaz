@@ -26,11 +26,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Install dependencies
         run: |
-          pip install camoufox
+          pip install -r requirements.txt
           python -m camoufox fetch --browser firefox
 
       - name: Install Xvfb
