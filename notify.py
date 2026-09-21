@@ -169,8 +169,6 @@ async def main():
 
         seen_ids = current_ids  # always update after every run
 
-            seen_ids = current_ids  # update to current snapshot
-
     # Save state
     listings = list(listings_by_id.values())
     with open(LISTINGS_FILE, "w", encoding="utf-8") as f:
