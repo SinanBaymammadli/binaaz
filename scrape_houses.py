@@ -150,7 +150,7 @@ async def fetch_coords(page, item_id):
 # ── map generator ─────────────────────────────────────────────────────────────
 
 def make_map(listings):
-    with_coords = [l for l in listings if l.get("lat") and l.get("lng") and (l.get("walk_min") or 999) <= 10]
+    with_coords = [l for l in listings if l.get("lat") and l.get("lng")]
     listings_js = json.dumps(with_coords, ensure_ascii=False)
 
     html = f"""<!DOCTYPE html>
