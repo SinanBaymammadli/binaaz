@@ -1,0 +1,17 @@
+azerbaijan-latest.osm.pbf
+*.osrm
+*.osrm.*
+node_modules/
+__pycache__/
+*.pyc
+.env
+bus107.json
+bus107_map.html
+bus_stops.csv
+bus_stops.json
+extract_coords.js
+extract_stops.py
+scrape.js
+scrape.py
+package.json
+package-lock.json
