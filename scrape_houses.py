@@ -77,13 +77,19 @@ def nearest_stop(lat, lng, stops):
 # ── scraping ──────────────────────────────────────────────────────────────────
 
 def parse_card_text(text):
-    lines = [l.strip() for l in text.strip().splitlines() if l.strip()]
+    lines = [l.strip().replace("\xa0", " ") for l in text.strip().splitlines() if l.strip()]
     while lines and not re.search(r"\d", lines[0]):
         lines.pop(0)
-    price = int(re.sub(r"\D", "", lines[0])) if lines else None
+    price    = int(re.sub(r"\D", "", lines[0])) if lines else None
     location = lines[1] if len(lines) > 1 else ""
-    area = lines[2] if len(lines) > 2 else ""
-    return price, location, area
+    rooms    = ""
+    area_m2  = ""
+    for l in lines[2:]:
+        if "otaqlı" in l and not rooms:
+            rooms = l
+        elif "m²" in l and not area_m2:
+            area_m2 = l
+    return price, location, rooms, area_m2
 
 
 async def scroll_load_all(page):
@@ -235,10 +241,11 @@ function initMap() {{
     }});
 
     const gmaps = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
+    const details = [l.location, l.rooms, l.area_m2].filter(Boolean).join(' · ');
     const content = `
       <div style="font-family:sans-serif;min-width:210px;max-width:270px">
         <div style="font-size:16px;font-weight:700;color:#6a1b9a">${{price}}</div>
-        <div style="color:#555;font-size:12px;margin-top:3px">${{l.location || ''}} · ${{l.area || ''}}</div>
+        <div style="color:#555;font-size:12px;margin-top:3px">${{details}}</div>
         <div style="margin-top:7px;padding-top:7px;border-top:1px solid #eee">
           <div style="color:#${{l.walk_min > 15 ? 'e65100' : '388e3c'}};font-size:12px;font-weight:600">
             🚶 ${{l.walk_min}} min walk to nearest stop
@@ -267,7 +274,7 @@ function initMap() {{
     row.id = 'row-' + l.id;
     row.innerHTML = `
       <div class="price">${{price}}</div>
-      <div class="meta">${{l.location || ''}} · ${{l.area || ''}}</div>
+      <div class="meta">${{details}}</div>
       <div class="walk ${{walkClass}}">🚶 ${{l.walk_min}} min walk</div>
       <div class="bus">🚌 ${{busLine}}</div>`;
     row.addEventListener('click', () => {{
@@ -339,7 +346,7 @@ async def main():
         listings = []
         print("Fetching coords + nearest stop...")
         for i, card in enumerate(raw):
-            price, location, area = parse_card_text(card["text"])
+            price, location, rooms, area_m2 = parse_card_text(card["text"])
             lat, lng = await fetch_coords(page, card["id"])
 
             walk_m, walk_min, stop = None, None, None
@@ -350,7 +357,8 @@ async def main():
                 "id": card["id"],
                 "price": price,
                 "location": location,
-                "area": area,
+                "rooms": rooms,
+                "area_m2": area_m2,
                 "lat": lat,
                 "lng": lng,
                 "walk_m": round(walk_m) if walk_m else None,
@@ -370,4 +378,5 @@ async def main():
     print("Done — open houses_map.html in browser")
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

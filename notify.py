@@ -50,18 +50,20 @@ def send_telegram(text):
 
 
 def format_message(listing):
-    price = f"{listing['price']:,} AZN" if listing.get("price") else "?"
+    price    = f"{listing['price']:,} AZN" if listing.get("price") else "?"
     location = listing.get("location", "")
-    area = listing.get("area", "")
-    walk = listing.get("walk_min")
-    stop = listing.get("stop_name", "")
-    lines = listing.get("bus_lines", [])
-    bus = "Bus " + ", ".join(lines) if lines else "no named line nearby"
-    gmaps = f"https://www.google.com/maps?q={listing['lat']},{listing['lng']}" if listing.get("lat") else ""
+    rooms    = listing.get("rooms", "")
+    area_m2  = listing.get("area_m2", "")
+    walk     = listing.get("walk_min")
+    stop     = listing.get("stop_name", "")
+    bus_lines = listing.get("bus_lines", [])
+    bus      = "Bus " + ", ".join(bus_lines) if bus_lines else "no named line nearby"
+    gmaps    = f"https://www.google.com/maps?q={listing['lat']},{listing['lng']}" if listing.get("lat") else ""
 
+    details = " · ".join(filter(None, [location, rooms, area_m2]))
     parts = [
         f"🏠 <b>New listing: {price}</b>",
-        f"📍 {location} · {area}".strip(" ·"),
+        f"📍 {details}",
     ]
     if walk is not None:
         parts.append(f"🚶 {walk} min walk · {bus}")
@@ -75,7 +77,7 @@ def format_message(listing):
 
 # ── coord + walk ──────────────────────────────────────────────────────────────
 async def enrich_listing(page, card, stops):
-    price, location, area = parse_card_text(card["text"])
+    price, location, rooms, area_m2 = parse_card_text(card["text"])
     lat, lng = await fetch_coords(page, card["id"])
 
     walk_m = walk_min = stop_name = None
@@ -99,7 +101,8 @@ async def enrich_listing(page, card, stops):
         "id":        card["id"],
         "price":     price,
         "location":  location,
-        "area":      area,
+        "rooms":     rooms,
+        "area_m2":   area_m2,
         "lat":       lat,
         "lng":       lng,
         "walk_m":    walk_m,
