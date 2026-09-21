@@ -146,6 +146,8 @@ async def main():
         new_cards   = [c for c in cards if c["id"] not in seen_ids]
         print(f"New listings: {len(new_cards)}")
 
+        MAX_WALK_MIN = 10
+
         if not new_cards:
             print("No new listings.")
             # Still update seen_ids to reflect any removed listings
@@ -155,9 +157,13 @@ async def main():
                 print(f"  Enriching {i+1}/{len(new_cards)}: {card['id']}")
                 listing = await enrich_listing(page, card, stops)
                 listings_by_id[listing["id"]] = listing
-                msg = format_message(listing)
-                print(msg)
-                send_telegram(msg)
+                walk = listing.get("walk_min")
+                if walk is not None and walk <= MAX_WALK_MIN:
+                    msg = format_message(listing)
+                    print(msg)
+                    send_telegram(msg)
+                else:
+                    print(f"  Skipping alert (walk={walk} min > {MAX_WALK_MIN} min)")
                 await asyncio.sleep(0.2)
 
             seen_ids = current_ids  # update to current snapshot
