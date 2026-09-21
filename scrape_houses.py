@@ -10,7 +10,7 @@ SEARCH_URL = (
     "?room_ids%5B%5D=5%2B&room_ids%5B%5D=4&price_to=300000"
     "&land_area_from=4&has_bill_of_sale=true"
     "&location_ids%5B%5D=122&location_ids%5B%5D=313&location_ids%5B%5D=117"
-    "&sorting=price%2Bdesc"
+    "&items_view=list&sorting=bumped_at%2Bdesc"
 )
 COORD_HASH = "2b71465916b23b497ba378e6a300c8bb95ed42dfa85f3a6adc6247e3da774444"
 GMAPS_KEY = "AIzaSyBsgRa2Jy4Fep0LoGsR9XRP6evoyDSyTyE"
