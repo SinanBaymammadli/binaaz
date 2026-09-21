@@ -122,40 +122,48 @@ async def main() -> None:
     stops = build_stops()
     print(f"Stops loaded: {len(stops)}")
 
-    async with open_browser(headless=HEADLESS) as browser:
-        page = await browser.new_page()
+    MAX_RETRIES = 3
+    cards = []
 
-        total = await load_search_page(page)
-        print(f"Total ads on page: {total}")
+    for attempt in range(1, MAX_RETRIES + 1):
+        print(f"Attempt {attempt}/{MAX_RETRIES}…")
+        async with open_browser(headless=HEADLESS) as browser:
+            page = await browser.new_page()
+            total = await load_search_page(page)
+            print(f"Total ads on page: {total}")
+            print("Scrolling to load all listings…")
+            await scroll_load_all(page)
+            cards = await extract_cards(page)
+            print(f"Found {len(cards)} listings")
 
-        print("Scrolling to load all listings…")
-        await scroll_load_all(page)
+            if len(cards) >= 5:
+                current_ids = {c["id"] for c in cards}
+                new_cards   = [c for c in cards if c["id"] not in seen_ids]
+                print(f"New: {len(new_cards)}")
 
-        cards = await extract_cards(page)
-        print(f"Found {len(cards)} listings")
+                if not new_cards:
+                    send_telegram(f"🔍 Searched {len(cards)} listings — nothing new.")
+                else:
+                    for i, card in enumerate(new_cards):
+                        print(f"  [{i+1}/{len(new_cards)}] {card['id']}")
+                        listing = await enrich(page, card, stops)
+                        listings_by_id[listing["id"]] = listing
+                        msg = format_message(listing)
+                        print(msg)
+                        send_telegram(msg)
+
+                seen_ids = current_ids
+                break
 
         if len(cards) < 5:
-            msg = f"⚠️ Scraper blocked — only {len(cards)} listings found. Likely Cloudflare."
-            print(msg)
-            send_telegram(msg)
-            return
-
-        current_ids = {c["id"] for c in cards}
-        new_cards   = [c for c in cards if c["id"] not in seen_ids]
-        print(f"New: {len(new_cards)}")
-
-        if not new_cards:
-            send_telegram(f"🔍 Searched {len(cards)} listings — nothing new.")
-        else:
-            for i, card in enumerate(new_cards):
-                print(f"  [{i+1}/{len(new_cards)}] {card['id']}")
-                listing = await enrich(page, card, stops)
-                listings_by_id[listing["id"]] = listing
-                msg = format_message(listing)
+            if attempt < MAX_RETRIES:
+                print(f"Blocked — retrying in 60s…")
+                await asyncio.sleep(60)
+            else:
+                msg = f"⚠️ Scraper blocked after {MAX_RETRIES} attempts — likely Cloudflare."
                 print(msg)
                 send_telegram(msg)
-
-        seen_ids = current_ids
+                return
 
     listings = list(listings_by_id.values())
     with open(LISTINGS_FILE, "w", encoding="utf-8") as f:
