@@ -157,7 +157,6 @@ async def main():
             msg = f"🔍 Searched {len(cards)} listings — nothing new."
             print(msg)
             send_telegram(msg)
-            seen_ids = current_ids
         else:
             for i, card in enumerate(new_cards):
                 print(f"  Enriching {i+1}/{len(new_cards)}: {card['id']}")
@@ -167,6 +166,8 @@ async def main():
                 print(msg)
                 send_telegram(msg)
                 await asyncio.sleep(0.2)
+
+        seen_ids = current_ids  # always update after every run
 
             seen_ids = current_ids  # update to current snapshot
 
