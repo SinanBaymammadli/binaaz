@@ -2,10 +2,10 @@ name: Scrape listings
 
 on:
   schedule:
-    # 3x/day — 09:00, 15:00, 21:00 Baku (UTC+4) = 05:00, 11:00, 17:00 UTC
+    # 3x/day — 09:00, 15:00, 19:00 Baku (UTC+4) = 05:00, 11:00, 15:00 UTC
     - cron: '0 5 * * *'
     - cron: '0 11 * * *'
-    - cron: '0 17 * * *'
+    - cron: '0 15 * * *'
   workflow_dispatch:  # allow manual trigger from GitHub UI
 
 permissions:
