@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          python -m camoufox fetch --browser firefox
+          python -m camoufox fetch
 
       - name: Install Xvfb
         run: sudo apt-get install -y xvfb
