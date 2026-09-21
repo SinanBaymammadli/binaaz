@@ -150,7 +150,9 @@ async def main():
         print(f"New listings: {len(new_cards)}")
 
         if not new_cards:
-            print("No new listings.")
+            msg = f"🔍 Searched {len(cards)} listings — nothing new."
+            print(msg)
+            send_telegram(msg)
             seen_ids = current_ids
         else:
             for i, card in enumerate(new_cards):
