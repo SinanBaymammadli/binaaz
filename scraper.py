@@ -29,12 +29,21 @@ def open_browser(headless: bool = False):
 
 
 async def load_search_page(page) -> int:
+    # Visit homepage first to establish a session before hitting the search page
+    await page.goto("https://bina.az", wait_until="domcontentloaded", timeout=60_000)
+    try:
+        await page.wait_for_function("() => document.title !== 'Just a moment...'", timeout=30_000)
+    except Exception:
+        pass
+    await page.wait_for_timeout(3_000)
+
     await page.goto(SEARCH_URL, wait_until="load", timeout=60_000)
     try:
         await page.wait_for_function("() => document.title !== 'Just a moment...'", timeout=30_000)
     except Exception:
         pass
     await page.wait_for_timeout(3_000)
+
     total = await page.evaluate("""() => {
         const m = document.body.innerText.match(/\\((\\d+)\\)/);
         return m ? parseInt(m[1]) : 0;
