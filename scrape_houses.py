@@ -136,22 +136,30 @@ async def extract_cards(page):
 
 async def fetch_coords(page, item_id):
     try:
-        data = await page.evaluate("""async ({id, hash}) => {
+        data = await page.evaluate("""async (id) => {
             const r = await fetch('https://bina.az/graphql', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
-                    operationName: 'UserRelatedItem',
+                    operationName: 'GetItem',
                     variables: {id},
-                    extensions: {persistedQuery: {version: 1, sha256Hash: hash}}
+                    query: `query GetItem($id: ID!) {
+                        item(id: $id) {
+                            id latitude longitude
+                            landArea { value }
+                            area { value }
+                        }
+                    }`
                 })
             });
             return r.json();
-        }""", {"id": item_id, "hash": COORD_HASH})
+        }""", item_id)
         item = (data.get("data") or {}).get("item") or {}
-        return item.get("latitude"), item.get("longitude")
+        land = (item.get("landArea") or {}).get("value")
+        area = (item.get("area") or {}).get("value")
+        return item.get("latitude"), item.get("longitude"), land, area
     except Exception:
-        return None, None
+        return None, None, None, None
 
 
 # ── map generator ─────────────────────────────────────────────────────────────
@@ -248,7 +256,8 @@ function initMap() {{
     }});
 
     const gmaps = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
-    const details = [l.location, l.rooms, l.area_m2].filter(Boolean).join(' · ');
+    const landArea = l.land_area_sot ? l.land_area_sot + ' sot' : '';
+    const details = [l.location, l.rooms, l.area_m2, landArea].filter(Boolean).join(' · ');
     const content = `
       <div style="font-family:sans-serif;min-width:210px;max-width:270px">
         <div style="font-size:16px;font-weight:700;color:#6a1b9a">${{price}}</div>
@@ -354,7 +363,10 @@ async def main():
         print("Fetching coords + nearest stop...")
         for i, card in enumerate(raw):
             price, location, rooms, area_m2 = parse_card_text(card["text"])
-            lat, lng = await fetch_coords(page, card["id"])
+            lat, lng, land_area_sot, area_m2_gql = await fetch_coords(page, card["id"])
+            # prefer GraphQL area over card text (more accurate)
+            if area_m2_gql:
+                area_m2 = f"{area_m2_gql} m²"
 
             walk_m, walk_min, stop = None, None, None
             if lat and lng:
@@ -366,6 +378,7 @@ async def main():
                 "location": location,
                 "rooms": rooms,
                 "area_m2": area_m2,
+                "land_area_sot": land_area_sot,
                 "lat": lat,
                 "lng": lng,
                 "walk_m": round(walk_m) if walk_m else None,

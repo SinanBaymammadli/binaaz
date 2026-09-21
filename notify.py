@@ -60,7 +60,8 @@ def format_message(listing):
     bus      = "Bus " + ", ".join(bus_lines) if bus_lines else "no named line nearby"
     gmaps    = f"https://www.google.com/maps?q={listing['lat']},{listing['lng']}" if listing.get("lat") else ""
 
-    details = " · ".join(filter(None, [location, rooms, area_m2]))
+    land = f"{listing.get('land_area_sot')} sot" if listing.get("land_area_sot") else ""
+    details = " · ".join(filter(None, [location, rooms, area_m2, land]))
     parts = [
         f"🏠 <b>New listing: {price}</b>",
         f"📍 {details}",
@@ -78,7 +79,9 @@ def format_message(listing):
 # ── coord + walk ──────────────────────────────────────────────────────────────
 async def enrich_listing(page, card, stops):
     price, location, rooms, area_m2 = parse_card_text(card["text"])
-    lat, lng = await fetch_coords(page, card["id"])
+    lat, lng, land_area_sot, area_m2_gql = await fetch_coords(page, card["id"])
+    if area_m2_gql:
+        area_m2 = f"{area_m2_gql} m²"
 
     walk_m = walk_min = stop_name = None
     bus_lines = []
@@ -98,12 +101,13 @@ async def enrich_listing(page, card, stops):
             bus_lines  = best_stop["lines"]
 
     return {
-        "id":        card["id"],
-        "price":     price,
-        "location":  location,
-        "rooms":     rooms,
-        "area_m2":   area_m2,
-        "lat":       lat,
+        "id":           card["id"],
+        "price":        price,
+        "location":     location,
+        "rooms":        rooms,
+        "area_m2":      area_m2,
+        "land_area_sot": land_area_sot,
+        "lat":          lat,
         "lng":       lng,
         "walk_m":    walk_m,
         "walk_min":  walk_min,

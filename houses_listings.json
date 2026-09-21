@@ -10,7 +10,8 @@
     "walk_m": 595,
     "walk_min": 7.9,
     "stop_name": "stop#856",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 7
   },
   {
     "id": "5821934",
@@ -25,7 +26,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6465617",
@@ -41,7 +43,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6471991",
@@ -56,7 +59,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6303589",
@@ -71,7 +75,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4.4
   },
   {
     "id": "6475560",
@@ -86,7 +91,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6410674",
@@ -105,7 +111,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6469739",
@@ -120,7 +127,8 @@
     "stop_name": "Abşeron küç. 123",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 7
   },
   {
     "id": "5413440",
@@ -135,7 +143,8 @@
     "stop_name": "Abşeron küç. 190",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 7.5
   },
   {
     "id": "6311396",
@@ -150,7 +159,8 @@
     "stop_name": "Zuğulba yolu 53",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6309856",
@@ -165,7 +175,8 @@
     "stop_name": "Zuğulba yolu 60",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6408793",
@@ -180,7 +191,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6243897",
@@ -195,7 +207,8 @@
     "stop_name": "Abşeron küç. 359",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4.2
   },
   {
     "id": "5197456",
@@ -210,7 +223,8 @@
     "stop_name": "Abşeron küç. 441",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4.2
   },
   {
     "id": "5142753",
@@ -225,7 +239,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "5088948",
@@ -240,7 +255,8 @@
     "stop_name": "Abşeron küç. 318",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6409278",
@@ -255,7 +271,8 @@
     "stop_name": "İmam Hüseyn Məscidi",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4.5
   },
   {
     "id": "6452804",
@@ -271,7 +288,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 8
   },
   {
     "id": "6439926",
@@ -286,7 +304,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6368428",
@@ -302,7 +321,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 8
   },
   {
     "id": "6138827",
@@ -317,7 +337,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6079494",
@@ -332,7 +353,8 @@
     "stop_name": "Zuğulba yolu 50",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 5.4
   },
   {
     "id": "6463967",
@@ -348,7 +370,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6461288",
@@ -364,7 +387,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "5706708",
@@ -379,7 +403,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 12
   },
   {
     "id": "6251710",
@@ -392,7 +417,8 @@
     "walk_m": 398,
     "walk_min": 5.3,
     "stop_name": "stop#856",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 6
   },
   {
     "id": "6459718",
@@ -407,7 +433,8 @@
     "stop_name": "Cümə Məscidi",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 12.5
   },
   {
     "id": "6219103",
@@ -422,7 +449,8 @@
     "stop_name": "Abşeron küç. 318",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6223842",
@@ -437,7 +465,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6467117",
@@ -453,7 +482,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6410979",
@@ -468,7 +498,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 12
   },
   {
     "id": "5462593",
@@ -483,7 +514,8 @@
     "stop_name": "Abşeron küç. 318",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4.5
   },
   {
     "id": "5462589",
@@ -498,7 +530,8 @@
     "stop_name": "Abşeron küç. 318",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4.5
   },
   {
     "id": "6462459",
@@ -517,7 +550,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 4.5
   },
   {
     "id": "6437138",
@@ -532,7 +566,8 @@
     "stop_name": "Çənlibel küç. 98",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6400593",
@@ -545,7 +580,8 @@
     "walk_m": 455,
     "walk_min": 6.1,
     "stop_name": "stop#1882",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 4.5
   },
   {
     "id": "5996656",
@@ -560,7 +596,8 @@
     "stop_name": "Çənlibel küç. 75F",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 18
   },
   {
     "id": "5809840",
@@ -575,7 +612,8 @@
     "stop_name": "Hacı Aydəmir Məscidi",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6477890",
@@ -590,7 +628,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6339799",
@@ -603,7 +642,8 @@
     "walk_m": 656,
     "walk_min": 8.7,
     "stop_name": "stop#856",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 4
   },
   {
     "id": "6209032",
@@ -618,7 +658,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 12
   },
   {
     "id": "6423648",
@@ -634,7 +675,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6404270",
@@ -649,7 +691,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "5542588",
@@ -664,7 +707,8 @@
     "stop_name": "Zuğulba yolu 60",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6181580",
@@ -679,7 +723,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6458706",
@@ -694,7 +739,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6415139",
@@ -709,7 +755,8 @@
     "stop_name": "Çənlibel küç. 212",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 12
   },
   {
     "id": "6080467",
@@ -724,7 +771,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 9
   },
   {
     "id": "6071199",
@@ -739,7 +787,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6372983",
@@ -754,7 +803,8 @@
     "stop_name": "Azərbaycan qadını küç. 112",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6367944",
@@ -769,7 +819,8 @@
     "stop_name": "İ.İsmayılov küç. 22",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6433075",
@@ -784,7 +835,8 @@
     "stop_name": "İ.İsmayılov küç - M.P.Vaqif küç. kəs.",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6080757",
@@ -799,7 +851,8 @@
     "stop_name": "Zuğulba yolu 37",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6402893",
@@ -815,7 +868,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6270837",
@@ -830,7 +884,8 @@
     "stop_name": "Daş bazarı",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6232672",
@@ -845,7 +900,8 @@
     "stop_name": "Abşeron küç. 318",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4.5
   },
   {
     "id": "6463995",
@@ -860,7 +916,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 11
   },
   {
     "id": "6416598",
@@ -873,7 +930,8 @@
     "walk_m": 1944,
     "walk_min": 25.9,
     "stop_name": "stop#1890",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 4
   },
   {
     "id": "6155822",
@@ -889,7 +947,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "5965730",
@@ -904,7 +963,8 @@
     "stop_name": "Zuğulba yolu 14",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 6.5
   },
   {
     "id": "6416255",
@@ -919,7 +979,8 @@
     "stop_name": "Abşeron küç. 318",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4.5
   },
   {
     "id": "6260487",
@@ -934,7 +995,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6248934",
@@ -953,7 +1015,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 12
   },
   {
     "id": "6233624",
@@ -968,7 +1031,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "5969651",
@@ -983,7 +1047,8 @@
     "stop_name": "Zuğulba yolu 53",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6332256",
@@ -998,7 +1063,8 @@
     "stop_name": "Çənlibel küç. 212",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "5686268",
@@ -1013,7 +1079,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6479029",
@@ -1032,7 +1099,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "5928430",
@@ -1047,7 +1115,8 @@
     "stop_name": "Abşeron küç. 318",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "5208550",
@@ -1062,7 +1131,8 @@
     "stop_name": "Daş bazarı",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6424208",
@@ -1077,7 +1147,8 @@
     "stop_name": "Daş bazarı",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6256829",
@@ -1092,7 +1163,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 8.5
   },
   {
     "id": "5840900",
@@ -1107,7 +1179,8 @@
     "stop_name": "Zuğulba yolu 60",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "5979985",
@@ -1123,7 +1196,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6420329",
@@ -1141,7 +1215,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6419252",
@@ -1160,7 +1235,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6453662",
@@ -1178,7 +1254,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 9
   },
   {
     "id": "5608243",
@@ -1193,7 +1270,8 @@
     "stop_name": "Abşeron küç. 634",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6420177",
@@ -1208,7 +1286,8 @@
     "stop_name": "Abşeron küç. 359",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6293502",
@@ -1224,7 +1303,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "5748335",
@@ -1240,7 +1320,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "5649938",
@@ -1255,7 +1336,8 @@
     "stop_name": "Zuğulba yolu 67",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6446854",
@@ -1271,7 +1353,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6467268",
@@ -1286,7 +1369,8 @@
     "stop_name": "Abşeron küç. 441",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "4846157",
@@ -1302,7 +1386,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "5569419",
@@ -1315,7 +1400,8 @@
     "walk_m": 795,
     "walk_min": 10.6,
     "stop_name": "stop#2551",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 20
   },
   {
     "id": "6456209",
@@ -1330,7 +1416,8 @@
     "stop_name": "Çənlibel küç.",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6438017",
@@ -1345,7 +1432,8 @@
     "stop_name": "Abşeron küç. 634",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6360577",
@@ -1360,7 +1448,8 @@
     "stop_name": "1 nömrəli Psixiatrik Xəstəxana",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6079416",
@@ -1375,7 +1464,8 @@
     "stop_name": "Zuğulba yolu 53",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6453846",
@@ -1390,7 +1480,8 @@
     "stop_name": "Zuğulba yolu 29",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6445422",
@@ -1406,7 +1497,8 @@
     "bus_lines": [
       "107",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6434977",
@@ -1422,7 +1514,8 @@
     "bus_lines": [
       "107",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6428627",
@@ -1437,7 +1530,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5.5
   },
   {
     "id": "6426312",
@@ -1455,7 +1549,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6422362",
@@ -1470,7 +1565,8 @@
     "stop_name": "Zuğulba yolu 47",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6407779",
@@ -1485,7 +1581,8 @@
     "stop_name": "Zuğulba Parkı",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6477493",
@@ -1500,7 +1597,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5.5
   },
   {
     "id": "6366159",
@@ -1518,7 +1616,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6466182",
@@ -1533,7 +1632,8 @@
     "stop_name": "Əli ayağı Məscidi",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6464083",
@@ -1548,7 +1648,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6416957",
@@ -1563,7 +1664,8 @@
     "stop_name": "Çənlibel küç.",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6373789",
@@ -1578,7 +1680,8 @@
     "stop_name": "Çənlibel küç. 212",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "5377670",
@@ -1593,7 +1696,8 @@
     "stop_name": "Zuğulba yolu 42",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6422553",
@@ -1609,7 +1713,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6402783",
@@ -1624,7 +1729,8 @@
     "stop_name": "Abşeron küç. 441",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6299977",
@@ -1640,7 +1746,8 @@
     "bus_lines": [
       "107",
       "M8"
-    ]
+    ],
+    "land_area_sot": 4.5
   },
   {
     "id": "6270824",
@@ -1655,7 +1762,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5.5
   },
   {
     "id": "4984689",
@@ -1670,7 +1778,8 @@
     "stop_name": "Abşeron küç. 634",
     "bus_lines": [
       "107"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6450649",
@@ -1685,7 +1794,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6423381",
@@ -1700,7 +1810,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6428197",
@@ -1720,7 +1831,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5.5
   },
   {
     "id": "6425338",
@@ -1736,7 +1848,8 @@
     "bus_lines": [
       "107",
       "186"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6400978",
@@ -1751,7 +1864,8 @@
     "stop_name": "Zuğulba yolu 96",
     "bus_lines": [
       "150"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6400272",
@@ -1769,7 +1883,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 19
   },
   {
     "id": "6358300",
@@ -1789,7 +1904,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 7
   },
   {
     "id": "6478143",
@@ -1808,7 +1924,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6468390",
@@ -1826,7 +1943,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6466885",
@@ -1841,7 +1959,8 @@
     "stop_name": "293 nömrəli tam orta məktəb",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6463914",
@@ -1861,7 +1980,8 @@
       "186",
       "189",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6459816",
@@ -1878,7 +1998,8 @@
       "107",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6433558",
@@ -1893,7 +2014,8 @@
     "stop_name": "1 nömrəli Psixiatrik Xəstəxana",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6413293",
@@ -1908,7 +2030,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5.5
   },
   {
     "id": "5951169",
@@ -1923,7 +2046,8 @@
     "stop_name": "İ.İsmayılov küç. 92A",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 8
   },
   {
     "id": "6121167",
@@ -1938,7 +2062,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 12
   },
   {
     "id": "6468110",
@@ -1954,7 +2079,8 @@
     "bus_lines": [
       "107",
       "M8"
-    ]
+    ],
+    "land_area_sot": 8
   },
   {
     "id": "6435665",
@@ -1967,7 +2093,8 @@
     "walk_m": 1362,
     "walk_min": 18.2,
     "stop_name": "stop#2584",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 5
   },
   {
     "id": "5958028",
@@ -1982,7 +2109,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6364340",
@@ -1997,7 +2125,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6319727",
@@ -2012,7 +2141,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "5522692",
@@ -2028,7 +2158,8 @@
     "bus_lines": [
       "107",
       "150"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6444066",
@@ -2043,7 +2174,8 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 6.5
   },
   {
     "id": "6408427",
@@ -2061,7 +2193,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6400965",
@@ -2076,7 +2209,8 @@
     "stop_name": "Ə.Əhmədov küç. 131",
     "bus_lines": [
       "M8"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6296082",
@@ -2095,7 +2229,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6398733",
@@ -2108,7 +2243,8 @@
     "walk_m": 415,
     "walk_min": 5.5,
     "stop_name": "stop#3510",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 5.5
   },
   {
     "id": "6463787",
@@ -2123,7 +2259,8 @@
     "stop_name": "İ.İsmayılov küç. 22",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6456519",
@@ -2136,7 +2273,8 @@
     "walk_m": 771,
     "walk_min": 10.3,
     "stop_name": "stop#2584",
-    "bus_lines": []
+    "bus_lines": [],
+    "land_area_sot": 4.5
   },
   {
     "id": "6438381",
@@ -2151,7 +2289,8 @@
     "stop_name": "Çənlibel küç. 212",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 10
   },
   {
     "id": "6301517",
@@ -2166,7 +2305,8 @@
     "stop_name": "A.Hüseyn küç. 53",
     "bus_lines": [
       "172"
-    ]
+    ],
+    "land_area_sot": 6
   },
   {
     "id": "6435387",
@@ -2184,7 +2324,8 @@
       "177",
       "186",
       "M8"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6428444",
@@ -2199,7 +2340,8 @@
     "stop_name": "Nizami küç. 8A",
     "bus_lines": [
       "189"
-    ]
+    ],
+    "land_area_sot": 4
   },
   {
     "id": "6401090",
@@ -2214,7 +2356,8 @@
     "stop_name": "M.Namazov küç. 9",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   },
   {
     "id": "6403605",
@@ -2229,6 +2372,7 @@
     "stop_name": "Maştağa elektrik yarımstansiyası",
     "bus_lines": [
       "186"
-    ]
+    ],
+    "land_area_sot": 5
   }
 ]
