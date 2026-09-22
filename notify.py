@@ -11,6 +11,7 @@ import json
 import os
 import sys
 import urllib.request
+from datetime import date
 
 from dotenv import load_dotenv
 
@@ -56,7 +57,51 @@ def send_telegram(text: str) -> None:
         print(f"Telegram error: {e}")
 
 
-def format_message(listing: dict) -> str:
+def _coords_close(a: dict, b: dict, threshold: float = 0.002) -> bool:
+    try:
+        return abs(float(a["lat"]) - float(b["lat"])) < threshold and \
+               abs(float(a["lng"]) - float(b["lng"])) < threshold
+    except (TypeError, ValueError):
+        return False
+
+
+def find_duplicates(new: dict, existing: list[dict]) -> list[dict]:
+    """Return existing listings that look like the same property as `new`."""
+    dupes = []
+    for e in existing:
+        if e["id"] == new["id"]:
+            continue
+        same_spec = (
+            e.get("price")   == new.get("price") and
+            e.get("rooms")   == new.get("rooms") and
+            e.get("area_m2") == new.get("area_m2") and
+            e.get("location") == new.get("location")
+        )
+        close_coords = new.get("lat") and e.get("lat") and _coords_close(new, e)
+        if same_spec or (close_coords and e.get("price") == new.get("price")):
+            dupes.append(e)
+    return dupes
+
+
+def format_price_change_message(listing: dict, old_price: int) -> str:
+    new_price = listing["price"]
+    diff = new_price - old_price
+    arrow = "📈" if diff > 0 else "📉"
+    sign  = "+" if diff > 0 else ""
+    land   = f"{listing['land_area_sot']} sot" if listing.get("land_area_sot") else ""
+    detail = " · ".join(filter(None, [listing.get("location"), listing.get("rooms"), listing.get("area_m2"), land]))
+    gmaps  = f"https://www.google.com/maps?q={listing['lat']},{listing['lng']}" if listing.get("lat") else ""
+    lines = [
+        f"{arrow} <b>Price change: {old_price:,} → {new_price:,} AZN ({sign}{diff:,})</b>",
+        f"📍 {detail}",
+        f'🔗 <a href="https://bina.az/items/{listing["id"]}">bina.az</a>',
+    ]
+    if gmaps:
+        lines.append(f'📌 <a href="{gmaps}">Google Maps</a>')
+    return "\n".join(lines)
+
+
+def format_message(listing: dict, duplicates: list[dict] | None = None) -> str:
     price  = f"{listing['price']:,} AZN" if listing.get("price") else "?"
     land   = f"{listing['land_area_sot']} sot" if listing.get("land_area_sot") else ""
     detail = " · ".join(filter(None, [listing.get("location"), listing.get("rooms"), listing.get("area_m2"), land]))
@@ -64,8 +109,9 @@ def format_message(listing: dict) -> str:
     bus    = ("Bus " + ", ".join(listing["bus_lines"])) if listing.get("bus_lines") else "no named line nearby"
     gmaps  = f"https://www.google.com/maps?q={listing['lat']},{listing['lng']}" if listing.get("lat") else ""
 
+    header = "⚠️ <b>Possible duplicate: {price}</b>" if duplicates else "🏠 <b>New listing: {price}</b>"
     lines = [
-        f"🏠 <b>New listing: {price}</b>",
+        header.format(price=price),
         f"📍 {detail}",
     ]
     if walk is not None:
@@ -75,6 +121,10 @@ def format_message(listing: dict) -> str:
     lines.append(f'🔗 <a href="https://bina.az/items/{listing["id"]}">bina.az</a>')
     if gmaps:
         lines.append(f'📌 <a href="{gmaps}">Google Maps</a>')
+    if duplicates:
+        lines.append("🔁 Duplicates:")
+        for d in duplicates:
+            lines.append(f'   • <a href="https://bina.az/items/{d["id"]}">bina.az/items/{d["id"]}</a>')
     return "\n".join(lines)
 
 
@@ -100,6 +150,7 @@ async def enrich(page, card: dict, stops: list) -> dict:
         "land_area_sot": item.get("land_area_sot"),
         "lat":           item.get("lat"),
         "lng":           item.get("lng"),
+        "price_history": [{"price": price, "date": date.today().isoformat()}],
         **walk,
     }
 
@@ -141,14 +192,35 @@ async def main() -> None:
                 new_cards   = [c for c in cards if c["id"] not in seen_ids]
                 print(f"New: {len(new_cards)}")
 
-                if not new_cards:
+                # check price changes on existing listings
+                price_changed = []
+                for card in cards:
+                    if card["id"] not in seen_ids:
+                        continue
+                    card_price, *_ = parse_card_text(card["text"])
+                    existing = listings_by_id.get(card["id"])
+                    if existing and card_price and card_price != existing.get("price"):
+                        old_price = existing["price"]
+                        existing["price"] = card_price
+                        history = existing.get("price_history") or [{"price": old_price, "date": "unknown"}]
+                        history.append({"price": card_price, "date": date.today().isoformat()})
+                        existing["price_history"] = history
+                        price_changed.append((existing, old_price))
+
+                for listing, old_price in price_changed:
+                    msg = format_price_change_message(listing, old_price)
+                    print(msg)
+                    send_telegram(msg)
+
+                if not new_cards and not price_changed:
                     send_telegram(f"🔍 Searched {len(cards)} listings — nothing new.")
                 else:
                     for i, card in enumerate(new_cards):
                         print(f"  [{i+1}/{len(new_cards)}] {card['id']}")
                         listing = await enrich(page, card, stops)
+                        dupes = find_duplicates(listing, list(listings_by_id.values()))
                         listings_by_id[listing["id"]] = listing
-                        msg = format_message(listing)
+                        msg = format_message(listing, duplicates=dupes or None)
                         print(msg)
                         send_telegram(msg)
 

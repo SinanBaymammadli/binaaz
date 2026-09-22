@@ -80,7 +80,7 @@
   },
   {
     "id": "6475560",
-    "price": 260000,
+    "price": 256000,
     "location": "Buzovna q.",
     "rooms": "5 otaqlı",
     "area_m2": "165 m²",
@@ -92,7 +92,17 @@
     "bus_lines": [
       "150"
     ],
-    "land_area_sot": 5
+    "land_area_sot": 5,
+    "price_history": [
+      {
+        "price": 260000,
+        "date": "unknown"
+      },
+      {
+        "price": 256000,
+        "date": "2026-09-22"
+      }
+    ]
   },
   {
     "id": "6410674",
