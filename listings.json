@@ -2490,5 +2490,24 @@
     "bus_lines": [
       "189"
     ]
+  },
+  {
+    "id": "6482622",
+    "price": 250000,
+    "location": "Maştağa q.",
+    "rooms": "8 otaqlı",
+    "area_m2": "244 m²",
+    "land_area_sot": 5,
+    "lat": 40.531499,
+    "lng": 50.004497,
+    "walk_m": 63,
+    "walk_min": 0.8,
+    "stop_name": "Maştağa parkı",
+    "bus_lines": [
+      "172",
+      "177",
+      "186",
+      "M8"
+    ]
   }
 ]
