@@ -2423,5 +2423,72 @@
     "walk_min": 2.3,
     "stop_name": "stop#856",
     "bus_lines": []
+  },
+  {
+    "id": "5207688",
+    "price": 210000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "160 m²",
+    "land_area_sot": 4,
+    "lat": 40.52226764591705,
+    "lng": 50.0948780005702,
+    "walk_m": 606,
+    "walk_min": 8.1,
+    "stop_name": "Daş bazarı",
+    "bus_lines": [
+      "107"
+    ]
+  },
+  {
+    "id": "6481713",
+    "price": 150000,
+    "location": "Maştağa q.",
+    "rooms": "5 otaqlı",
+    "area_m2": "299 m²",
+    "land_area_sot": 10,
+    "lat": 40.531499,
+    "lng": 50.004497,
+    "walk_m": 63,
+    "walk_min": 0.8,
+    "stop_name": "Maştağa parkı",
+    "bus_lines": [
+      "172",
+      "177",
+      "186",
+      "M8"
+    ]
+  },
+  {
+    "id": "6481047",
+    "price": 82000,
+    "location": "Buzovna q.",
+    "rooms": "5 otaqlı",
+    "area_m2": "100 m²",
+    "land_area_sot": 4,
+    "lat": 40.51565241877868,
+    "lng": 50.10326856463347,
+    "walk_m": 1720,
+    "walk_min": 23.0,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
+    ]
+  },
+  {
+    "id": "6480916",
+    "price": 150000,
+    "location": "Maştağa q.",
+    "rooms": "5 otaqlı",
+    "area_m2": "299 m²",
+    "land_area_sot": 10,
+    "lat": 40.54565940889474,
+    "lng": 49.97958983407894,
+    "walk_m": 725,
+    "walk_min": 9.7,
+    "stop_name": "Çənlibel küç. 212",
+    "bus_lines": [
+      "189"
+    ]
   }
 ]
