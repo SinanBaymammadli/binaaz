@@ -2409,5 +2409,19 @@
       "186",
       "M8"
     ]
+  },
+  {
+    "id": "6480678",
+    "price": 209000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "190 m²",
+    "land_area_sot": 4,
+    "lat": 40.51124599415505,
+    "lng": 50.12479802495315,
+    "walk_m": 176,
+    "walk_min": 2.3,
+    "stop_name": "stop#856",
+    "bus_lines": []
   }
 ]
