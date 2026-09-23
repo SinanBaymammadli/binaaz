@@ -22,9 +22,10 @@ def _add_unit_prices(listings: list[dict]) -> list[dict]:
 
 
 def make_map(listings: list[dict]) -> None:
-    listings = compute_deal_scores([dict(l) for l in listings])
-    listings = _add_unit_prices(listings)
-    with_coords = [l for l in listings if l.get("lat") and l.get("lng") and not l.get("deleted_at")]
+    active = [dict(l) for l in listings if not l.get("deleted_at")]
+    active = compute_deal_scores(active)
+    active = _add_unit_prices(active)
+    with_coords = [l for l in active if l.get("lat") and l.get("lng")]
 
     html = f"""<!DOCTYPE html>
 <html>

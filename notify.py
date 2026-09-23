@@ -276,8 +276,9 @@ async def main() -> None:
                         listings_by_id[listing["id"]] = listing
                         new_enriched.append((listing, dupes))
 
-                    # Compute scores across the full updated dataset
-                    scored = compute_deal_scores(list(listings_by_id.values()))
+                    # Compute scores against active listings only
+                    active = [l for l in listings_by_id.values() if not l.get("deleted_at")]
+                    scored = compute_deal_scores(active)
                     scores_by_id = {l["id"]: l["deal_score"] for l in scored}
                     for l in listings_by_id.values():
                         l["deal_score"] = scores_by_id.get(l["id"])
