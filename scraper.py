@@ -12,8 +12,8 @@ from camoufox.async_api import AsyncCamoufox
 
 SEARCH_URL = (
     "https://bina.az/baki/alqi-satqi/heyet-evleri"
-    "?room_ids%5B%5D=5%2B&room_ids%5B%5D=4&price_to=300000"
-    "&land_area_from=4&has_bill_of_sale=true"
+    "?room_ids%5B%5D=5%2B&room_ids%5B%5D=4&price_to=250000"
+    "&land_area_from=3&has_bill_of_sale=true"
     "&location_ids%5B%5D=122&location_ids%5B%5D=313&location_ids%5B%5D=117"
     "&items_view=list&sorting=bumped_at%2Bdesc"
 )
