@@ -49,7 +49,8 @@
       "186"
     ],
     "land_area_sot": 5,
-    "deal_score": 53
+    "deal_score": 53,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6471991",
@@ -94,7 +95,8 @@
       "150"
     ],
     "land_area_sot": 4.4,
-    "deal_score": 27
+    "deal_score": 27,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6475560",
@@ -121,7 +123,8 @@
         "date": "2026-09-22"
       }
     ],
-    "deal_score": 20
+    "deal_score": 20,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6410674",
@@ -142,7 +145,8 @@
       "M8"
     ],
     "land_area_sot": 10,
-    "deal_score": 68
+    "deal_score": 68,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6469739",
@@ -159,7 +163,8 @@
       "107"
     ],
     "land_area_sot": 7,
-    "deal_score": 24
+    "deal_score": 24,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5413440",
@@ -176,7 +181,8 @@
       "107"
     ],
     "land_area_sot": 7.5,
-    "deal_score": 28
+    "deal_score": 28,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6311396",
@@ -193,7 +199,8 @@
       "150"
     ],
     "land_area_sot": 4,
-    "deal_score": 42
+    "deal_score": 42,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6309856",
@@ -210,7 +217,8 @@
       "150"
     ],
     "land_area_sot": 4,
-    "deal_score": 40
+    "deal_score": 40,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6408793",
@@ -227,7 +235,8 @@
       "186"
     ],
     "land_area_sot": 5,
-    "deal_score": 16
+    "deal_score": 16,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6243897",
@@ -244,7 +253,8 @@
       "107"
     ],
     "land_area_sot": 4.2,
-    "deal_score": 31
+    "deal_score": 31,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5197456",
@@ -261,7 +271,8 @@
       "107"
     ],
     "land_area_sot": 4.2,
-    "deal_score": 32
+    "deal_score": 32,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5142753",
@@ -278,7 +289,8 @@
       "186"
     ],
     "land_area_sot": 5,
-    "deal_score": 17
+    "deal_score": 17,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5088948",
@@ -295,7 +307,8 @@
       "107"
     ],
     "land_area_sot": 5,
-    "deal_score": 43
+    "deal_score": 43,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6409278",
@@ -312,7 +325,8 @@
       "107"
     ],
     "land_area_sot": 4.5,
-    "deal_score": 46
+    "deal_score": 46,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6452804",
@@ -330,7 +344,8 @@
       "186"
     ],
     "land_area_sot": 8,
-    "deal_score": 43
+    "deal_score": 43,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6439926",
@@ -347,7 +362,8 @@
       "186"
     ],
     "land_area_sot": 6,
-    "deal_score": 29
+    "deal_score": 29,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6368428",
@@ -365,7 +381,8 @@
       "186"
     ],
     "land_area_sot": 8,
-    "deal_score": 40
+    "deal_score": 40,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6138827",
@@ -382,7 +399,8 @@
       "186"
     ],
     "land_area_sot": 4,
-    "deal_score": 15
+    "deal_score": 15,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6079494",
@@ -399,7 +417,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 29
+    "deal_score": 29,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6463967",
@@ -417,7 +436,8 @@
       "107",
       "186"
     ],
-    "deal_score": 50
+    "deal_score": 50,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6461288",
@@ -435,7 +455,8 @@
       "107",
       "150"
     ],
-    "deal_score": 25
+    "deal_score": 25,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5706708",
@@ -452,7 +473,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 66
+    "deal_score": 66,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6251710",
@@ -467,7 +489,8 @@
     "walk_min": 5.3,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 39
+    "deal_score": 39,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6459718",
@@ -484,7 +507,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 51
+    "deal_score": 51,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6219103",
@@ -501,7 +525,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 23
+    "deal_score": 23,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6223842",
@@ -518,7 +543,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 7
+    "deal_score": 7,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6467117",
@@ -536,7 +562,8 @@
       "107",
       "150"
     ],
-    "deal_score": 28
+    "deal_score": 28,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6410979",
@@ -553,7 +580,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 26
+    "deal_score": 26,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5462593",
@@ -570,7 +598,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 29
+    "deal_score": 29,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5462589",
@@ -587,7 +616,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 28
+    "deal_score": 28,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6462459",
@@ -1012,7 +1042,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 29
+    "deal_score": 29,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6463995",
@@ -1252,7 +1283,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 43
+    "deal_score": 43,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5208550",
@@ -1866,7 +1898,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 82
+    "deal_score": 82,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6373789",
@@ -2110,7 +2143,8 @@
       "186",
       "M8"
     ],
-    "deal_score": 83
+    "deal_score": 83,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6358300",
@@ -2473,7 +2507,8 @@
     "bus_lines": [
       "M8"
     ],
-    "deal_score": 76
+    "deal_score": 76,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6296082",
@@ -2510,7 +2545,8 @@
     "walk_min": 5.5,
     "stop_name": "stop#3510",
     "bus_lines": [],
-    "deal_score": 53
+    "deal_score": 53,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6463787",
@@ -2636,7 +2672,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 78
+    "deal_score": 78,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6403605",
@@ -2708,7 +2745,8 @@
     "walk_min": 2.3,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 47
+    "deal_score": 47,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5207688",
@@ -2851,7 +2889,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 34
+    "deal_score": 34,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "5608246",
@@ -2898,7 +2937,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 8
+    "deal_score": 8,
+    "deleted_at": "2026-09-23"
   },
   {
     "id": "6103695",
