@@ -234,14 +234,18 @@ async def main() -> None:
                 new_cards   = [c for c in cards if c["id"] not in seen_ids]
                 print(f"New: {len(new_cards)}")
 
-                # check price changes on existing listings
+                # check price changes and backfill photo_url for existing listings
                 price_changed = []
                 for card in cards:
                     if card["id"] not in seen_ids:
                         continue
-                    card_price, *_ = parse_card_text(card["text"])
                     existing = listings_by_id.get(card["id"])
-                    if existing and card_price and card_price != existing.get("price"):
+                    if not existing:
+                        continue
+                    if card.get("photo_url") and not existing.get("photo_url"):
+                        existing["photo_url"] = card["photo_url"]
+                    card_price, *_ = parse_card_text(card["text"])
+                    if card_price and card_price != existing.get("price"):
                         old_price = existing["price"]
                         existing["price"] = card_price
                         history = existing.get("price_history") or [{"price": old_price, "date": "unknown"}]
