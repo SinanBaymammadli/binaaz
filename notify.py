@@ -234,6 +234,17 @@ async def main() -> None:
                 new_cards   = [c for c in cards if c["id"] not in seen_ids]
                 print(f"New: {len(new_cards)}")
 
+                # mark missing listings as deleted; clear deleted_at if relisted
+                today = date.today().isoformat()
+                for lid, listing in listings_by_id.items():
+                    if lid in current_ids:
+                        if listing.get("deleted_at"):
+                            listing.pop("deleted_at")
+                    else:
+                        if not listing.get("deleted_at"):
+                            listing["deleted_at"] = today
+                            print(f"Deleted: {lid}")
+
                 # check price changes and backfill photo_url for existing listings
                 price_changed = []
                 for card in cards:
