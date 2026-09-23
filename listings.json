@@ -48,7 +48,7 @@
   },
   {
     "id": "6471991",
-    "price": 159000,
+    "price": 157000,
     "location": "Buzovna q.",
     "rooms": "4 otaqlı",
     "area_m2": "130 m²",
@@ -60,7 +60,17 @@
     "bus_lines": [
       "150"
     ],
-    "land_area_sot": 6
+    "land_area_sot": 6,
+    "price_history": [
+      {
+        "price": 159000,
+        "date": "unknown"
+      },
+      {
+        "price": 157000,
+        "date": "2026-09-23"
+      }
+    ]
   },
   {
     "id": "6303589",
@@ -2550,6 +2560,72 @@
     "stop_name": "Cümə Məscidi",
     "bus_lines": [
       "107"
+    ]
+  },
+  {
+    "id": "4490424",
+    "price": 260000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "140 m²",
+    "land_area_sot": 11,
+    "lat": 40.51858305359305,
+    "lng": 50.09489009836421,
+    "price_history": [
+      {
+        "price": 260000,
+        "date": "2026-09-23"
+      }
+    ],
+    "walk_m": 182,
+    "walk_min": 2.4,
+    "stop_name": "Daş bazarı",
+    "bus_lines": [
+      "107"
+    ]
+  },
+  {
+    "id": "5608246",
+    "price": 210000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "120 m²",
+    "land_area_sot": 4,
+    "lat": 40.51939864969214,
+    "lng": 50.04596660593257,
+    "price_history": [
+      {
+        "price": 210000,
+        "date": "2026-09-23"
+      }
+    ],
+    "walk_m": 261,
+    "walk_min": 3.5,
+    "stop_name": "Abşeron küç. 548",
+    "bus_lines": [
+      "107"
+    ]
+  },
+  {
+    "id": "6226689",
+    "price": 260000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "145 m²",
+    "land_area_sot": 4,
+    "lat": 40.5156142,
+    "lng": 50.10132739999995,
+    "price_history": [
+      {
+        "price": 260000,
+        "date": "2026-09-23"
+      }
+    ],
+    "walk_m": 1931,
+    "walk_min": 25.8,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
     ]
   }
 ]
