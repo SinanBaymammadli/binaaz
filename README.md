@@ -19,6 +19,22 @@ Scrapes [bina.az](https://bina.az) real estate listings in Maştağa / Nardaran 
 | [houses_map.html](https://sinanbaymammadli.github.io/binaaz/houses_map.html) | Heyet-evleri listings with walk times |
 | [routes_map.html](https://sinanbaymammadli.github.io/binaaz/routes_map.html) | AYNA bus routes + torpaq listings |
 
+## Deal Score
+
+Each listing is scored 0–100 to indicate how good a deal it is relative to the current dataset. The score is recomputed every run across all listings so rankings stay accurate as new ones appear.
+
+| Component | Max pts | Logic |
+|---|---|---|
+| Price per m² | 50 | Rank-normalized across all listings. Lowest price/m² = 50 pts, highest = 0 pts. |
+| Walk to bus stop | 20 | `max(0, 20 × (1 − walk_min / 30))` — 0 min → 20 pts, 30+ min → 0 pts. |
+| Bus line count | 10 | `min(10, lines × 2)` — 2 pts per line, capped at 5 lines. |
+| Land efficiency | 15 | Sot per 100k AZN, rank-normalized. Most land per money = 15 pts. |
+| Price drop bonus | 5 | +5 pts if current price < first recorded price. |
+
+Score thresholds: 🟢 65+ · 🟡 40–64 · 🔴 <40
+
+Map markers are colour-coded by score; the sidebar sorts by score by default. Telegram alerts include the score badge and price per m² / AZN per sot.
+
 ## Setup
 
 Add these secrets to the GitHub repo (Settings → Secrets → Actions):

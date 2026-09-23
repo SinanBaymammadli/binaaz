@@ -96,6 +96,22 @@ def _score_label(score: int | None) -> str:
     return f"{star} Deal score: <b>{score}/100</b>"
 
 
+def _unit_prices(listing: dict) -> str:
+    parts = []
+    price = listing.get("price")
+    area_str = listing.get("area_m2", "")
+    try:
+        area = float(area_str.replace(" m²", "").replace(",", "."))
+        if area and price:
+            parts.append(f"{round(price / area):,} AZN/m²")
+    except (ValueError, AttributeError):
+        pass
+    sot = listing.get("land_area_sot")
+    if sot and price:
+        parts.append(f"{round(price / sot):,} AZN/sot")
+    return " · ".join(parts)
+
+
 def format_price_change_message(listing: dict, old_price: int) -> str:
     new_price = listing["price"]
     diff = new_price - old_price
@@ -108,6 +124,9 @@ def format_price_change_message(listing: dict, old_price: int) -> str:
         f"{arrow} <b>Price change: {old_price:,} → {new_price:,} AZN ({sign}{diff:,})</b>",
         f"📍 {detail}",
     ]
+    unit = _unit_prices(listing)
+    if unit:
+        lines.append(f"💰 {unit}")
     label = _score_label(listing.get("deal_score"))
     if label:
         lines.append(label)
@@ -130,6 +149,9 @@ def format_message(listing: dict, duplicates: list[dict] | None = None) -> str:
         header.format(price=price),
         f"📍 {detail}",
     ]
+    unit = _unit_prices(listing)
+    if unit:
+        lines.append(f"💰 {unit}")
     if walk is not None:
         lines.append(f"🚶 {walk} min walk · {bus}")
         if listing.get("stop_name"):

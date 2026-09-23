@@ -7,8 +7,23 @@ from scraper import GMAPS_KEY
 from score import compute_deal_scores
 
 
+def _add_unit_prices(listings: list[dict]) -> list[dict]:
+    for l in listings:
+        price = l.get("price")
+        area_str = l.get("area_m2", "")
+        try:
+            area = float(area_str.replace(" m²", "").replace(",", "."))
+        except (ValueError, AttributeError):
+            area = None
+        l["price_per_m2"] = round(price / area) if area and price else None
+        sot = l.get("land_area_sot")
+        l["price_per_sot"] = round(price / sot) if sot and price else None
+    return listings
+
+
 def make_map(listings: list[dict]) -> None:
     listings = compute_deal_scores([dict(l) for l in listings])
+    listings = _add_unit_prices(listings)
     with_coords = [l for l in listings if l.get("lat") and l.get("lng")]
 
     html = f"""<!DOCTYPE html>
@@ -87,14 +102,18 @@ function scoreBadgeClass(s) {{
 }}
 
 function buildRow(l, list) {{
-  const price   = l.price ? l.price.toLocaleString() + ' AZN' : '?';
-  const land    = l.land_area_sot ? l.land_area_sot + ' sot' : '';
-  const details = [l.location, l.rooms, l.area_m2, land].filter(Boolean).join(' · ');
-  const busLine = l.bus_lines?.length ? 'Bus ' + l.bus_lines.join(', ') : 'no named line nearby';
-  const walkOk  = l.walk_min != null;
-  const walkFar = l.walk_min > 15;
-  const score   = l.deal_score ?? '?';
-  const gmaps   = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
+  const price     = l.price ? l.price.toLocaleString() + ' AZN' : '?';
+  const land      = l.land_area_sot ? l.land_area_sot + ' sot' : '';
+  const details   = [l.location, l.rooms, l.area_m2, land].filter(Boolean).join(' · ');
+  const busLine   = l.bus_lines?.length ? 'Bus ' + l.bus_lines.join(', ') : 'no named line nearby';
+  const walkOk    = l.walk_min != null;
+  const walkFar   = l.walk_min > 15;
+  const score     = l.deal_score ?? '?';
+  const gmaps     = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
+  const unitParts = [
+    l.price_per_m2  ? l.price_per_m2.toLocaleString()  + ' AZN/m²'  : null,
+    l.price_per_sot ? l.price_per_sot.toLocaleString() + ' AZN/sot' : null,
+  ].filter(Boolean).join(' · ');
 
   const popup = `
     <div style="font-family:sans-serif;min-width:210px;max-width:270px">
@@ -104,6 +123,7 @@ function buildRow(l, list) {{
                      padding:2px 7px;border-radius:10px">Deal ${{score}}/100</span>
       </div>
       <div style="color:#555;font-size:12px;margin-top:3px">${{details}}</div>
+      ${{unitParts ? `<div style="color:#888;font-size:11px;margin-top:2px">${{unitParts}}</div>` : ''}}
       ${{walkOk ? `
       <div style="margin-top:7px;padding-top:7px;border-top:1px solid #eee">
         <div style="color:#${{walkFar ? 'e65100' : '388e3c'}};font-size:12px;font-weight:600">
@@ -124,6 +144,7 @@ function buildRow(l, list) {{
   row.innerHTML = `
     <div class="price">${{price}}<span class="score-badge ${{scoreBadgeClass(score)}}">${{score}}</span></div>
     <div class="meta">${{details}}</div>
+    ${{unitParts ? `<div class="meta" style="color:#aaa">${{unitParts}}</div>` : ''}}
     ${{walkOk ? `<div class="walk ${{walkFar ? 'far' : ''}}">🚶 ${{l.walk_min}} min walk</div>` : ''}}
     <div class="bus">🚌 ${{busLine}}</div>`;
   row.addEventListener('click', () => {{
@@ -177,13 +198,17 @@ function initMap() {{
       zIndex: score,
     }});
 
-    const price   = l.price ? l.price.toLocaleString() + ' AZN' : '?';
-    const land    = l.land_area_sot ? l.land_area_sot + ' sot' : '';
-    const details = [l.location, l.rooms, l.area_m2, land].filter(Boolean).join(' · ');
-    const busLine = l.bus_lines?.length ? 'Bus ' + l.bus_lines.join(', ') : 'no named line nearby';
-    const walkOk  = l.walk_min != null;
-    const walkFar = l.walk_min > 15;
-    const gmaps   = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
+    const price     = l.price ? l.price.toLocaleString() + ' AZN' : '?';
+    const land      = l.land_area_sot ? l.land_area_sot + ' sot' : '';
+    const details   = [l.location, l.rooms, l.area_m2, land].filter(Boolean).join(' · ');
+    const busLine   = l.bus_lines?.length ? 'Bus ' + l.bus_lines.join(', ') : 'no named line nearby';
+    const walkOk    = l.walk_min != null;
+    const walkFar   = l.walk_min > 15;
+    const gmaps     = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
+    const unitParts = [
+      l.price_per_m2  ? l.price_per_m2.toLocaleString()  + ' AZN/m²'  : null,
+      l.price_per_sot ? l.price_per_sot.toLocaleString() + ' AZN/sot' : null,
+    ].filter(Boolean).join(' · ');
 
     const popup = `
       <div style="font-family:sans-serif;min-width:210px;max-width:270px">
@@ -193,6 +218,7 @@ function initMap() {{
                        padding:2px 7px;border-radius:10px">Deal ${{score}}/100</span>
         </div>
         <div style="color:#555;font-size:12px;margin-top:3px">${{details}}</div>
+        ${{unitParts ? `<div style="color:#888;font-size:11px;margin-top:2px">${{unitParts}}</div>` : ''}}
         ${{walkOk ? `
         <div style="margin-top:7px;padding-top:7px;border-top:1px solid #eee">
           <div style="color:#${{walkFar ? 'e65100' : '388e3c'}};font-size:12px;font-weight:600">
