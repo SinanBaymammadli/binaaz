@@ -119,6 +119,9 @@ function buildRow(l, list) {{
     l.price_per_m2  ? l.price_per_m2.toLocaleString()  + ' AZN/m²'  : null,
     l.price_per_sot ? l.price_per_sot.toLocaleString() + ' AZN/sot' : null,
   ].filter(Boolean).join(' · ');
+  const repairTag = l.has_repair === true  ? '<span style="color:#2e7d32;font-weight:600">✔ Təmirli</span>'
+                  : l.has_repair === false ? '<span style="color:#b71c1c;font-weight:600">✘ Təmirsiz</span>'
+                  : '';
 
   const popup = `
     <div style="font-family:sans-serif;min-width:210px;max-width:270px">
@@ -129,7 +132,10 @@ function buildRow(l, list) {{
                      padding:2px 7px;border-radius:10px">Deal ${{score}}/100</span>
       </div>
       <div style="color:#555;font-size:12px;margin-top:3px">${{details}}</div>
-      ${{unitParts ? `<div style="color:#888;font-size:11px;margin-top:2px">${{unitParts}}</div>` : ''}}
+      <div style="font-size:11px;margin-top:2px;display:flex;gap:10px;align-items:center">
+        ${{unitParts ? `<span style="color:#888">${{unitParts}}</span>` : ''}}
+        ${{repairTag}}
+      </div>
       ${{walkOk ? `
       <div style="margin-top:7px;padding-top:7px;border-top:1px solid #eee">
         <div style="color:#${{walkFar ? 'e65100' : '388e3c'}};font-size:12px;font-weight:600">
@@ -150,7 +156,10 @@ function buildRow(l, list) {{
   row.innerHTML = `
     <div class="price">${{price}}<span class="score-badge ${{scoreBadgeClass(score)}}">${{score}}</span></div>
     <div class="meta">${{details}}</div>
-    ${{unitParts ? `<div class="meta" style="color:#aaa">${{unitParts}}</div>` : ''}}
+    <div class="meta" style="color:#aaa;display:flex;gap:8px">
+      ${{unitParts ? `<span>${{unitParts}}</span>` : ''}}
+      ${{repairTag}}
+    </div>
     ${{walkOk ? `<div class="walk ${{walkFar ? 'far' : ''}}">🚶 ${{l.walk_min}} min walk</div>` : ''}}
     <div class="bus">🚌 ${{busLine}}</div>`;
   row.addEventListener('click', () => {{
@@ -215,6 +224,9 @@ function initMap() {{
       l.price_per_m2  ? l.price_per_m2.toLocaleString()  + ' AZN/m²'  : null,
       l.price_per_sot ? l.price_per_sot.toLocaleString() + ' AZN/sot' : null,
     ].filter(Boolean).join(' · ');
+    const repairTag = l.has_repair === true  ? '<span style="color:#2e7d32;font-weight:600">✔ Təmirli</span>'
+                    : l.has_repair === false ? '<span style="color:#b71c1c;font-weight:600">✘ Təmirsiz</span>'
+                    : '';
 
     const popup = `
       <div style="font-family:sans-serif;min-width:210px;max-width:270px">
@@ -226,7 +238,10 @@ function initMap() {{
                        padding:2px 7px;border-radius:10px">Deal ${{score}}/100</span>
         </div>
         <div style="color:#555;font-size:12px;margin-top:3px">${{details}}</div>
-        ${{unitParts ? `<div style="color:#888;font-size:11px;margin-top:2px">${{unitParts}}</div>` : ''}}
+        <div style="font-size:11px;margin-top:2px;display:flex;gap:10px;align-items:center">
+          ${{unitParts ? `<span style="color:#888">${{unitParts}}</span>` : ''}}
+          ${{repairTag}}
+        </div>
         ${{walkOk ? `
         <div style="margin-top:7px;padding-top:7px;border-top:1px solid #eee">
           <div style="color:#${{walkFar ? 'e65100' : '388e3c'}};font-size:12px;font-weight:600">

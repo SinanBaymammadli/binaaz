@@ -96,6 +96,15 @@ def _score_label(score: int | None) -> str:
     return f"{star} Deal score: <b>{score}/100</b>"
 
 
+def _repair_label(listing: dict) -> str:
+    r = listing.get("has_repair")
+    if r is True:
+        return "✔ Təmirli"
+    if r is False:
+        return "✘ Təmirsiz"
+    return ""
+
+
 def _unit_prices(listing: dict) -> str:
     parts = []
     price = listing.get("price")
@@ -127,6 +136,9 @@ def format_price_change_message(listing: dict, old_price: int) -> str:
     unit = _unit_prices(listing)
     if unit:
         lines.append(f"💰 {unit}")
+    repair = _repair_label(listing)
+    if repair:
+        lines.append(f"🔧 {repair}")
     label = _score_label(listing.get("deal_score"))
     if label:
         lines.append(label)
@@ -152,6 +164,9 @@ def format_message(listing: dict, duplicates: list[dict] | None = None) -> str:
     unit = _unit_prices(listing)
     if unit:
         lines.append(f"💰 {unit}")
+    repair = _repair_label(listing)
+    if repair:
+        lines.append(f"🔧 {repair}")
     if walk is not None:
         lines.append(f"🚶 {walk} min walk · {bus}")
         if listing.get("stop_name"):
@@ -192,6 +207,7 @@ async def enrich(page, card: dict, stops: list) -> dict:
         "lat":           item.get("lat"),
         "lng":           item.get("lng"),
         "photo_url":     card.get("photo_url"),
+        "has_repair":    item.get("has_repair"),
         "price_history": [{"price": price, "date": date.today().isoformat()}],
         **walk,
     }

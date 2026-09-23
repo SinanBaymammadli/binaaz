@@ -2,11 +2,15 @@
 Compute a deal score (0-100) for each listing based on available signals.
 
 Components:
-  50 pts — price per m² (lower is better, percentile-ranked)
+  50 pts — effective price per m² (lower is better, percentile-ranked)
+           Unrepaired houses get +200 AZN/m² renovation cost added to price
+           before ranking so repaired vs unrepaired are compared fairly.
   30 pts — transit (20 pts for walk time + 10 pts for bus line count)
   15 pts — land efficiency: sot per 100k AZN (higher is better, percentile-ranked)
    5 pts — price drop bonus (price went down since first observation)
 """
+
+RENOVATION_COST_PER_M2 = 200  # AZN — estimated renovation cost for unrepaired house
 
 
 def _parse_area(s: str | None) -> float | None:
@@ -35,12 +39,17 @@ def _pct_scores(values: list[float], lower_is_better: bool = True) -> list[float
 def compute_deal_scores(listings: list[dict]) -> list[dict]:
     """Return listings with a `deal_score` (int 0-100) added to each dict."""
 
-    # --- price per m² ---
+    # --- effective price per m² (renovation-adjusted) ---
+    # has_repair=False → add RENOVATION_COST_PER_M2 per m² to make costs comparable
     ppm2: list[float | None] = []
     for l in listings:
         area = _parse_area(l.get("area_m2"))
         price = l.get("price")
-        ppm2.append(price / area if area and price else None)
+        if area and price:
+            reno = RENOVATION_COST_PER_M2 * area if l.get("has_repair") is False else 0
+            ppm2.append((price + reno) / area)
+        else:
+            ppm2.append(None)
 
     valid_idx = [i for i, v in enumerate(ppm2) if v is not None]
     valid_ppm2 = [ppm2[i] for i in valid_idx]
