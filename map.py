@@ -4,9 +4,11 @@ Run directly: python map.py
 """
 import json
 from scraper import GMAPS_KEY
+from score import compute_deal_scores
 
 
 def make_map(listings: list[dict]) -> None:
+    listings = compute_deal_scores([dict(l) for l in listings])
     with_coords = [l for l in listings if l.get("lat") and l.get("lng")]
 
     html = f"""<!DOCTYPE html>
@@ -39,7 +41,16 @@ def make_map(listings: list[dict]) -> None:
   .walk {{ font-size: 11px; color: #388e3c; font-weight: 500; margin-top: 3px; }}
   .walk.far {{ color: #e65100; }}
   .bus {{ font-size: 11px; color: #1565c0; font-weight: 500; margin-top: 2px; }}
-  #filter-bar {{ padding: 8px 12px; border-bottom: 1px solid #eee; flex-shrink: 0; font-size: 12px; color: #666; }}
+  #filter-bar {{ padding: 8px 12px; border-bottom: 1px solid #eee; flex-shrink: 0; font-size: 12px; color: #666; display: flex; align-items: center; gap: 8px; }}
+  #sort-select {{ font-size: 12px; border: 1px solid #ddd; border-radius: 4px; padding: 2px 6px; cursor: pointer; }}
+  .score-badge {{
+    display: inline-block; font-size: 11px; font-weight: 700;
+    padding: 2px 6px; border-radius: 10px; margin-left: 4px;
+    color: #fff; vertical-align: middle;
+  }}
+  .score-good {{ background: #2e7d32; }}
+  .score-ok   {{ background: #e65100; }}
+  .score-poor {{ background: #b71c1c; }}
 </style>
 </head>
 <body>
@@ -49,13 +60,97 @@ def make_map(listings: list[dict]) -> None:
     Heyet evleri
     <small id="subtitle">loading…</small>
   </div>
-  <div id="filter-bar">sorted by price ↓ · click row to pan</div>
+  <div id="filter-bar">
+    Sort:
+    <select id="sort-select">
+      <option value="score">Deal score ↓</option>
+      <option value="price_asc">Price ↑</option>
+      <option value="price_desc">Price ↓</option>
+    </select>
+  </div>
   <div id="listing-list"></div>
 </div>
 <script>
 const LISTINGS = {json.dumps(with_coords, ensure_ascii=False)};
 
 let map, infoWindow, markers = {{}};
+
+function scoreColor(s) {{
+  if (s >= 65) return '#2e7d32';
+  if (s >= 40) return '#e65100';
+  return '#b71c1c';
+}}
+function scoreBadgeClass(s) {{
+  if (s >= 65) return 'score-good';
+  if (s >= 40) return 'score-ok';
+  return 'score-poor';
+}}
+
+function buildRow(l, list) {{
+  const price   = l.price ? l.price.toLocaleString() + ' AZN' : '?';
+  const land    = l.land_area_sot ? l.land_area_sot + ' sot' : '';
+  const details = [l.location, l.rooms, l.area_m2, land].filter(Boolean).join(' · ');
+  const busLine = l.bus_lines?.length ? 'Bus ' + l.bus_lines.join(', ') : 'no named line nearby';
+  const walkOk  = l.walk_min != null;
+  const walkFar = l.walk_min > 15;
+  const score   = l.deal_score ?? '?';
+  const gmaps   = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
+
+  const popup = `
+    <div style="font-family:sans-serif;min-width:210px;max-width:270px">
+      <div style="display:flex;align-items:center;gap:8px">
+        <span style="font-size:16px;font-weight:700;color:#6a1b9a">${{price}}</span>
+        <span style="background:${{scoreColor(score)}};color:#fff;font-size:12px;font-weight:700;
+                     padding:2px 7px;border-radius:10px">Deal ${{score}}/100</span>
+      </div>
+      <div style="color:#555;font-size:12px;margin-top:3px">${{details}}</div>
+      ${{walkOk ? `
+      <div style="margin-top:7px;padding-top:7px;border-top:1px solid #eee">
+        <div style="color:#${{walkFar ? 'e65100' : '388e3c'}};font-size:12px;font-weight:600">
+          🚶 ${{l.walk_min}} min walk to nearest stop
+        </div>
+        <div style="color:#555;font-size:11px;margin-top:2px">${{l.stop_name || ''}}</div>
+        <div style="color:#1565c0;font-size:12px;font-weight:600;margin-top:4px">🚌 ${{busLine}}</div>
+      </div>` : ''}}
+      <div style="display:flex;gap:10px;margin-top:9px;padding-top:7px;border-top:1px solid #eee">
+        <a href="https://bina.az/items/${{l.id}}" target="_blank" style="font-size:12px;color:#1a73e8">bina.az →</a>
+        <a href="${{gmaps}}" target="_blank" style="font-size:12px;color:#1a73e8">Google Maps →</a>
+      </div>
+    </div>`;
+
+  const row = document.createElement('div');
+  row.className = 'listing-row';
+  row.id = 'row-' + l.id;
+  row.innerHTML = `
+    <div class="price">${{price}}<span class="score-badge ${{scoreBadgeClass(score)}}">${{score}}</span></div>
+    <div class="meta">${{details}}</div>
+    ${{walkOk ? `<div class="walk ${{walkFar ? 'far' : ''}}">🚶 ${{l.walk_min}} min walk</div>` : ''}}
+    <div class="bus">🚌 ${{busLine}}</div>`;
+  row.addEventListener('click', () => {{
+    map.panTo({{lat: parseFloat(l.lat), lng: parseFloat(l.lng)}});
+    map.setZoom(15);
+    infoWindow.setContent(popup);
+    infoWindow.open(map, markers[l.id]);
+    highlight(l.id);
+  }});
+
+  list.appendChild(row);
+  return {{ popup }};
+}}
+
+function renderList(sortKey) {{
+  const list = document.getElementById('listing-list');
+  list.innerHTML = '';
+
+  const sorted = [...LISTINGS].sort((a, b) => {{
+    if (sortKey === 'score')      return (b.deal_score || 0) - (a.deal_score || 0);
+    if (sortKey === 'price_asc')  return (a.price || 0) - (b.price || 0);
+    if (sortKey === 'price_desc') return (b.price || 0) - (a.price || 0);
+    return 0;
+  }});
+
+  sorted.forEach(l => buildRow(l, list));
+}}
 
 function initMap() {{
   map = new google.maps.Map(document.getElementById('map'), {{
@@ -65,10 +160,23 @@ function initMap() {{
   infoWindow = new google.maps.InfoWindow();
   document.getElementById('subtitle').textContent = LISTINGS.length + ' listings';
 
-  const sorted = [...LISTINGS].sort((a, b) => (b.price || 0) - (a.price || 0));
-  const list = document.getElementById('listing-list');
+  LISTINGS.forEach(l => {{
+    const score = l.deal_score ?? 0;
+    const marker = new google.maps.Marker({{
+      position: {{lat: parseFloat(l.lat), lng: parseFloat(l.lng)}},
+      map,
+      title: (l.price ? l.price.toLocaleString() + ' AZN' : '?') + ' · Deal ' + score + '/100',
+      icon: {{
+        path: google.maps.SymbolPath.CIRCLE,
+        scale: 8,
+        fillColor: scoreColor(score),
+        fillOpacity: 0.9,
+        strokeColor: '#fff',
+        strokeWeight: 2,
+      }},
+      zIndex: score,
+    }});
 
-  sorted.forEach(l => {{
     const price   = l.price ? l.price.toLocaleString() + ' AZN' : '?';
     const land    = l.land_area_sot ? l.land_area_sot + ' sot' : '';
     const details = [l.location, l.rooms, l.area_m2, land].filter(Boolean).join(' · ');
@@ -77,24 +185,13 @@ function initMap() {{
     const walkFar = l.walk_min > 15;
     const gmaps   = `https://www.google.com/maps?q=${{l.lat}},${{l.lng}}`;
 
-    const marker = new google.maps.Marker({{
-      position: {{lat: parseFloat(l.lat), lng: parseFloat(l.lng)}},
-      map,
-      title: price,
-      icon: {{
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: 8,
-        fillColor: '#6a1b9a',
-        fillOpacity: 0.9,
-        strokeColor: '#fff',
-        strokeWeight: 2,
-      }},
-      zIndex: 5,
-    }});
-
     const popup = `
       <div style="font-family:sans-serif;min-width:210px;max-width:270px">
-        <div style="font-size:16px;font-weight:700;color:#6a1b9a">${{price}}</div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <span style="font-size:16px;font-weight:700;color:#6a1b9a">${{price}}</span>
+          <span style="background:${{scoreColor(score)}};color:#fff;font-size:12px;font-weight:700;
+                       padding:2px 7px;border-radius:10px">Deal ${{score}}/100</span>
+        </div>
         <div style="color:#555;font-size:12px;margin-top:3px">${{details}}</div>
         ${{walkOk ? `
         <div style="margin-top:7px;padding-top:7px;border-top:1px solid #eee">
@@ -116,23 +213,12 @@ function initMap() {{
       highlight(l.id);
     }});
     markers[l.id] = marker;
+  }});
 
-    const row = document.createElement('div');
-    row.className = 'listing-row';
-    row.id = 'row-' + l.id;
-    row.innerHTML = `
-      <div class="price">${{price}}</div>
-      <div class="meta">${{details}}</div>
-      ${{walkOk ? `<div class="walk ${{walkFar ? 'far' : ''}}">🚶 ${{l.walk_min}} min walk</div>` : ''}}
-      <div class="bus">🚌 ${{busLine}}</div>`;
-    row.addEventListener('click', () => {{
-      map.panTo({{lat: parseFloat(l.lat), lng: parseFloat(l.lng)}});
-      map.setZoom(15);
-      infoWindow.setContent(popup);
-      infoWindow.open(map, markers[l.id]);
-      highlight(l.id);
-    }});
-    list.appendChild(row);
+  renderList('score');
+
+  document.getElementById('sort-select').addEventListener('change', e => {{
+    renderList(e.target.value);
   }});
 }}
 

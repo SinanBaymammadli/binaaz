@@ -27,6 +27,7 @@ from scraper import (
     scroll_load_all,
 )
 from map import make_map
+from score import compute_deal_scores
 
 load_dotenv()
 
@@ -83,6 +84,18 @@ def find_duplicates(new: dict, existing: list[dict]) -> list[dict]:
     return dupes
 
 
+def _score_label(score: int | None) -> str:
+    if score is None:
+        return ""
+    if score >= 65:
+        star = "🟢"
+    elif score >= 40:
+        star = "🟡"
+    else:
+        star = "🔴"
+    return f"{star} Deal score: <b>{score}/100</b>"
+
+
 def format_price_change_message(listing: dict, old_price: int) -> str:
     new_price = listing["price"]
     diff = new_price - old_price
@@ -94,8 +107,11 @@ def format_price_change_message(listing: dict, old_price: int) -> str:
     lines = [
         f"{arrow} <b>Price change: {old_price:,} → {new_price:,} AZN ({sign}{diff:,})</b>",
         f"📍 {detail}",
-        f'🔗 <a href="https://bina.az/items/{listing["id"]}">bina.az</a>',
     ]
+    label = _score_label(listing.get("deal_score"))
+    if label:
+        lines.append(label)
+    lines.append(f'🔗 <a href="https://bina.az/items/{listing["id"]}">bina.az</a>')
     if gmaps:
         lines.append(f'📌 <a href="{gmaps}">Google Maps</a>')
     return "\n".join(lines)
@@ -118,6 +134,9 @@ def format_message(listing: dict, duplicates: list[dict] | None = None) -> str:
         lines.append(f"🚶 {walk} min walk · {bus}")
         if listing.get("stop_name"):
             lines.append(f"   <i>{listing['stop_name']}</i>")
+    label = _score_label(listing.get("deal_score"))
+    if label:
+        lines.append(label)
     lines.append(f'🔗 <a href="https://bina.az/items/{listing["id"]}">bina.az</a>')
     if gmaps:
         lines.append(f'📌 <a href="{gmaps}">Google Maps</a>')
@@ -207,19 +226,32 @@ async def main() -> None:
                         existing["price_history"] = history
                         price_changed.append((existing, old_price))
 
-                for listing, old_price in price_changed:
-                    msg = format_price_change_message(listing, old_price)
-                    print(msg)
-                    send_telegram(msg)
-
                 if not new_cards and not price_changed:
                     send_telegram(f"🔍 Searched {len(cards)} listings — nothing new.")
                 else:
+                    # Enrich all new listings before scoring (scores are relative)
+                    new_enriched: list[tuple[dict, list[dict]]] = []
                     for i, card in enumerate(new_cards):
                         print(f"  [{i+1}/{len(new_cards)}] {card['id']}")
                         listing = await enrich(page, card, stops)
                         dupes = find_duplicates(listing, list(listings_by_id.values()))
                         listings_by_id[listing["id"]] = listing
+                        new_enriched.append((listing, dupes))
+
+                    # Compute scores across the full updated dataset
+                    scored = compute_deal_scores(list(listings_by_id.values()))
+                    scores_by_id = {l["id"]: l["deal_score"] for l in scored}
+                    for l in listings_by_id.values():
+                        l["deal_score"] = scores_by_id.get(l["id"])
+
+                    # Send price-change notifications
+                    for listing, old_price in price_changed:
+                        msg = format_price_change_message(listing, old_price)
+                        print(msg)
+                        send_telegram(msg)
+
+                    # Send new-listing notifications
+                    for listing, dupes in new_enriched:
                         msg = format_message(listing, duplicates=dupes or None)
                         print(msg)
                         send_telegram(msg)
