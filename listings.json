@@ -834,7 +834,7 @@
   },
   {
     "id": "6433075",
-    "price": 225000,
+    "price": 220000,
     "location": "Albalılıq q.",
     "rooms": "5 otaqlı",
     "area_m2": "129 m²",
@@ -846,6 +846,16 @@
     "stop_name": "İ.İsmayılov küç - M.P.Vaqif küç. kəs.",
     "bus_lines": [
       "172"
+    ],
+    "price_history": [
+      {
+        "price": 225000,
+        "date": "unknown"
+      },
+      {
+        "price": 220000,
+        "date": "2026-09-23"
+      }
     ]
   },
   {
@@ -2518,6 +2528,28 @@
       "177",
       "186",
       "M8"
+    ]
+  },
+  {
+    "id": "6483601",
+    "price": 20000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "75 m²",
+    "land_area_sot": 9,
+    "lat": 40.51304756994337,
+    "lng": 50.11842542126705,
+    "price_history": [
+      {
+        "price": 20000,
+        "date": "2026-09-23"
+      }
+    ],
+    "walk_m": 738,
+    "walk_min": 9.8,
+    "stop_name": "Cümə Məscidi",
+    "bus_lines": [
+      "107"
     ]
   }
 ]
