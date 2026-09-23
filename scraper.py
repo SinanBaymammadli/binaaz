@@ -123,7 +123,7 @@ async def fetch_item(page, item_id: str) -> dict:
                             id latitude longitude
                             landArea { value }
                             area { value }
-                            repaired
+                            hasRepair
                         }
                     }`
                 })
@@ -131,13 +131,13 @@ async def fetch_item(page, item_id: str) -> dict:
             return r.json();
         }""", item_id)
         item = (data.get("data") or {}).get("item") or {}
-        repaired = item.get("repaired")
+        has_repair = item.get("hasRepair")
         return {
             "lat": item.get("latitude"),
             "lng": item.get("longitude"),
             "land_area_sot": (item.get("landArea") or {}).get("value"),
             "area_m2_gql": (item.get("area") or {}).get("value"),
-            "has_repair": bool(repaired) if repaired is not None else None,
+            "has_repair": bool(has_repair) if has_repair is not None else None,
         }
     except Exception:
         return {}

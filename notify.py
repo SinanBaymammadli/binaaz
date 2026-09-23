@@ -216,6 +216,26 @@ async def enrich(page, card: dict, stops: list) -> dict:
 # ── main ──────────────────────────────────────────────────────────────────────
 
 async def main() -> None:
+    if "--backfill-repairs" in sys.argv:
+        with open(LISTINGS_FILE) as f:
+            listings = json.load(f)
+        need = [l for l in listings if not l.get("deleted_at") and l.get("has_repair") is None]
+        print(f"Backfilling has_repair for {len(need)} listings…")
+        async with open_browser(headless=True) as browser:
+            page = await browser.new_page()
+            await page.goto("https://bina.az", wait_until="load", timeout=60_000)
+            for i, l in enumerate(need):
+                item = await fetch_item(page, l["id"])
+                if item.get("has_repair") is not None:
+                    l["has_repair"] = item["has_repair"]
+                if (i + 1) % 20 == 0:
+                    print(f"  {i+1}/{len(need)}")
+        with open(LISTINGS_FILE, "w", encoding="utf-8") as f:
+            json.dump(listings, f, ensure_ascii=False, indent=2)
+        make_map(listings)
+        print("Done.")
+        return
+
     if "--map-only" in sys.argv:
         with open(LISTINGS_FILE) as f:
             make_map(json.load(f))
