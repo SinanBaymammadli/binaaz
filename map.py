@@ -101,6 +101,11 @@ function scoreBadgeClass(s) {{
   return 'score-poor';
 }}
 
+function thumbUrl(l) {{
+  if (l.photo_url) return l.photo_url;
+  return `https://cdn.bina.az/photos/items/${{l.id[0]}}/small/${{l.id}}/1.jpg`;
+}}
+
 function buildRow(l, list) {{
   const price     = l.price ? l.price.toLocaleString() + ' AZN' : '?';
   const land      = l.land_area_sot ? l.land_area_sot + ' sot' : '';
@@ -117,6 +122,8 @@ function buildRow(l, list) {{
 
   const popup = `
     <div style="font-family:sans-serif;min-width:210px;max-width:270px">
+      <img src="${{thumbUrl(l)}}" onerror="this.style.display='none'"
+           style="width:100%;height:140px;object-fit:cover;border-radius:4px;margin-bottom:8px;display:block">
       <div style="display:flex;align-items:center;gap:8px">
         <span style="font-size:16px;font-weight:700;color:#6a1b9a">${{price}}</span>
         <span style="background:${{scoreColor(score)}};color:#fff;font-size:12px;font-weight:700;
@@ -212,6 +219,8 @@ function initMap() {{
 
     const popup = `
       <div style="font-family:sans-serif;min-width:210px;max-width:270px">
+        <img src="${{thumbUrl(l)}}" onerror="this.style.display='none'"
+             style="width:100%;height:140px;object-fit:cover;border-radius:4px;margin-bottom:8px;display:block">
         <div style="display:flex;align-items:center;gap:8px">
           <span style="font-size:16px;font-weight:700;color:#6a1b9a">${{price}}</span>
           <span style="background:${{scoreColor(score)}};color:#fff;font-size:12px;font-weight:700;

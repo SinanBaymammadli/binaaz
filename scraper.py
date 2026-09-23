@@ -84,7 +84,9 @@ async def extract_cards(page) -> list[dict]:
             if (!m) return;
             if (seen.has(m[1])) return;
             seen.add(m[1]);
-            results.push({id: m[1], text: card.innerText.trim()});
+            const img = card.querySelector('img');
+            const photo_url = img ? (img.src || img.dataset.src || null) : null;
+            results.push({id: m[1], text: card.innerText.trim(), photo_url});
         });
         return results;
     }""")

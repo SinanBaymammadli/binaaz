@@ -191,6 +191,7 @@ async def enrich(page, card: dict, stops: list) -> dict:
         "land_area_sot": item.get("land_area_sot"),
         "lat":           item.get("lat"),
         "lng":           item.get("lng"),
+        "photo_url":     card.get("photo_url"),
         "price_history": [{"price": price, "date": date.today().isoformat()}],
         **walk,
     }
