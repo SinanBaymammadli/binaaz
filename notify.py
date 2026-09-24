@@ -3,7 +3,9 @@ Detects new bina.az listings and sends Telegram alerts.
 Runs 3×/day via GitHub Actions cron.
 
 Usage:
-  python notify.py              # normal run
+  python notify.py              # scrape houses only
+  python notify.py --with-land  # scrape houses + land plots
+  python notify.py --land-only  # scrape land plots only
   python notify.py --map-only   # regenerate map without scraping
 """
 import asyncio
@@ -407,7 +409,10 @@ async def main() -> None:
         json.dump(listings, f, ensure_ascii=False, indent=2)
     make_map(listings)
 
-    # ── land plots ────────────────────────────────────────────────────────────
+    # ── land plots (opt-in via --with-land) ──────────────────────────────────
+    if "--with-land" not in sys.argv and not land_only:
+        print("Done.")
+        return
     print("\n── Land plots ──")
     land_by_id = {}
     if os.path.exists(LAND_LISTINGS_FILE):
