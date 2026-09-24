@@ -57,8 +57,14 @@ def make_map(listings: list[dict]) -> None:
   .walk {{ font-size: 11px; color: #388e3c; font-weight: 500; margin-top: 3px; }}
   .walk.far {{ color: #e65100; }}
   .bus {{ font-size: 11px; color: #1565c0; font-weight: 500; margin-top: 2px; }}
-  #filter-bar {{ padding: 8px 12px; border-bottom: 1px solid #eee; flex-shrink: 0; font-size: 12px; color: #666; display: flex; align-items: center; gap: 8px; }}
-  #sort-select {{ font-size: 12px; border: 1px solid #ddd; border-radius: 4px; padding: 2px 6px; cursor: pointer; }}
+  #filter-panel {{ padding: 8px 10px; border-bottom: 1px solid #e0e0e0; flex-shrink: 0; background: #fafafa; }}
+  .filter-row {{ display: flex; gap: 6px; margin-bottom: 5px; }}
+  .filter-row:last-child {{ margin-bottom: 0; }}
+  .filter-row select {{
+    flex: 1; font-size: 11px; border: 1px solid #ddd; border-radius: 4px;
+    padding: 3px 4px; background: #fff; cursor: pointer; min-width: 0;
+  }}
+  #filter-count {{ font-size: 10px; color: #999; text-align: right; margin-top: 3px; }}
   .score-badge {{
     display: inline-block; font-size: 11px; font-weight: 700;
     padding: 2px 6px; border-radius: 10px; margin-left: 4px;
@@ -76,13 +82,42 @@ def make_map(listings: list[dict]) -> None:
     Heyet evleri
     <small id="subtitle">loading…</small>
   </div>
-  <div id="filter-bar">
-    Sort:
-    <select id="sort-select">
-      <option value="score">Deal score ↓</option>
-      <option value="price_asc">Price ↑</option>
-      <option value="price_desc">Price ↓</option>
-    </select>
+  <div id="filter-panel">
+    <div class="filter-row">
+      <select id="f-location"><option value="">All locations</option></select>
+      <select id="f-score">
+        <option value="0">Any score</option>
+        <option value="40">40+ 🟡</option>
+        <option value="50">50+</option>
+        <option value="65">65+ 🟢</option>
+      </select>
+    </div>
+    <div class="filter-row">
+      <select id="f-repair">
+        <option value="all">Any condition</option>
+        <option value="yes">✔ Təmirli</option>
+        <option value="no">✘ Təmirsiz</option>
+      </select>
+      <select id="f-walk">
+        <option value="999">Any walk</option>
+        <option value="10">≤10 min walk</option>
+        <option value="15">≤15 min walk</option>
+        <option value="20">≤20 min walk</option>
+      </select>
+    </div>
+    <div class="filter-row">
+      <select id="f-rooms">
+        <option value="">Any rooms</option>
+        <option value="4">4 otaqlı</option>
+        <option value="5plus">5+ otaqlı</option>
+      </select>
+      <select id="sort-select">
+        <option value="score">Score ↓</option>
+        <option value="price_asc">Price ↑</option>
+        <option value="price_desc">Price ↓</option>
+      </select>
+    </div>
+    <div id="filter-count"></div>
   </div>
   <div id="listing-list"></div>
 </div>
@@ -174,11 +209,43 @@ function buildRow(l, list) {{
   return {{ popup }};
 }}
 
-function renderList(sortKey) {{
+// ── filters ──────────────────────────────────────────────────────────────────
+
+function matchesFilters(l) {{
+  const loc    = document.getElementById('f-location').value;
+  const score  = parseInt(document.getElementById('f-score').value) || 0;
+  const repair = document.getElementById('f-repair').value;
+  const walk   = parseFloat(document.getElementById('f-walk').value) || 999;
+  const rooms  = document.getElementById('f-rooms').value;
+
+  if (loc && l.location !== loc) return false;
+  if ((l.deal_score ?? 0) < score) return false;
+  if (repair === 'yes' && l.has_repair !== true) return false;
+  if (repair === 'no'  && l.has_repair !== false) return false;
+  if (l.walk_min != null && l.walk_min > walk) return false;
+  if (rooms === '4'     && l.rooms !== '4 otaqlı') return false;
+  if (rooms === '5plus' && !(parseInt(l.rooms) >= 5)) return false;
+  return true;
+}}
+
+function applyFilters() {{
+  const filtered = LISTINGS.filter(matchesFilters);
+  Object.values(markers).forEach(m => m.setVisible(false));
+  filtered.forEach(l => {{ if (markers[l.id]) markers[l.id].setVisible(true); }});
+  renderList(document.getElementById('sort-select').value, filtered);
+  const total = LISTINGS.length;
+  document.getElementById('filter-count').textContent =
+    filtered.length === total ? `${{total}} listings` : `${{filtered.length}} of ${{total}} listings`;
+  document.getElementById('subtitle').textContent =
+    filtered.length === total ? `${{total}} listings` : `${{filtered.length}} / ${{total}}`;
+}}
+
+function renderList(sortKey, subset) {{
   const list = document.getElementById('listing-list');
   list.innerHTML = '';
+  const items = subset ?? LISTINGS;
 
-  const sorted = [...LISTINGS].sort((a, b) => {{
+  const sorted = [...items].sort((a, b) => {{
     if (sortKey === 'score')      return (b.deal_score || 0) - (a.deal_score || 0);
     if (sortKey === 'price_asc')  return (a.price || 0) - (b.price || 0);
     if (sortKey === 'price_desc') return (b.price || 0) - (a.price || 0);
@@ -264,11 +331,21 @@ function initMap() {{
     markers[l.id] = marker;
   }});
 
-  renderList('score');
-
-  document.getElementById('sort-select').addEventListener('change', e => {{
-    renderList(e.target.value);
+  // Populate location dropdown
+  const locs = [...new Set(LISTINGS.map(l => l.location).filter(Boolean))].sort();
+  const locSel = document.getElementById('f-location');
+  locs.forEach(loc => {{
+    const opt = document.createElement('option');
+    opt.value = opt.textContent = loc;
+    locSel.appendChild(opt);
   }});
+
+  // Wire all filter/sort controls
+  ['f-location','f-score','f-repair','f-walk','f-rooms','sort-select'].forEach(id => {{
+    document.getElementById(id).addEventListener('change', applyFilters);
+  }});
+
+  applyFilters();
 }}
 
 function highlight(id) {{
