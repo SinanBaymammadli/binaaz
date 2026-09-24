@@ -58,13 +58,23 @@ def make_map(listings: list[dict]) -> None:
   .walk.far {{ color: #e65100; }}
   .bus {{ font-size: 11px; color: #1565c0; font-weight: 500; margin-top: 2px; }}
   #filter-panel {{ padding: 8px 10px; border-bottom: 1px solid #e0e0e0; flex-shrink: 0; background: #fafafa; }}
-  .filter-row {{ display: flex; gap: 6px; margin-bottom: 5px; }}
-  .filter-row:last-child {{ margin-bottom: 0; }}
-  .filter-row select {{
-    flex: 1; font-size: 11px; border: 1px solid #ddd; border-radius: 4px;
-    padding: 3px 4px; background: #fff; cursor: pointer; min-width: 0;
+  .filter-label {{ font-size: 10px; color: #999; margin-bottom: 3px; margin-top: 6px; }}
+  .filter-label:first-child {{ margin-top: 0; }}
+  .chip-group {{ display: flex; flex-wrap: wrap; gap: 4px; }}
+  .chip {{
+    font-size: 11px; padding: 2px 8px; border-radius: 10px;
+    border: 1px solid #ddd; background: #fff; cursor: pointer;
+    user-select: none; transition: all .12s; white-space: nowrap;
   }}
-  #filter-count {{ font-size: 10px; color: #999; text-align: right; margin-top: 3px; }}
+  .chip:hover {{ border-color: #9c4dcc; color: #6a1b9a; }}
+  .chip.active {{ background: #6a1b9a; color: #fff; border-color: #6a1b9a; }}
+  #f-location {{
+    width: 100%; font-size: 11px; border: 1px solid #ddd; border-radius: 4px;
+    padding: 3px 4px; background: #fff; cursor: pointer; margin-top: 3px;
+  }}
+  #filter-sort {{ display: flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 11px; color: #999; }}
+  #sort-select {{ font-size: 11px; border: 1px solid #ddd; border-radius: 4px; padding: 2px 5px; flex: 1; }}
+  #filter-count {{ font-size: 10px; color: #999; text-align: right; margin-top: 4px; }}
   .score-badge {{
     display: inline-block; font-size: 11px; font-weight: 700;
     padding: 2px 6px; border-radius: 10px; margin-left: 4px;
@@ -83,34 +93,37 @@ def make_map(listings: list[dict]) -> None:
     <small id="subtitle">loading…</small>
   </div>
   <div id="filter-panel">
-    <div class="filter-row">
-      <select id="f-location"><option value="">All locations</option></select>
-      <select id="f-score">
-        <option value="0">Any score</option>
-        <option value="40">40+ 🟡</option>
-        <option value="50">50+</option>
-        <option value="65">65+ 🟢</option>
-      </select>
+    <div class="filter-label">Location</div>
+    <select id="f-location" multiple size="3"></select>
+
+    <div class="filter-label">Min score</div>
+    <div class="chip-group" id="f-score">
+      <span class="chip active" data-val="0">Any</span>
+      <span class="chip" data-val="40">40+ 🟡</span>
+      <span class="chip" data-val="50">50+</span>
+      <span class="chip" data-val="65">65+ 🟢</span>
     </div>
-    <div class="filter-row">
-      <select id="f-repair">
-        <option value="all">Any condition</option>
-        <option value="yes">✔ Təmirli</option>
-        <option value="no">✘ Təmirsiz</option>
-      </select>
-      <select id="f-walk">
-        <option value="999">Any walk</option>
-        <option value="10">≤10 min walk</option>
-        <option value="15">≤15 min walk</option>
-        <option value="20">≤20 min walk</option>
-      </select>
+
+    <div class="filter-label">Condition</div>
+    <div class="chip-group" id="f-repair">
+      <span class="chip active" data-val="repaired">✔ Təmirli</span>
+      <span class="chip active" data-val="not_repaired">✘ Təmirsiz</span>
+      <span class="chip active" data-val="unknown">?</span>
     </div>
-    <div class="filter-row">
-      <select id="f-rooms">
-        <option value="">Any rooms</option>
-        <option value="4">4 otaqlı</option>
-        <option value="5plus">5+ otaqlı</option>
-      </select>
+
+    <div class="filter-label">Max walk to bus</div>
+    <div class="chip-group" id="f-walk">
+      <span class="chip active" data-val="999">Any</span>
+      <span class="chip" data-val="10">≤10 min</span>
+      <span class="chip" data-val="15">≤15 min</span>
+      <span class="chip" data-val="20">≤20 min</span>
+    </div>
+
+    <div class="filter-label">Rooms</div>
+    <div class="chip-group" id="f-rooms"></div>
+
+    <div id="filter-sort">
+      Sort:
       <select id="sort-select">
         <option value="score">Score ↓</option>
         <option value="price_asc">Price ↑</option>
@@ -211,20 +224,39 @@ function buildRow(l, list) {{
 
 // ── filters ──────────────────────────────────────────────────────────────────
 
-function matchesFilters(l) {{
-  const loc    = document.getElementById('f-location').value;
-  const score  = parseInt(document.getElementById('f-score').value) || 0;
-  const repair = document.getElementById('f-repair').value;
-  const walk   = parseFloat(document.getElementById('f-walk').value) || 999;
-  const rooms  = document.getElementById('f-rooms').value;
+function activeChips(groupId) {{
+  return [...document.querySelectorAll(`#${{groupId}} .chip.active`)].map(c => c.dataset.val);
+}}
 
-  if (loc && l.location !== loc) return false;
-  if ((l.deal_score ?? 0) < score) return false;
-  if (repair === 'yes' && l.has_repair !== true) return false;
-  if (repair === 'no'  && l.has_repair !== false) return false;
-  if (l.walk_min != null && l.walk_min > walk) return false;
-  if (rooms === '4'     && l.rooms !== '4 otaqlı') return false;
-  if (rooms === '5plus' && !(parseInt(l.rooms) >= 5)) return false;
+function matchesFilters(l) {{
+  // Location: multi-select (native <select multiple>)
+  const locSel = document.getElementById('f-location');
+  const selLocs = [...locSel.selectedOptions].map(o => o.value);
+  if (selLocs.length && !selLocs.includes(l.location)) return false;
+
+  // Score: single threshold (radio-style chips)
+  const minScore = parseInt(activeChips('f-score')[0] ?? '0');
+  if ((l.deal_score ?? 0) < minScore) return false;
+
+  // Repair: multi-select chips (OR)
+  const repairVals = activeChips('f-repair');
+  if (repairVals.length < 3) {{
+    const cat = l.has_repair === true ? 'repaired' : l.has_repair === false ? 'not_repaired' : 'unknown';
+    if (!repairVals.includes(cat)) return false;
+  }}
+
+  // Walk: single threshold chips
+  const maxWalk = parseFloat(activeChips('f-walk')[0] ?? '999');
+  if (l.walk_min != null && l.walk_min > maxWalk) return false;
+
+  // Rooms: multi-select chips (OR)
+  const roomVals = activeChips('f-rooms');
+  if (roomVals.length) {{
+    const n = parseInt(l.rooms);
+    const key = n >= 5 ? '5plus' : String(n);
+    if (!roomVals.includes(key)) return false;
+  }}
+
   return true;
 }}
 
@@ -234,8 +266,8 @@ function applyFilters() {{
   filtered.forEach(l => {{ if (markers[l.id]) markers[l.id].setVisible(true); }});
   renderList(document.getElementById('sort-select').value, filtered);
   const total = LISTINGS.length;
-  document.getElementById('filter-count').textContent =
-    filtered.length === total ? `${{total}} listings` : `${{filtered.length}} of ${{total}} listings`;
+  const countEl = document.getElementById('filter-count');
+  countEl.textContent = filtered.length === total ? '' : `${{filtered.length}} of ${{total}} shown`;
   document.getElementById('subtitle').textContent =
     filtered.length === total ? `${{total}} listings` : `${{filtered.length}} / ${{total}}`;
 }}
@@ -331,7 +363,7 @@ function initMap() {{
     markers[l.id] = marker;
   }});
 
-  // Populate location dropdown
+  // Populate location multi-select
   const locs = [...new Set(LISTINGS.map(l => l.location).filter(Boolean))].sort();
   const locSel = document.getElementById('f-location');
   locs.forEach(loc => {{
@@ -339,11 +371,48 @@ function initMap() {{
     opt.value = opt.textContent = loc;
     locSel.appendChild(opt);
   }});
+  locSel.size = Math.min(locs.length, 4);
+  locSel.addEventListener('change', applyFilters);
 
-  // Wire all filter/sort controls
-  ['f-location','f-score','f-repair','f-walk','f-rooms','sort-select'].forEach(id => {{
-    document.getElementById(id).addEventListener('change', applyFilters);
+  // Populate rooms chips dynamically
+  const roomCounts = [...new Set(LISTINGS.map(l => parseInt(l.rooms)).filter(n => !isNaN(n)))].sort((a,b) => a-b);
+  const has5plus = roomCounts.some(n => n >= 5);
+  const roomGroup = document.getElementById('f-rooms');
+  const uniqueRooms = roomCounts.filter(n => n < 5);
+  [...uniqueRooms, ...(has5plus ? ['5plus'] : [])].forEach(val => {{
+    const chip = document.createElement('span');
+    chip.className = 'chip active';
+    chip.dataset.val = val;
+    chip.textContent = val === '5plus' ? '5+ otaqlı' : `${{val}} otaqlı`;
+    roomGroup.appendChild(chip);
   }});
+
+  // Score chips: radio behaviour (only one active at a time)
+  document.getElementById('f-score').addEventListener('click', e => {{
+    if (!e.target.classList.contains('chip')) return;
+    document.querySelectorAll('#f-score .chip').forEach(c => c.classList.remove('active'));
+    e.target.classList.add('active');
+    applyFilters();
+  }});
+
+  // Walk chips: radio behaviour
+  document.getElementById('f-walk').addEventListener('click', e => {{
+    if (!e.target.classList.contains('chip')) return;
+    document.querySelectorAll('#f-walk .chip').forEach(c => c.classList.remove('active'));
+    e.target.classList.add('active');
+    applyFilters();
+  }});
+
+  // Repair + rooms chips: toggle behaviour
+  ['f-repair', 'f-rooms'].forEach(gid => {{
+    document.getElementById(gid).addEventListener('click', e => {{
+      if (!e.target.classList.contains('chip')) return;
+      e.target.classList.toggle('active');
+      applyFilters();
+    }});
+  }});
+
+  document.getElementById('sort-select').addEventListener('change', applyFilters);
 
   applyFilters();
 }}
