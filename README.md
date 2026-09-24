@@ -6,7 +6,7 @@ Scrapes [bina.az](https://bina.az) real estate listings in Maştağa / Nardaran 
 
 ## What it does
 
-- Scrapes heyet-evleri (houses) listings matching: 4+ rooms, ≤230,000 AZN, ≥4 sot land, çıxarış
+- Scrapes heyet-evleri (houses) listings matching: 4+ rooms, ≤230,000 AZN, ≥4 sot land, çıxarış — all Baku
 - Fetches GPS coordinates and land area for each listing via bina.az GraphQL
 - Calculates real walking distance to nearest AYNA bus stop (via OpenStreetMap routing)
 - Sends Telegram alerts for new listings 3× a day (09:00, 15:00, 21:00 Baku time)
