@@ -1,0 +1,3427 @@
+[
+  {
+    "id": "5703458",
+    "price": 115000,
+    "location": "Buzovna q.",
+    "land_area_sot": 6.0,
+    "lat": 40.51357275571313,
+    "lng": 50.10674692845109,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F01%2F10%2F01%2F47%2F538e902c-bfd5-4830-930b-e67e464fe37b%2F95288_WtZisfwIyB2RwgRt9n6vRg.jpg",
+    "price_history": [
+      {
+        "price": 115000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1398,
+    "walk_min": 18.6,
+    "stop_name": "Zuğulba yolu 74",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 38
+  },
+  {
+    "id": "6414486",
+    "price": 27000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51261430439555,
+    "lng": 50.11034477259274,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F28%2F18%2F00%2F49%2F49214f1c-dd63-4d19-b3d4-2df8d57eead0%2F46265_1EWWnB3W5CmV3bWWZ9FDwA.jpg",
+    "price_history": [
+      {
+        "price": 27000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 788,
+    "walk_min": 10.5,
+    "stop_name": "Cümə Məscidi",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 81
+  },
+  {
+    "id": "6374430",
+    "price": 110000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.48145256616929,
+    "lng": 50.14500575001655,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F13%2F22%2F57%2F27%2Fe3a109ab-708c-42b8-9aed-230515dca0e4%2F16475_uXMMBgwklRiNk7xHa8sPDg.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1034,
+    "walk_min": 13.8,
+    "stop_name": "stop#2484",
+    "bus_lines": [],
+    "deal_score": 16
+  },
+  {
+    "id": "6158693",
+    "price": 119000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.4,
+    "lat": 40.47857,
+    "lng": 50.150065,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F15%2F15%2F39%2F50%2Fff943384-1be2-4c0f-8c7f-ac178e949748%2F12549_Jit60alYiVlqfBBWhHG2FA.jpg",
+    "price_history": [
+      {
+        "price": 119000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1647,
+    "walk_min": 22.0,
+    "stop_name": "stop#324",
+    "bus_lines": [],
+    "deal_score": 13
+  },
+  {
+    "id": "6131203",
+    "price": 62000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.48298793893255,
+    "lng": 50.22014066220235,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F29%2F18%2F43%2F00%2F8de36fc6-fe44-436e-a5e9-429bfc020dc1%2F30914_GY0p6q6PR9gKowyuqUQlpg.jpg",
+    "price_history": [
+      {
+        "price": 62000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 3124,
+    "walk_min": 41.7,
+    "stop_name": "stop#558",
+    "bus_lines": [],
+    "deal_score": 49
+  },
+  {
+    "id": "6484820",
+    "price": 52000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.50752929793653,
+    "lng": 50.09333552031704,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F13%2F51%2F46%2F10f02a42-0f1a-40c9-8a68-38a4bdf2d991%2F87804_vAAMIRgYJmSEAiXCwbDARw.jpg",
+    "price_history": [
+      {
+        "price": 52000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1509,
+    "walk_min": 20.1,
+    "stop_name": "Zuğulba yolu 53",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 59
+  },
+  {
+    "id": "6428565",
+    "price": 42000,
+    "location": "Savalan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.51227169211417,
+    "lng": 49.96205618071018,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F02%2F22%2F04%2F30%2Fdba72ce4-0fce-4bfc-a23d-d9ea3e2b2147%2F72329_fPdX11CNaZuc5_5_80fCxA.jpg",
+    "price_history": [
+      {
+        "price": 42000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 664,
+    "walk_min": 8.9,
+    "stop_name": "stop#1882",
+    "bus_lines": [],
+    "deal_score": 70
+  },
+  {
+    "id": "5942911",
+    "price": 105000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.4716325497791,
+    "lng": 50.20696454802478,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F14%2F09%2F49%2F02%2F19732c7f-9c1a-4807-a3b7-7d330cc7711e%2F40063_FKmUbn3Iq7-Vf13EsCBOKg.jpg",
+    "price_history": [
+      {
+        "price": 105000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1687,
+    "walk_min": 22.5,
+    "stop_name": "stop#2783",
+    "bus_lines": [],
+    "deal_score": 28
+  },
+  {
+    "id": "6433589",
+    "price": 105000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.47247483605342,
+    "lng": 50.20500815814169,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F16%2F32%2F39%2F31e2312f-93e1-43bb-8478-3b4fddacb50e%2F72353_bNXtbtOCGgAqqdwroO3pXA.jpg",
+    "price_history": [
+      {
+        "price": 105000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1597,
+    "walk_min": 21.3,
+    "stop_name": "stop#2783",
+    "bus_lines": [],
+    "deal_score": 16
+  },
+  {
+    "id": "6336669",
+    "price": 117000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.47857,
+    "lng": 50.150065,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F31%2F15%2F09%2F07%2F1b82e23d-a594-4f68-9081-e2e2907e211d%2F16896_rsciPWT8j8sYxaol4jmCKQ.jpg",
+    "price_history": [
+      {
+        "price": 117000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1647,
+    "walk_min": 22.0,
+    "stop_name": "stop#324",
+    "bus_lines": [],
+    "deal_score": 17
+  },
+  {
+    "id": "6488111",
+    "price": 72000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.5181116038531,
+    "lng": 50.0997460001239,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F24%2F14%2F57%2F27%2F7c371206-72b3-423f-8005-4bb02127126b%2F71675_jrWU1WlRbQIJN6X2XeHDjQ.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 305,
+    "walk_min": 4.1,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 50
+  },
+  {
+    "id": "6488025",
+    "price": 72000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.51406990915968,
+    "lng": 50.09840915659175,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F24%2F14%2F38%2F57%2F0d296175-e54e-4bfe-8544-58c7fa0420a2%2F71686_NYHkQCGjuMGjtIZeTPyOzQ.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 400,
+    "walk_min": 5.3,
+    "stop_name": "Buzovna Elektrik Yarımstansiyası",
+    "bus_lines": [
+      "107",
+      "150"
+    ],
+    "deal_score": 51
+  },
+  {
+    "id": "6461823",
+    "price": 62000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.56926534786448,
+    "lng": 49.94992143036114,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F19%2F15%2F51%2F25%2F7c03485f-a5b6-4a9b-a067-aa937ac37737%2F68088_IfnAYU-fepBWe4rYkdZA_w.jpg",
+    "price_history": [
+      {
+        "price": 62000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 11046,
+    "walk_min": 147.3,
+    "stop_name": "stop#1560",
+    "bus_lines": [],
+    "deal_score": 42
+  },
+  {
+    "id": "6075965",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.47857,
+    "lng": 50.150065,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F04%2F25%2F16%2F58%2F43%2Ff9f55dbc-22f1-4149-93e9-9705f3b03ddd%2F40068_N_JzzqseTF2HPDMBm22hlw.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1647,
+    "walk_min": 22.0,
+    "stop_name": "stop#324",
+    "bus_lines": [],
+    "deal_score": 6
+  },
+  {
+    "id": "6486921",
+    "price": 112000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.47874362984684,
+    "lng": 50.15087515776702,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F24%2F10%2F45%2F08%2F6af85b52-d36a-40ed-a82f-b42b596a305b%2F65381_QLm6TOASnSyWPlqWt-WflQ.jpg",
+    "price_history": [
+      {
+        "price": 112000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1483,
+    "walk_min": 19.8,
+    "stop_name": "stop#324",
+    "bus_lines": [],
+    "deal_score": 11
+  },
+  {
+    "id": "6439224",
+    "price": 50000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.55294738114054,
+    "lng": 49.98723267663821,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F06%2F23%2F39%2F03%2F14856c4b-7932-4055-b7fb-8532d2b43e83%2F63801_AdeapsPRhnoz78vR7DPSIw.jpg",
+    "price_history": [
+      {
+        "price": 50000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1360,
+    "walk_min": 18.1,
+    "stop_name": "Çənlibel küç. 329",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 71
+  },
+  {
+    "id": "6247603",
+    "price": 108000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 6.0,
+    "lat": 40.53316,
+    "lng": 50.04792,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F28%2F12%2F43%2F20%2Fdabfb4aa-c560-42e0-b2f0-aff9ee5619b9%2F12750_Df4WeUDmf8rxqr5tJdDiMA.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1146,
+    "walk_min": 15.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 44
+  },
+  {
+    "id": "6485884",
+    "price": 110000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.47354271185996,
+    "lng": 50.12525993103026,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F17%2F36%2F30%2F73ed180e-0f17-4e64-881e-0ee6cf96454c%2F68576_ffimCJU-5xnLoRqVjwerRw.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1319,
+    "walk_min": 17.6,
+    "stop_name": "stop#1642",
+    "bus_lines": [],
+    "deal_score": 14
+  },
+  {
+    "id": "6484804",
+    "price": 85000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 5.0,
+    "lat": 40.54266299153633,
+    "lng": 50.06087086847707,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F14%2F30%2F18%2F3d97666f-21fb-4556-8a3b-bf0bef5d4425%2F22656_fAZZLWO42RJ-cAl5ELsFkw.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1308,
+    "walk_min": 17.4,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 45
+  },
+  {
+    "id": "6468939",
+    "price": 85000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.55742388572956,
+    "lng": 49.96188802590382,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F16%2F03%2F33%2Fdcb1d6a1-b122-4fa0-87bb-9ecbe9c5944a%2F69464_OZyf24craMteWoZny1xMtw.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2874,
+    "walk_min": 38.3,
+    "stop_name": "Çənlibel küç. 212",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 49
+  },
+  {
+    "id": "6484437",
+    "price": 60000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.56686460223746,
+    "lng": 49.9522993290863,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F12%2F25%2F26%2Fdff463f7-69ce-47e6-97d1-6de93e919ea5%2F90382_-JxWNksxhHZ_TimXNqlcVA.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 10351,
+    "walk_min": 138.0,
+    "stop_name": "stop#879",
+    "bus_lines": [],
+    "deal_score": 45
+  },
+  {
+    "id": "6212358",
+    "price": 45000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.55993207318131,
+    "lng": 49.93634848469354,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F15%2F11%2F32%2F00%2F8484d5a9-4535-4873-8daa-d65fc9084f34%2F63089_35iAKkpi_sL6Vd0VD1iylg.jpg",
+    "price_history": [
+      {
+        "price": 45000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 10837,
+    "walk_min": 144.5,
+    "stop_name": "T.Məmmədov küç. 95",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 69
+  },
+  {
+    "id": "6422927",
+    "price": 37000,
+    "location": "Maştağa q.",
+    "land_area_sot": 4.5,
+    "lat": 40.543404789036,
+    "lng": 50.00154917523103,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F10%2F13%2F23%2F04%2F9b4d5bfc-35c1-49e3-83ed-6186c71caced%2F72301_ksFFyrhqy2dDx2DYBgw7rg.jpg",
+    "price_history": [
+      {
+        "price": 37000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1651,
+    "walk_min": 22.0,
+    "stop_name": "A.Hüseyn küç. 120",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 72
+  },
+  {
+    "id": "6455429",
+    "price": 77000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 5.0,
+    "lat": 40.53983865439719,
+    "lng": 50.05489050045451,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F12%2F16%2F22%2F48%2Fac981be7-da84-4766-9a5a-1cec9b3721af%2F63787_CIQjKcra7iipSEr3CQg2vw.jpg",
+    "price_history": [
+      {
+        "price": 77000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1097,
+    "walk_min": 14.6,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 52
+  },
+  {
+    "id": "6483672",
+    "price": 48000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.56806673618966,
+    "lng": 49.94538995866394,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F00%2F03%2F12%2Fb516e665-c80e-46b7-95db-ba346c6bdff2%2F22785_8oBXNWQUXO7QZwoGbqqvmw.jpg",
+    "price_history": [
+      {
+        "price": 48000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 10759,
+    "walk_min": 143.5,
+    "stop_name": "stop#1560",
+    "bus_lines": [],
+    "deal_score": 58
+  },
+  {
+    "id": "6483662",
+    "price": 72000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.56806673618974,
+    "lng": 49.94538995866394,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F22%2F23%2F52%2F11%2Fb673f767-530a-4848-a85b-e59e76f7272c%2F89591_jjBXnFSqv8Yu28W5kKfbwA.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 10759,
+    "walk_min": 143.5,
+    "stop_name": "stop#1560",
+    "bus_lines": [],
+    "deal_score": 57
+  },
+  {
+    "id": "6482096",
+    "price": 70000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 5.0,
+    "lat": 40.54014471374645,
+    "lng": 50.05460361092757,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F22%2F14%2F51%2F34%2F5e1e15b2-8035-496f-ba1a-2837a7f984f3%2F90613_zwYn8t7yB8Vt-ll6wIc2IA.jpg",
+    "price_history": [
+      {
+        "price": 70000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1064,
+    "walk_min": 14.2,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 59
+  },
+  {
+    "id": "6352713",
+    "price": 112000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F06%2F12%2F33%2F03%2Fc6213619-0213-4df2-9214-7e3a1de6d4cd%2F84049_aSBqhiI1bHaS62xMFaBYPA.jpg",
+    "price_history": [
+      {
+        "price": 112000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 17
+  },
+  {
+    "id": "6255018",
+    "price": 90000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F01%2F10%2F45%2F54%2Fb63446b6-3af9-4530-90e9-ef50f2490989%2F24816_mlc7YOeCXairnbGl6CGB0A.jpg",
+    "price_history": [
+      {
+        "price": 90000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 31
+  },
+  {
+    "id": "6353131",
+    "price": 74250,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.5,
+    "lat": 40.575821,
+    "lng": 49.989346,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F06%2F14%2F10%2F01%2Fab4a3a65-f5df-49f2-bb08-aec0f1c4da44%2F88572_qgYAeQr1OxZdvTxYUCgN6g.jpg",
+    "price_history": [
+      {
+        "price": 74250,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 29071,
+    "walk_min": 387.6,
+    "stop_name": "Bakı Dairəvi Yolu (Nardaran qəsəbəsi)",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 40
+  },
+  {
+    "id": "6480574",
+    "price": 110000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.45578079710849,
+    "lng": 50.18004780578613,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F21%2F30%2F57%2F4af1cadd-6f13-4339-b1a9-52b60fea0248%2F90168_uLLLYULBt7rqjMGowhvF6A.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 661,
+    "walk_min": 8.8,
+    "stop_name": "stop#2861",
+    "bus_lines": [],
+    "deal_score": 18
+  },
+  {
+    "id": "6098498",
+    "price": 105000,
+    "location": "Şağan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.4906394,
+    "lng": 50.11374879999994,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F04%2F12%2F20%2F42%2F10ee3b59-f415-4734-b521-15c47cbf5408%2F67222_OEOl1cHHd05AuXE41shi1w.jpg",
+    "price_history": [
+      {
+        "price": 105000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 331,
+    "walk_min": 4.4,
+    "stop_name": "Zuğulba yolu 21",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 39
+  },
+  {
+    "id": "6480258",
+    "price": 90000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.48844920489899,
+    "lng": 50.20860081481932,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F17%2F36%2F44%2F7513596d-484b-4303-b781-c3f7b3c28288%2F66416_oxT3cQ0l8iiKpWQVGDDjDQ.jpg",
+    "price_history": [
+      {
+        "price": 90000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 406,
+    "walk_min": 5.4,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 31
+  },
+  {
+    "id": "5628770",
+    "price": 120000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.56545025462095,
+    "lng": 49.91836384466544,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F10%2F31%2F13%2F38%2F23%2Ffd99b721-57e4-44fe-bdc0-43eba671bc0f%2F37302_ksBAd98Yipnr_0BzNr1yHg.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2796,
+    "walk_min": 37.3,
+    "stop_name": "stop#2351",
+    "bus_lines": [],
+    "deal_score": 30
+  },
+  {
+    "id": "6477753",
+    "price": 98000,
+    "location": "Buzovna q.",
+    "land_area_sot": 6.0,
+    "lat": 40.50366491111229,
+    "lng": 50.09348746036506,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F11%2F38%2F51%2Fcc64d36f-0b48-4ac0-979c-4b3997b1dff5%2F68676_w6WoAsEqTSYJr8DBL4Z4rA.jpg",
+    "price_history": [
+      {
+        "price": 98000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1175,
+    "walk_min": 15.7,
+    "stop_name": "Zuğulba yolu 53",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 48
+  },
+  {
+    "id": "6478147",
+    "price": 110000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.50398359792517,
+    "lng": 50.1587625097657,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F11%2F06%2F20%2Fa3cfff0d-d265-4f0c-b8b0-373c9871d39d%2F71042_ZHv5XVhjYlrlICke_PFhKw.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1160,
+    "walk_min": 15.5,
+    "stop_name": "stop#2766",
+    "bus_lines": [],
+    "deal_score": 14
+  },
+  {
+    "id": "6478069",
+    "price": 57000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 4.0,
+    "lat": 40.53316,
+    "lng": 50.04792,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F10%2F41%2F40%2F457854e7-c431-44ed-b7ec-f5816e45cde7%2F63777_Vq2ajVywEaUJ1pDxQPTOGA.jpg",
+    "price_history": [
+      {
+        "price": 57000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1146,
+    "walk_min": 15.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 56
+  },
+  {
+    "id": "6477888",
+    "price": 83500,
+    "location": "Yeni Ramana q.",
+    "land_area_sot": 4.0,
+    "lat": 40.44498411847977,
+    "lng": 50.01171960270224,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F03%2F26%2F22%2F5e71aa0f-fcac-4832-87bb-1a9d5a047ad8%2F73318_GR35Pt3umDkTBYUq118dNg.jpg",
+    "price_history": [
+      {
+        "price": 83500,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 380,
+    "walk_min": 5.1,
+    "stop_name": "stop#1685",
+    "bus_lines": [],
+    "deal_score": 38
+  },
+  {
+    "id": "6392866",
+    "price": 108000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.47191039450366,
+    "lng": 50.12860732788084,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F20%2F17%2F37%2F45%2F18b5aa9d-a374-475b-8481-da289bd16476%2F81319_bb09h-jhnzg5dSIKbu2ntA.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1304,
+    "walk_min": 17.4,
+    "stop_name": "stop#1642",
+    "bus_lines": [],
+    "deal_score": 17
+  },
+  {
+    "id": "5665211",
+    "price": 115000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 5.5,
+    "lat": 40.45089254029448,
+    "lng": 50.18152582271901,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F11%2F15%2F11%2F07%2F28%2Fd16dec15-8f6a-41f0-b520-ba7717249f39%2F24489_kwGsZ75jo-B6y3Xe71nfMQ.jpg",
+    "price_history": [
+      {
+        "price": 115000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 960,
+    "walk_min": 12.8,
+    "stop_name": "stop#1548",
+    "bus_lines": [],
+    "deal_score": 34
+  },
+  {
+    "id": "6477457",
+    "price": 80000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51174549755839,
+    "lng": 50.12579298292097,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F20%2F19%2F43%2F38%2F9acc47e4-4f8e-4378-b381-e9c840939010%2F72842_VtCgBuUmqGbsA2rWgidMFg.jpg",
+    "price_history": [
+      {
+        "price": 80000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 300,
+    "walk_min": 4.0,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 53
+  },
+  {
+    "id": "5744961",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.47474431151775,
+    "lng": 50.13815218582538,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F17%2F13%2F30%2F22%2Fbe99aa23-3016-4a76-a232-e593ce7d8629%2F32601_L7LJjrEaREFvhBzRJOKwjg.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1959,
+    "walk_min": 26.1,
+    "stop_name": "stop#2790",
+    "bus_lines": [],
+    "deal_score": 18
+  },
+  {
+    "id": "6395363",
+    "price": 89000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.44536001994396,
+    "lng": 50.18114952099047,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F21%2F17%2F06%2F48%2F854927b7-6ee8-42a7-95a8-5381d14c06d8%2F87133_z5uBN_1YfPQtzj_fTHG2aA.jpg",
+    "price_history": [
+      {
+        "price": 89000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 386,
+    "walk_min": 5.1,
+    "stop_name": "stop#2344",
+    "bus_lines": [],
+    "deal_score": 32
+  },
+  {
+    "id": "6476971",
+    "price": 60000,
+    "location": "Savalan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.52505832302464,
+    "lng": 49.96728620116425,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F20%2F16%2F41%2F48%2Fd005583e-7a6f-404e-8197-8e0930440308%2F63798_qmS69_RYwmAAkIiAwnEq5Q.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1210,
+    "walk_min": 16.1,
+    "stop_name": "stop#1882",
+    "bus_lines": [],
+    "deal_score": 70
+  },
+  {
+    "id": "6419546",
+    "price": 85000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.4878617056925,
+    "lng": 50.21126156616209,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F30%2F23%2F04%2F56%2Fa9530cd6-e086-46db-a475-e5bfef5217a6%2F21307_dhJVwVUd2RqOZmkmIjNIRg.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 708,
+    "walk_min": 9.4,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 33
+  },
+  {
+    "id": "6451189",
+    "price": 55000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.5645988266638,
+    "lng": 49.93321272973633,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F11%2F10%2F02%2F19%2F8186c6e7-4e56-4d9b-8ae8-e12bc3fb45c5%2F59919_SyGQqXUrEkiqQH3_C5jzHw.jpg",
+    "price_history": [
+      {
+        "price": 55000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 11260,
+    "walk_min": 150.1,
+    "stop_name": "stop#1560",
+    "bus_lines": [],
+    "deal_score": 59
+  },
+  {
+    "id": "5166306",
+    "price": 108000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.49785455985344,
+    "lng": 50.22550906115996,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F05%2F01%2F12%2F20%2F41%2F54237eff-2f1b-4847-af46-352e226dadb6%2F43897_-Q4P3xohzGoNtBQd6dffGw.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2109,
+    "walk_min": 28.1,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 35
+  },
+  {
+    "id": "5755690",
+    "price": 112000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.48457596717409,
+    "lng": 50.22433644104004,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F21%2F21%2F55%2F07%2F5f4c22fb-027a-44de-9d71-eadf5b301ffd%2F47018_HNVJJPAZqvjiPl4iRUNIBA.jpg",
+    "price_history": [
+      {
+        "price": 112000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2508,
+    "walk_min": 33.4,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 32
+  },
+  {
+    "id": "6258485",
+    "price": 110000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.50739840363996,
+    "lng": 50.13982216984365,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F02%2F13%2F14%2F26%2Fa392c64c-20c6-4e9a-b0f4-15a234906fdf%2F77747_q0UyqlEZWfLLIMe-wEHR2Q.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 784,
+    "walk_min": 10.4,
+    "stop_name": "stop#1237",
+    "bus_lines": [],
+    "deal_score": 43
+  },
+  {
+    "id": "6035125",
+    "price": 120000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.49784849275434,
+    "lng": 50.22525196838377,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F04%2F10%2F21%2F18%2F47%2F4c87e0b9-057f-4bc1-8c39-2931ca064027%2F77771_cOndfDmIj4lu_b4Uw3juNA.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2116,
+    "walk_min": 28.2,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 30
+  },
+  {
+    "id": "5929669",
+    "price": 112000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F01%2F16%2F17%2F38%2Fa1a0c206-b386-4060-ae4d-dcd5fb0168c6%2F24726_KO_caruFSQEpQ5sqfbBTPw.jpg",
+    "price_history": [
+      {
+        "price": 112000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 17
+  },
+  {
+    "id": "5774996",
+    "price": 85000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F01%2F02%2F11%2F56%2F19%2F38a7561a-efe9-474c-a0aa-a8f0fd779f41%2F48478_YZJSBmM_TbQPOfhEtAp-jQ.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 43
+  },
+  {
+    "id": "6472984",
+    "price": 67500,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.48992244443328,
+    "lng": 50.22217127190505,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F23%2F39%2F13%2F2cb21696-f21b-4cff-8790-be08ec81ae01%2F89044_w9lOvpozyTIJnopnp8U2lA.jpg",
+    "price_history": [
+      {
+        "price": 67500,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1980,
+    "walk_min": 26.4,
+    "stop_name": "stop#557",
+    "bus_lines": [],
+    "deal_score": 46
+  },
+  {
+    "id": "6472013",
+    "price": 26000,
+    "location": "Savalan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.52384187171663,
+    "lng": 49.95019425472148,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F17%2F04%2F50%2Fc3f6b7b0-d39d-4891-ae38-cb572ba46fe6%2F70242_shCZPH6EU_gZBWZzB_qZfg.jpg",
+    "price_history": [
+      {
+        "price": 26000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 523,
+    "walk_min": 7.0,
+    "stop_name": "stop#2026",
+    "bus_lines": [],
+    "deal_score": 80
+  },
+  {
+    "id": "6471547",
+    "price": 62000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.57447367797464,
+    "lng": 49.98911711816407,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F15%2F29%2F57%2F3bacd630-991c-4a8d-8ba8-80e519e4f56b%2F89555_mbnKkbXymcRy_2VE2jDysg.jpg",
+    "price_history": [
+      {
+        "price": 62000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 29268,
+    "walk_min": 390.2,
+    "stop_name": "Bakı Dairəvi Yolu (Nardaran qəsəbəsi)",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 62
+  },
+  {
+    "id": "6204965",
+    "price": 65000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.48936308233118,
+    "lng": 50.20971661376952,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F12%2F10%2F12%2F02%2F9b4a0368-f2bf-4378-96a9-268b302b0745%2F60936_KhnvCeSh-82gCJfGERRudA.jpg",
+    "price_history": [
+      {
+        "price": 65000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 569,
+    "walk_min": 7.6,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 57
+  },
+  {
+    "id": "6435926",
+    "price": 83000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.48857975957979,
+    "lng": 50.20920162963866,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F05%2F15%2F08%2F20%2F1878382a-8adb-4d4d-91b8-ec966f0ee327%2F63784_NBkfHrekENneSmrLaTmV4g.jpg",
+    "price_history": [
+      {
+        "price": 83000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 457,
+    "walk_min": 6.1,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 44
+  },
+  {
+    "id": "6074878",
+    "price": 110000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.49239303570974,
+    "lng": 50.22716427590055,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F04%2F25%2F12%2F23%2F50%2Fe344662d-0a0e-4b56-8e91-811456331c46%2F98998_1f4ghcq9ttOAyLz_bSohaQ.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2295,
+    "walk_min": 30.6,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 22
+  },
+  {
+    "id": "6454931",
+    "price": 72000,
+    "location": "Savalan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.52039772280639,
+    "lng": 49.94768599099932,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F12%2F14%2F26%2F13%2F070f0fc6-6a7a-46c8-ad3c-1907d9a575fd%2F63816_2v2SaIlpU0_P7tqLWwg41w.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 97,
+    "walk_min": 1.3,
+    "stop_name": "stop#2026",
+    "bus_lines": [],
+    "deal_score": 71
+  },
+  {
+    "id": "6470120",
+    "price": 105000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.5106073936155,
+    "lng": 50.12259917968748,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F03%2F16%2F53%2F45b812fc-20c3-451a-a718-2b552c88b57a%2F70710_UoPpoWe1udZvzfqQZ7tmtQ.jpg",
+    "price_history": [
+      {
+        "price": 105000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 339,
+    "walk_min": 4.5,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 37
+  },
+  {
+    "id": "6468817",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.47857,
+    "lng": 50.150065,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F15%2F57%2F17%2Faf269921-398f-43d2-9a47-8def09764c41%2F63760_sIiT0BznLcy17G1oTXpHdw.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1647,
+    "walk_min": 22.0,
+    "stop_name": "stop#324",
+    "bus_lines": [],
+    "deal_score": 33
+  },
+  {
+    "id": "6468169",
+    "price": 112000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F13%2F32%2F23%2Fdc9b8400-1fbc-4402-ba0e-3b7a00100c2c%2F43225_P438GHkBRkuz3I0w1cbRzg.jpg",
+    "price_history": [
+      {
+        "price": 112000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 16
+  },
+  {
+    "id": "6430054",
+    "price": 108000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F03%2F14%2F37%2F44%2F225f58bb-dde7-4f4f-b6ed-a81cf4e751a4%2F72348_NhwITwgti-KEg4idcRyN4g.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 22
+  },
+  {
+    "id": "6273755",
+    "price": 33000,
+    "location": "Maştağa q.",
+    "land_area_sot": 5.6,
+    "lat": 40.53558824390863,
+    "lng": 50.02252581774087,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F08%2F08%2F40%2F55%2F85b7e519-64be-40e0-aa2c-5edfb0373bc4%2F77726_vvgq2cNVbD5cvANOhMzFlg.jpg",
+    "price_history": [
+      {
+        "price": 33000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1509,
+    "walk_min": 20.1,
+    "stop_name": "128 nömrəli tam orta mәktәb",
+    "bus_lines": [
+      "107",
+      "M8"
+    ],
+    "deal_score": 78
+  },
+  {
+    "id": "6467266",
+    "price": 51000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 6.0,
+    "lat": 40.52213456473892,
+    "lng": 50.0373914355468,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F08%2F32%2F01%2F814d61bb-1cca-4b48-afae-59557ea8114f%2F70691_hTo7krv8iUSal-8CCM5ayw.jpg",
+    "price_history": [
+      {
+        "price": 51000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 229,
+    "walk_min": 3.1,
+    "stop_name": "Abşeron küç. 441",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 81
+  },
+  {
+    "id": "5305010",
+    "price": 100000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F06%2F25%2F12%2F49%2F38%2F82d22cea-97e1-408a-94c8-9548eba87041%2F4513_SdFmiiX51JZHxZnCDO0xMg.jpg",
+    "price_history": [
+      {
+        "price": 100000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 26
+  },
+  {
+    "id": "6466163",
+    "price": 110000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.50477298464402,
+    "lng": 50.15532753601467,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F16%2F16%2F50%2F19%2F68f29e61-e79b-4417-bb41-bcc2b42e9b8a%2F63766_ayAdy1WYRJhs52eyVzmXdw.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 730,
+    "walk_min": 9.7,
+    "stop_name": "stop#2765",
+    "bus_lines": [],
+    "deal_score": 17
+  },
+  {
+    "id": "6374511",
+    "price": 115000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.4814492138876,
+    "lng": 50.14592265431956,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F14%2F00%2F48%2F32%2F000329d7-2772-4a3a-93e4-2641aea9517e%2F44093_pf2s_TewxBtlM8zHCMsp8w.jpg",
+    "price_history": [
+      {
+        "price": 115000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1084,
+    "walk_min": 14.4,
+    "stop_name": "stop#2484",
+    "bus_lines": [],
+    "deal_score": 12
+  },
+  {
+    "id": "6415462",
+    "price": 120000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.2,
+    "lat": 40.5150921901743,
+    "lng": 50.09866664865718,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F29%2F11%2F12%2F40%2F5269ce31-4f84-45a7-960b-327e8869143a%2F45878_UIEjUnpb0aXIfKmK4YvR-A.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 368,
+    "walk_min": 4.9,
+    "stop_name": "Buzovna Elektrik Yarımstansiyası",
+    "bus_lines": [
+      "107",
+      "150"
+    ],
+    "deal_score": 34
+  },
+  {
+    "id": "6347209",
+    "price": 70000,
+    "location": "Maştağa q.",
+    "land_area_sot": 5.1,
+    "lat": 40.52968394339884,
+    "lng": 50.01967292500922,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F04%2F13%2F38%2F06%2Fa239b76c-a447-452c-9fc5-ec18ce1aa36b%2F64514_Wy5qDZiQrwxEJUThV3AMNQ.jpg",
+    "price_history": [
+      {
+        "price": 70000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 599,
+    "walk_min": 8.0,
+    "stop_name": "Ə.Əhmədov küç. 182",
+    "bus_lines": [
+      "107",
+      "M8"
+    ],
+    "deal_score": 65
+  },
+  {
+    "id": "6328591",
+    "price": 105000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.48727420134311,
+    "lng": 50.21177655029295,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F28%2F16%2F40%2F40%2Faa70c2eb-6076-40ae-a793-df56a44fbc46%2F64425_HGgkDLhy44ijFa6Zt9m5MA.jpg",
+    "price_history": [
+      {
+        "price": 105000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 756,
+    "walk_min": 10.1,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 22
+  },
+  {
+    "id": "6462407",
+    "price": 75000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 6.0,
+    "lat": 40.54483756767738,
+    "lng": 50.0430611647291,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F14%2F14%2F47%2F96ac9c75-1945-4bd0-b4b1-6aa71515be09%2F63757_zcij4fyyGbFZtXYjNORk9A.jpg",
+    "price_history": [
+      {
+        "price": 75000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2627,
+    "walk_min": 35.0,
+    "stop_name": "Respublika Klinik Xəstəxanasının Terpevtik korpusu (Azərbaycan qadını küç.)",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 55
+  },
+  {
+    "id": "6461467",
+    "price": 75000,
+    "location": "Zabrat q.",
+    "land_area_sot": 6.0,
+    "lat": 40.49337875571386,
+    "lng": 49.93498188348715,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F10%2F27%2F00%2F3584fe4d-2098-45e3-bc40-c4a292254edb%2F70714_bcKXzJM-vSmFVxzV9T8mhQ.jpg",
+    "price_history": [
+      {
+        "price": 75000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1127,
+    "walk_min": 15.0,
+    "stop_name": "stop#1688",
+    "bus_lines": [],
+    "deal_score": 60
+  },
+  {
+    "id": "6461461",
+    "price": 78000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 6.0,
+    "lat": 40.54881430583274,
+    "lng": 50.03058220092773,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F10%2F22%2F30%2Feddc2519-c148-4aac-ac3e-dc8b7fef28a6%2F68828_Q7errI9inGVhxzkVVDHOZw.jpg",
+    "price_history": [
+      {
+        "price": 78000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1211,
+    "walk_min": 16.1,
+    "stop_name": "Azərbaycan qadını küç. 112",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 60
+  },
+  {
+    "id": "6379110",
+    "price": 108000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.57541910119225,
+    "lng": 49.96070199401711,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F15%2F17%2F04%2F32%2F92cc6a12-71b8-483d-a827-8e6d004e4d96%2F12563_kA3O11eU7dF4YHPzM80Uig.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 3130,
+    "walk_min": 41.8,
+    "stop_name": "Pirşağı-Bilgəh yolu Ləhiş bağları",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 24
+  },
+  {
+    "id": "6400916",
+    "price": 82000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.50982356322342,
+    "lng": 50.12510518291698,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F23%2F23%2F31%2F12%2F83053a53-3a32-438d-8754-089bc00dbdbf%2F68144_Bn1oCWyKrEEVHnrpvwpFgw.jpg",
+    "price_history": [
+      {
+        "price": 82000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 3,
+    "walk_min": 0.0,
+    "stop_name": "stop#878",
+    "bus_lines": [],
+    "deal_score": 53
+  },
+  {
+    "id": "6030334",
+    "price": 72000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.56246725646174,
+    "lng": 49.97856328189948,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F04%2F09%2F13%2F29%2F45%2Fc06c1666-185f-4e10-841e-eabecfd02654%2F44010_hVGDVu0rDlJpgPeso3ZukQ.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 3375,
+    "walk_min": 45.0,
+    "stop_name": "295 nömrəli tam orta məktəb",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 59
+  },
+  {
+    "id": "6275077",
+    "price": 35000,
+    "location": "Maştağa q.",
+    "land_area_sot": 5.6,
+    "lat": 40.53971817076284,
+    "lng": 50.02557379843903,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F08%2F13%2F07%2F54%2F1e3a2d29-e157-4c89-8c1f-38561b1b8bbd%2F22445_5ooLJZlVF668cbwq9YX0Wg.jpg",
+    "price_history": [
+      {
+        "price": 35000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1935,
+    "walk_min": 25.8,
+    "stop_name": "İ.İsmayılov küç. 92A",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 73
+  },
+  {
+    "id": "6458431",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.3,
+    "lat": 40.49294945044927,
+    "lng": 50.16174476314903,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F14%2F07%2F01%2F42%2Fe985d467-ea86-4177-9251-de96e2c71c6d%2F63766_WcVsAhwTco-TFisiC9bTkg.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 982,
+    "walk_min": 13.1,
+    "stop_name": "stop#291",
+    "bus_lines": [],
+    "deal_score": 14
+  },
+  {
+    "id": "6207587",
+    "price": 59000,
+    "location": "Savalan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.515184,
+    "lng": 49.969873,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F13%2F03%2F53%2F21%2F51712dd5-0509-47ee-b7ea-36e89fc908d1%2F75566_NdNVd2PAfKo2W8lurM_hgw.jpg",
+    "price_history": [
+      {
+        "price": 59000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 798,
+    "walk_min": 10.6,
+    "stop_name": "stop#1882",
+    "bus_lines": [],
+    "deal_score": 74
+  },
+  {
+    "id": "6077197",
+    "price": 116000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.46649141682179,
+    "lng": 50.14453493301309,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F04%2F26%2F12%2F11%2F31%2F537f65ce-4fb1-48c9-baac-a151eede8bd1%2F23265_34e3rJxlJwOFJU5EcP7PJg.jpg",
+    "price_history": [
+      {
+        "price": 116000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2238,
+    "walk_min": 29.8,
+    "stop_name": "stop#2368",
+    "bus_lines": [],
+    "deal_score": 4
+  },
+  {
+    "id": "6290348",
+    "price": 108000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.4782504406499,
+    "lng": 50.12909835668762,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F14%2F13%2F09%2F52%2Fe8376490-6bda-4586-bcb7-61a0894aca87%2F55033_WmF79-T-3evmvPIqVVXmFg.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1279,
+    "walk_min": 17.1,
+    "stop_name": "stop#312",
+    "bus_lines": [],
+    "deal_score": 16
+  },
+  {
+    "id": "6289476",
+    "price": 40000,
+    "location": "Zabrat q.",
+    "land_area_sot": 4.0,
+    "lat": 40.49161672170789,
+    "lng": 49.94490564714745,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F14%2F00%2F39%2F28%2F07dfd532-eb49-4625-9072-f9e66a5a7831%2F80974_uA8DkFWpe1br_UwsrM7N-A.jpg",
+    "price_history": [
+      {
+        "price": 40000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 9,
+    "walk_min": 0.1,
+    "stop_name": "stop#1688",
+    "bus_lines": [],
+    "deal_score": 77
+  },
+  {
+    "id": "6457620",
+    "price": 100000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.575821,
+    "lng": 49.989346,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F13%2F16%2F58%2F43%2Fb42c824f-81c8-4960-8f13-04b5bb585253%2F59599_uQdtfZBCQGprLntySsbthg.jpg",
+    "price_history": [
+      {
+        "price": 100000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 29071,
+    "walk_min": 387.6,
+    "stop_name": "Bakı Dairəvi Yolu (Nardaran qəsəbəsi)",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 31
+  },
+  {
+    "id": "6457621",
+    "price": 92000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.48636029546621,
+    "lng": 50.21117573547362,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F13%2F17%2F07%2F08%2F8bc63715-17cb-4bf8-9b5b-907394276226%2F63779_o9pVAdljZmNKcjAqANpMSQ.jpg",
+    "price_history": [
+      {
+        "price": 92000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 894,
+    "walk_min": 11.9,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 28
+  },
+  {
+    "id": "5774003",
+    "price": 81000,
+    "location": "Savalan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.48042711262735,
+    "lng": 49.95138650135586,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F31%2F19%2F48%2F25%2F0aa96f87-656d-4ebd-a8b5-41b43d28c3df%2F80762_nmplvZsfTKe4wUfXk_SV-w.jpg",
+    "price_history": [
+      {
+        "price": 81000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 164,
+    "walk_min": 2.2,
+    "stop_name": "75 nömrəli tam orta mәktәb",
+    "bus_lines": [
+      "107",
+      "172",
+      "186",
+      "189",
+      "M8"
+    ],
+    "deal_score": 74
+  },
+  {
+    "id": "6456812",
+    "price": 120000,
+    "location": "Savalan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.51678036681135,
+    "lng": 49.96617592035596,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F13%2F12%2F19%2F58%2Fb8dac8fd-c389-4abb-9b3b-81dc76e6d1df%2F60037_38krYzue0QE2sCV0NAGOLA.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 329,
+    "walk_min": 4.4,
+    "stop_name": "stop#1882",
+    "bus_lines": [],
+    "deal_score": 41
+  },
+  {
+    "id": "6456793",
+    "price": 55000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.57138369889577,
+    "lng": 49.95705220346069,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F13%2F12%2F00%2F51%2F964f4f06-7acc-4b4e-a5e2-34f808efd8cc%2F63776_Q7kyXCIML2nxfKGoV3xRoA.jpg",
+    "price_history": [
+      {
+        "price": 55000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 25725,
+    "walk_min": 343.0,
+    "stop_name": "Pirşağı-Bilgəh yolu Ləhiş bağları",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 61
+  },
+  {
+    "id": "5421449",
+    "price": 75000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F08%2F10%2F19%2F36%2F32%2F29f155fb-8faf-4bcd-8288-45557ba87969%2F66008_-f1hpkebL9FYqnHCOa3oWQ.jpg",
+    "price_history": [
+      {
+        "price": 75000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 49
+  },
+  {
+    "id": "5295442",
+    "price": 54000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.56408127746455,
+    "lng": 49.92354057952238,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F06%2F21%2F11%2F07%2F37%2F0317480c-926e-4516-aa1c-70718181caef%2F4513_SdFmiiX51JZHxZnCDO0xMg.jpg",
+    "price_history": [
+      {
+        "price": 54000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 7333,
+    "walk_min": 97.8,
+    "stop_name": "59 saylı poçt şöbəsi",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 52
+  },
+  {
+    "id": "6456224",
+    "price": 83000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 5.0,
+    "lat": 40.53813657333186,
+    "lng": 50.05922468786868,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F12%2F21%2F32%2F28%2Fb3c1812e-77f4-486c-824e-8f414a778b74%2F60102_7LuKCviX7wyo8n_5wgv8vg.jpg",
+    "price_history": [
+      {
+        "price": 83000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 619,
+    "walk_min": 8.3,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 50
+  },
+  {
+    "id": "5991567",
+    "price": 50000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.5551553775409,
+    "lng": 49.98594395576008,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F25%2F23%2F17%2F45%2F48d82c0a-c220-4d80-b3af-ee49f074941b%2F77804_nHqRaL52WCFu5WTTX35j4A.jpg",
+    "price_history": [
+      {
+        "price": 50000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1700,
+    "walk_min": 22.7,
+    "stop_name": "M.İbrahimov küç.",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 67
+  },
+  {
+    "id": "5527643",
+    "price": 39000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.3,
+    "lat": 40.55914059087806,
+    "lng": 49.97073455997283,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F09%2F21%2F19%2F03%2F04%2F7c053223-2cc9-431a-b663-4fa4072561cc%2F4513_SdFmiiX51JZHxZnCDO0xMg.jpg",
+    "price_history": [
+      {
+        "price": 39000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2719,
+    "walk_min": 36.3,
+    "stop_name": "Çənlibel küç. 378",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 69
+  },
+  {
+    "id": "6190873",
+    "price": 93000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.57370873558108,
+    "lng": 50.00237080697632,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F06%2F19%2F25%2F41%2Fef52a4fc-fb16-4408-8aa2-d222887f2213%2F75556_7Jl1IHkmmkxaDkjq12G6zg.jpg",
+    "price_history": [
+      {
+        "price": 93000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2195,
+    "walk_min": 29.3,
+    "stop_name": "Rəhimə Xanım Məscidi",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 44
+  },
+  {
+    "id": "6116994",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.50244893330262,
+    "lng": 50.14511802956093,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F12%2F18%2F12%2F19%2Fbcc6b1e8-2d59-4f89-a561-ab6b45d98873%2F8270_8lGewN3heVpZRSYBZy-kpQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1302,
+    "walk_min": 17.4,
+    "stop_name": "stop#1237",
+    "bus_lines": [],
+    "deal_score": 8
+  },
+  {
+    "id": "6453391",
+    "price": 39000,
+    "location": "Yeni Ramana q.",
+    "land_area_sot": 4.0,
+    "lat": 40.46081830951627,
+    "lng": 50.02155839267426,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F11%2F18%2F51%2F19%2F75eb4e9d-38f8-4132-8243-4a4526090198%2F67939_BCayixXc2Ml9dSmdu5V1KQ.jpg",
+    "price_history": [
+      {
+        "price": 39000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 976,
+    "walk_min": 13.0,
+    "stop_name": "stop#2404",
+    "bus_lines": [],
+    "deal_score": 73
+  },
+  {
+    "id": "6453374",
+    "price": 66000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 4.4,
+    "lat": 40.53316,
+    "lng": 50.04792,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F11%2F18%2F50%2F17%2F97cc7995-dd85-4bfd-a639-79ae822e046d%2F59599_GNoiiGHUeU6SSk0GLvAiSw.jpg",
+    "price_history": [
+      {
+        "price": 66000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1146,
+    "walk_min": 15.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 54
+  },
+  {
+    "id": "6451720",
+    "price": 54000,
+    "location": "Zabrat q.",
+    "land_area_sot": 6.0,
+    "lat": 40.48937768185976,
+    "lng": 49.95823759474435,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F11%2F12%2F23%2F06%2Fc9de8b32-43ae-449f-a467-b4aca82ba983%2F63818_BVglsjgMqGLS8Gz3AJXIfw.jpg",
+    "price_history": [
+      {
+        "price": 54000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 317,
+    "walk_min": 4.2,
+    "stop_name": "BDYP 7 saylı cərimə meydançası",
+    "bus_lines": [
+      "107",
+      "172",
+      "186",
+      "189",
+      "M8"
+    ],
+    "deal_score": 88
+  },
+  {
+    "id": "6450407",
+    "price": 95000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.3,
+    "lat": 40.54318169074834,
+    "lng": 50.0330119989149,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F10%2F18%2F32%2F09%2Fb3ed3323-7481-4401-9382-745fee663ab2%2F63757_-9NmO_wdjOpYS1YbsStolQ.jpg",
+    "price_history": [
+      {
+        "price": 95000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1563,
+    "walk_min": 20.8,
+    "stop_name": "İ.İsmayılov küç. - Cavadxan küç. kəs.",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 43
+  },
+  {
+    "id": "6450245",
+    "price": 100000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.51531033094089,
+    "lng": 50.14453500506038,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F10%2F17%2F58%2F39%2F40654432-209b-4f61-8705-768bbe901313%2F32941_yN-qg7_wpjJJpzIrUEDRzQ.jpg",
+    "price_history": [
+      {
+        "price": 100000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 780,
+    "walk_min": 10.4,
+    "stop_name": "stop#1594",
+    "bus_lines": [],
+    "deal_score": 23
+  },
+  {
+    "id": "6365764",
+    "price": 95000,
+    "location": "Şağan q.",
+    "land_area_sot": 5.3,
+    "lat": 40.50276477830457,
+    "lng": 50.13537065431219,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F11%2F11%2F03%2F32%2Fa802f954-ec70-4e9a-ba1e-c8dd274bfba1%2F16453_YaRBQskSejy-mWEump4r3Q.jpg",
+    "price_history": [
+      {
+        "price": 95000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 866,
+    "walk_min": 11.5,
+    "stop_name": "stop#1598",
+    "bus_lines": [],
+    "deal_score": 45
+  },
+  {
+    "id": "6449957",
+    "price": 38500,
+    "location": "Maştağa q.",
+    "land_area_sot": 4.5,
+    "lat": 40.52875905245791,
+    "lng": 50.00732941271973,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F10%2F16%2F56%2F26%2Fd0b56e18-a03c-4537-aa39-8d19a5f2771e%2F63777_2_lD0fw91XRmfo1L5NzBAQ.jpg",
+    "price_history": [
+      {
+        "price": 38500,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 378,
+    "walk_min": 5.0,
+    "stop_name": "7 nömrəli Birləşmiş Şəhər Xəstəxanası",
+    "bus_lines": [
+      "107",
+      "186",
+      "M8"
+    ],
+    "deal_score": 84
+  },
+  {
+    "id": "6448587",
+    "price": 120000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.48572055424684,
+    "lng": 50.18134957122801,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F10%2F12%2F00%2F39%2F1e3bd80a-4145-45a1-becb-1b1be253be55%2F60488_mD7kNXkWVYLopPGG-xr0pQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 237,
+    "walk_min": 3.2,
+    "stop_name": "stop#563",
+    "bus_lines": [],
+    "deal_score": 29
+  },
+  {
+    "id": "6415824",
+    "price": 120000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F29%2F12%2F45%2F04%2Fcc7dc4f9-3773-44d5-8468-d421791f5ffe%2F68111_EwwREZCnx07is4y09Y0Vzw.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 13
+  },
+  {
+    "id": "5917720",
+    "price": 51000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.51085954518209,
+    "lng": 50.08982464802791,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F02%2F25%2F10%2F40%2F42%2F4645764c-4501-40bb-a595-718c80667eb5%2F90300_OwyNEZZfBJXqvwDp4C7ZUA.jpg",
+    "price_history": [
+      {
+        "price": 51000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1502,
+    "walk_min": 20.0,
+    "stop_name": "Buzovna Elektrik Yarımstansiyası",
+    "bus_lines": [
+      "107",
+      "150"
+    ],
+    "deal_score": 61
+  },
+  {
+    "id": "6445136",
+    "price": 72000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 6.0,
+    "lat": 40.53750772355755,
+    "lng": 50.05270271394967,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F22%2F59%2F14%2F0dd340e8-4bc0-453a-bb26-252bbcb35938%2F66484_Hnsch7gAYNq6yt8YDrmPCw.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1210,
+    "walk_min": 16.2,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 65
+  },
+  {
+    "id": "6445049",
+    "price": 60000,
+    "location": "Savalan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.525989019288,
+    "lng": 49.96748233972269,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F21%2F35%2F17%2F55bfed17-b7a4-4bb7-86f8-c140fc539b0f%2F72291_CIlQrSpv3c9OkeW-5ntvFQ.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1357,
+    "walk_min": 18.1,
+    "stop_name": "stop#1882",
+    "bus_lines": [],
+    "deal_score": 67
+  },
+  {
+    "id": "6424649",
+    "price": 100000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51154067005713,
+    "lng": 50.12095715914155,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F01%2F17%2F16%2F35%2F1af09cce-a6cb-4541-aef1-782023783355%2F63800_nLGHpSUQ0UgintBTUbPW3Q.jpg",
+    "price_history": [
+      {
+        "price": 100000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 547,
+    "walk_min": 7.3,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 39
+  },
+  {
+    "id": "6442787",
+    "price": 72000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.58004622403308,
+    "lng": 49.97796744740626,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F11%2F43%2F13%2Fc80cdd53-8450-45c4-aac0-03c92474132e%2F63813_DwvLn8JyuztVweRszLs46g.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 27196,
+    "walk_min": 362.6,
+    "stop_name": "Pirşağı-Bilgəh yolu Ləhiş bağları",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 58
+  },
+  {
+    "id": "6442513",
+    "price": 80000,
+    "location": "Maştağa q.",
+    "land_area_sot": 6.0,
+    "lat": 40.531499,
+    "lng": 50.004497,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F10%2F47%2F27%2F7d19dfb2-4efc-4a51-849b-d2ca03e7a701%2F63768_lqCDEwFdRUXqEO00GCaVIQ.jpg",
+    "price_history": [
+      {
+        "price": 80000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 63,
+    "walk_min": 0.8,
+    "stop_name": "Maştağa parkı",
+    "bus_lines": [
+      "172",
+      "177",
+      "186",
+      "M8"
+    ],
+    "deal_score": 74
+  },
+  {
+    "id": "6442384",
+    "price": 120000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.48903669896254,
+    "lng": 50.20954495239256,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F09%2F29%2F45%2Fbfefe5c5-9405-4e44-a8e9-723cc57d25f3%2F63804_yCkquETKbMFQcXyRCNpTdQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 532,
+    "walk_min": 7.1,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 12
+  },
+  {
+    "id": "4569555",
+    "price": 100000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51532570041632,
+    "lng": 50.14228980538096,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2024%2F08%2F23%2F14%2F20%2F56%2F9fcfb913-f93b-465a-bf6f-673cdc9b8427%2F26954_DWgEQQqRrb1W5yDQKFgsVA.jpg",
+    "price_history": [
+      {
+        "price": 100000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 760,
+    "walk_min": 10.1,
+    "stop_name": "stop#1594",
+    "bus_lines": [],
+    "deal_score": 37
+  },
+  {
+    "id": "6442133",
+    "price": 57000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51998183678437,
+    "lng": 50.06630419170364,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F07%2F21%2F30%2F31%2F0c670780-b8cb-4950-b7d0-e0645855cb15%2F63766_isBNNt1vzHOb52o9GnUByQ.jpg",
+    "price_history": [
+      {
+        "price": 57000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 614,
+    "walk_min": 8.2,
+    "stop_name": "Abşeron küç. 318",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 71
+  },
+  {
+    "id": "6334361",
+    "price": 95000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.47799432944845,
+    "lng": 50.14722643508799,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F30%2F17%2F10%2F00%2F6e4f8da6-6579-45fc-b37a-d88b2c506111%2F37310__qiiNDP9Nk_cZP8WNe4rfQ.jpg",
+    "price_history": [
+      {
+        "price": 95000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1371,
+    "walk_min": 18.3,
+    "stop_name": "stop#2885",
+    "bus_lines": [],
+    "deal_score": 29
+  },
+  {
+    "id": "6244363",
+    "price": 120000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.56580195045308,
+    "lng": 49.94120593000632,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F26%2F22%2F26%2F32%2Fa3df8e3a-e32d-4fcb-a48b-2b870f78fa7e%2F90610_IucEQE_7Skx6de_4qw-fCQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 10998,
+    "walk_min": 146.6,
+    "stop_name": "stop#1560",
+    "bus_lines": [],
+    "deal_score": 15
+  },
+  {
+    "id": "6432366",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.47857,
+    "lng": 50.150065,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F11%2F58%2F59%2Faf04f87a-d4d1-48f9-be2c-67d6565c9df4%2F72317_vgkIenynRdtUBrxKAzrXyQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1647,
+    "walk_min": 22.0,
+    "stop_name": "stop#324",
+    "bus_lines": [],
+    "deal_score": 4
+  },
+  {
+    "id": "6437682",
+    "price": 110000,
+    "location": "Şağan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.50071218778813,
+    "lng": 50.11524105188811,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F06%2F12%2F10%2F08%2F040914ab-8126-4443-b5f3-e4007a9c58eb%2F63806_rS48C6sxmvcjOd37g4i-Jg.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 744,
+    "walk_min": 9.9,
+    "stop_name": "Zuğulba yolu 50",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 33
+  },
+  {
+    "id": "6437610",
+    "price": 84000,
+    "location": "Maştağa q.",
+    "land_area_sot": 6.0,
+    "lat": 40.5245918341636,
+    "lng": 49.99278111102295,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F06%2F11%2F49%2F13%2F65069863-1b83-4e3a-addc-0071bbbe2d2a%2F66499_ruc1nDrG7WQZVfjt7kCGgA.jpg",
+    "price_history": [
+      {
+        "price": 84000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 175,
+    "walk_min": 2.3,
+    "stop_name": "Maştağa dairәsi",
+    "bus_lines": [
+      "107",
+      "172",
+      "186",
+      "189",
+      "M8"
+    ],
+    "deal_score": 72
+  },
+  {
+    "id": "6417438",
+    "price": 90000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.5740057265681,
+    "lng": 50.00333136542246,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F29%2F21%2F24%2F13%2F965ca229-5694-4fbf-8b3c-3002399f1568%2F68143_QAoBNsvi9FZFzeJqWyRi4g.jpg",
+    "price_history": [
+      {
+        "price": 90000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2195,
+    "walk_min": 29.3,
+    "stop_name": "Rəhimə Xanım Məscidi",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 46
+  },
+  {
+    "id": "5628253",
+    "price": 105000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F10%2F31%2F11%2F35%2F36%2F69f2cf9b-40d0-469c-84e1-b4368103038e%2F37302_ksBAd98Yipnr_0BzNr1yHg.jpg",
+    "price_history": [
+      {
+        "price": 105000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 29
+  },
+  {
+    "id": "6435210",
+    "price": 56000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.51670460803266,
+    "lng": 50.0918974681847,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F05%2F12%2F15%2F57%2F6261527a-f29c-485b-9e7f-ff11b95e1ff8%2F63760_RmXz_TTCCken-lcknrCMFQ.jpg",
+    "price_history": [
+      {
+        "price": 56000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 616,
+    "walk_min": 8.2,
+    "stop_name": "Daş bazarı",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 61
+  },
+  {
+    "id": "6433097",
+    "price": 70000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.48338046448271,
+    "lng": 50.22384023430721,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F14%2F47%2F17%2F01902c5a-bcf6-4787-9ced-8e35b5a11642%2F72303_mDNnOyZ65lv9GaIyFQHdAA.jpg",
+    "price_history": [
+      {
+        "price": 70000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2679,
+    "walk_min": 35.7,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 41
+  },
+  {
+    "id": "6432758",
+    "price": 90000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.4962396473632,
+    "lng": 50.06807024186319,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F13%2F30%2F41%2Fb5ee789f-2089-435e-a9cb-ee199c873c6a%2F63809_jlokl1KEoY1i8neW5MjkJw.jpg",
+    "price_history": [
+      {
+        "price": 90000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 199,
+    "walk_min": 2.7,
+    "stop_name": "stop#2584",
+    "bus_lines": [],
+    "deal_score": 47
+  },
+  {
+    "id": "5912752",
+    "price": 60000,
+    "location": "Savalan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.52706209535225,
+    "lng": 49.96476329460295,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F14%2F25%2F12%2Fc6ac1573-3539-4408-8f9e-e12deaa9325b%2F72314_Y8QmcqxkwHeGAv8GUv5umQ.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1444,
+    "walk_min": 19.3,
+    "stop_name": "stop#1882",
+    "bus_lines": [],
+    "deal_score": 66
+  },
+  {
+    "id": "5517735",
+    "price": 118000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.51015941324648,
+    "lng": 50.13166265516046,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F09%2F17%2F17%2F21%2F42%2F65a51761-ffda-4149-8413-6bb6b4f7b0e2%2F66008_-f1hpkebL9FYqnHCOa3oWQ.jpg",
+    "price_history": [
+      {
+        "price": 118000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 600,
+    "walk_min": 8.0,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 14
+  },
+  {
+    "id": "5965134",
+    "price": 108000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.47412218876667,
+    "lng": 50.13213640395765,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F13%2F23%2F15%2F37%2F39476025-9d98-450f-897e-872b1b38fdd4%2F40084_IKU5e2blSCWWIyTif8y8xQ.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1851,
+    "walk_min": 24.7,
+    "stop_name": "stop#312",
+    "bus_lines": [],
+    "deal_score": 12
+  },
+  {
+    "id": "6432281",
+    "price": 117000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.48144256707204,
+    "lng": 50.14800506347655,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F11%2F41%2F44%2Fa506024b-3845-470b-8657-f1227ba0de04%2F70018_5_N6I7rI397rqehtDa6bfg.jpg",
+    "price_history": [
+      {
+        "price": 117000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1352,
+    "walk_min": 18.0,
+    "stop_name": "stop#288",
+    "bus_lines": [],
+    "deal_score": 19
+  },
+  {
+    "id": "6247011",
+    "price": 49500,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51599392565526,
+    "lng": 50.06080255128145,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F02%2F12%2F27%2F15%2F8bd22e1d-86a7-48ed-87b3-cb1f50d4aead%2F75556_2NbbLaSiHqyjnkTuJp-kyg.jpg",
+    "price_history": [
+      {
+        "price": 49500,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1185,
+    "walk_min": 15.8,
+    "stop_name": "Abşeron küç. 359",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 73
+  },
+  {
+    "id": "5838037",
+    "price": 120000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.48798198714701,
+    "lng": 50.20887499342042,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F02%2F04%2F20%2F57%2F35%2F17a894d0-e9b0-4c1a-946f-f19799d34deb%2F41580_S-qF-WVhJC-RFzSmW2FxvQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 428,
+    "walk_min": 5.7,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 27
+  },
+  {
+    "id": "5890619",
+    "price": 75000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.56059189965632,
+    "lng": 49.93406774987977,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F02%2F15%2F15%2F20%2F41%2F982adf0f-24a7-43ca-ac5a-9a313f1d6aea%2F24718_x33hQi6a1qhL7zzpfNHW7g.jpg",
+    "price_history": [
+      {
+        "price": 75000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 10957,
+    "walk_min": 146.1,
+    "stop_name": "T.Məmmədov küç. 95",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 34
+  },
+  {
+    "id": "6308314",
+    "price": 112000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.5,
+    "lat": 40.48877559112478,
+    "lng": 50.21005993652342,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F21%2F10%2F44%2F09%2F4e8f12ff-9433-4121-b15b-5de9b541785e%2F53214_OX6l4wGbYGwKXWLO8jpsWw.jpg",
+    "price_history": [
+      {
+        "price": 112000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 532,
+    "walk_min": 7.1,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 26
+  },
+  {
+    "id": "6422445",
+    "price": 100000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.48734165527627,
+    "lng": 50.20723557043074,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F22%2F16%2F28%2F456b5a51-30df-489e-8a3d-09ef36eba59e%2F63759_ite_EIdkDxZqo4NP1qAkmg.jpg",
+    "price_history": [
+      {
+        "price": 100000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 258,
+    "walk_min": 3.4,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 40
+  },
+  {
+    "id": "5562928",
+    "price": 118000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.4887207258697,
+    "lng": 50.22338702648199,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F10%2F05%2F16%2F46%2F34%2F2405e93d-02c4-4fd3-abe5-9c828eb56c67%2F89649_IdiJWhN4F5E3SSESYyyqZg.jpg",
+    "price_history": [
+      {
+        "price": 118000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 2039,
+    "walk_min": 27.2,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 18
+  },
+  {
+    "id": "5996799",
+    "price": 90000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 5.6,
+    "lat": 40.53316,
+    "lng": 50.04792,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F27%2F19%2F40%2F23%2Fb73fcef2-112f-4dff-90e6-3a3c9b97595f%2F72599_QKVmL6IJo_sh17qrONS7FA.jpg",
+    "price_history": [
+      {
+        "price": 90000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1146,
+    "walk_min": 15.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 49
+  },
+  {
+    "id": "6304438",
+    "price": 120000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.497,
+    "lng": 50.208,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F19%2F15%2F25%2F48%2Ff8a87bcb-e2d9-448a-9ac5-216a9cff2a55%2F77631_ZajiKM2ZSCCW5sSfRjl7ag.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 476,
+    "walk_min": 6.3,
+    "stop_name": "stop#556",
+    "bus_lines": [],
+    "deal_score": 38
+  },
+  {
+    "id": "5107959",
+    "price": 115000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.4702287,
+    "lng": 50.10033750000002,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F04%2F08%2F12%2F39%2F55%2F43b0b07e-0cd6-4581-99b5-d34bdd6b84f5%2F97099_EJ72UhgXp-49okZGEgL6Ig.jpg",
+    "price_history": [
+      {
+        "price": 115000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1747,
+    "walk_min": 23.3,
+    "stop_name": "Mərdəkan yolu 82",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 23
+  },
+  {
+    "id": "5294134",
+    "price": 88000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.48061428478996,
+    "lng": 50.22608625257458,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F06%2F20%2F16%2F00%2F28%2Fee9c7b4a-b1ca-421f-b20d-77baf521dd7f%2F66008_-f1hpkebL9FYqnHCOa3oWQ.jpg",
+    "price_history": [
+      {
+        "price": 88000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 3048,
+    "walk_min": 40.6,
+    "stop_name": "stop#217",
+    "bus_lines": [],
+    "deal_score": 21
+  },
+  {
+    "id": "6425287",
+    "price": 120000,
+    "location": "Buzovna q.",
+    "land_area_sot": 6.0,
+    "lat": 40.5178326059778,
+    "lng": 50.10883018637153,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F01%2F20%2F05%2F36%2F167b89a1-e7f7-432d-9c28-edd1d04bfc29%2F63790_jAQK1zDLyi6Xi-e9fti1yg.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 482,
+    "walk_min": 6.4,
+    "stop_name": "İmam Hüseyn Məscidi",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 40
+  },
+  {
+    "id": "6421988",
+    "price": 110000,
+    "location": "Zabrat q.",
+    "land_area_sot": 5.0,
+    "lat": 40.48060610024821,
+    "lng": 49.93641779451487,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F18%2F17%2F58%2Fe90b9d47-e04b-492d-9029-b19460ec14cb%2F68350_r9da6pRfkF6Wx9iY8sCSPg.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 949,
+    "walk_min": 12.7,
+    "stop_name": "stop#1905",
+    "bus_lines": [],
+    "deal_score": 29
+  },
+  {
+    "id": "5751932",
+    "price": 110000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 6.0,
+    "lat": 40.47954929803815,
+    "lng": 50.14568763488768,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F20%2F10%2F44%2F15%2Fb72b1dee-9a9d-4a17-8ea5-89564dadff6d%2F99405_MIg2bzwznJeF354LRxkSmQ.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1186,
+    "walk_min": 15.8,
+    "stop_name": "stop#2484",
+    "bus_lines": [],
+    "deal_score": 40
+  },
+  {
+    "id": "5655808",
+    "price": 84000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.56824848081327,
+    "lng": 50.01066419725036,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F11%2F11%2F17%2F13%2F47%2F72c5131b-baf8-40fd-9362-15be72204dd7%2F95890_eDyapWK8C8VmTVqtoBYFWw.jpg",
+    "price_history": [
+      {
+        "price": 84000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1364,
+    "walk_min": 18.2,
+    "stop_name": "Rəhimə Xanım Məscidi",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 55
+  },
+  {
+    "id": "6420269",
+    "price": 60000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.53698521501764,
+    "lng": 50.08732936164415,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F12%2F14%2F31%2F904aa07c-4ba9-4856-9da2-59e3daaf9961%2F68109_EEtckJT2gkap4u3-G2uTng.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 470,
+    "walk_min": 6.3,
+    "stop_name": "Zuğulba elektrik yarımstansiyası",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 57
+  },
+  {
+    "id": "6419582",
+    "price": 50000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.55974861778439,
+    "lng": 49.95950941358075,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F30%2F23%2F40%2F07%2F21b55d49-3c98-454d-83f5-4ed7701c6cb7%2F64617_wG5kT4KRl1WG1jl-ccwj7w.jpg",
+    "price_history": [
+      {
+        "price": 50000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 3196,
+    "walk_min": 42.6,
+    "stop_name": "Çənlibel küç. 212",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 62
+  },
+  {
+    "id": "6211690",
+    "price": 36000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.49575659956358,
+    "lng": 50.05465712510291,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F14%2F20%2F19%2F05%2Ff6836e47-2a7f-4d6b-ae71-0bc4a75780b0%2F75199_2rlpmhYNaTq8Ga5l_kxCcA.jpg",
+    "price_history": [
+      {
+        "price": 36000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1868,
+    "walk_min": 24.9,
+    "stop_name": "stop#2584",
+    "bus_lines": [],
+    "deal_score": 70
+  },
+  {
+    "id": "6141739",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.50897706596096,
+    "lng": 50.12699800247191,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F19%2F11%2F17%2F54%2Fc42663d4-3887-4737-8af8-877cb43bacb1%2F31343__i4TFeLfcj4YFhrtCHbXjw.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 324,
+    "walk_min": 4.3,
+    "stop_name": "stop#878",
+    "bus_lines": [],
+    "deal_score": 13
+  },
+  {
+    "id": "6418158",
+    "price": 60000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.49972464235091,
+    "lng": 50.1013213212074,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F30%2F13%2F03%2F51%2Fa73939b6-53fa-4d1a-8811-9cc5e198e10b%2F68144_NAPUWECpQO5V6i2QPLZnxQ.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 528,
+    "walk_min": 7.0,
+    "stop_name": "Zuğulba yolu 47",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 56
+  },
+  {
+    "id": "6418017",
+    "price": 72000,
+    "location": "Nardaran q.",
+    "land_area_sot": 6.0,
+    "lat": 40.57423463413626,
+    "lng": 49.98843047265626,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F30%2F12%2F23%2F20%2Fcff55e2c-89ed-4eca-83c3-f8f1de1c94cc%2F71682_l6zipC9lkQ7DmCO86JUfJg.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 27403,
+    "walk_min": 365.4,
+    "stop_name": "Pirşağı-Bilgəh yolu Ləhiş bağları",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 57
+  },
+  {
+    "id": "6414348",
+    "price": 48000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.55617892380597,
+    "lng": 49.98338076715088,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F28%2F17%2F24%2F53%2F855355e0-1f27-4b49-aa51-0736bcb0e70b%2F68095_ylq7xAy916eJyX19fLj3Gg.jpg",
+    "price_history": [
+      {
+        "price": 48000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1818,
+    "walk_min": 24.2,
+    "stop_name": "M.İbrahimov küç.",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 60
+  },
+  {
+    "id": "6247746",
+    "price": 120000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.1,
+    "lat": 40.50488282385075,
+    "lng": 50.16035159872568,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F28%2F13%2F39%2F59%2F43bb098a-9721-47ff-8414-3419b404fe8b%2F45341_AfxJUpH5M7RxiQgfhXAAtQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 845,
+    "walk_min": 11.3,
+    "stop_name": "stop#2766",
+    "bus_lines": [],
+    "deal_score": 12
+  },
+  {
+    "id": "5549214",
+    "price": 110000,
+    "location": "Şüvəlan q.",
+    "land_area_sot": 4.1,
+    "lat": 40.48864923523632,
+    "lng": 50.19030699868897,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F09%2F30%2F11%2F58%2F12%2Fc9264126-c81e-4070-95ad-1139a97a5178%2F92313_wLbwyJGJi75X1LikQGRJwg.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 787,
+    "walk_min": 10.5,
+    "stop_name": "stop#446",
+    "bus_lines": [],
+    "deal_score": 21
+  },
+  {
+    "id": "6252960",
+    "price": 72000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 6.0,
+    "lat": 40.51861217915216,
+    "lng": 50.05603699065053,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F30%2F14%2F09%2F13%2Fbb1d378a-9af7-406c-8f66-c2ca550aac64%2F55361_N9zAXy4AXJDKRuE_SIN4Eg.jpg",
+    "price_history": [
+      {
+        "price": 72000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 728,
+    "walk_min": 9.7,
+    "stop_name": "Abşeron küç. 359",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 67
+  },
+  {
+    "id": "6335340",
+    "price": 105000,
+    "location": "Şağan q.",
+    "land_area_sot": 5.0,
+    "lat": 40.4991507564291,
+    "lng": 50.11748243494866,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F31%2F00%2F18%2F10%2Fe4bd247c-177f-458e-bc6c-2b326a6bc825%2F64463_tfKfd9o5bMne6D9VOFzacw.jpg",
+    "price_history": [
+      {
+        "price": 105000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 854,
+    "walk_min": 11.4,
+    "stop_name": "Zuğulba yolu 42",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 35
+  },
+  {
+    "id": "6415629",
+    "price": 93000,
+    "location": "Maştağa q.",
+    "land_area_sot": 6.0,
+    "lat": 40.52006867703935,
+    "lng": 50.06945025183537,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F29%2F18%2F08%2F44%2F24072db7-1507-4b67-879c-2e9e12b88d3a%2F68108_P5hvEGSily38EJN2W4NiJQ.jpg",
+    "price_history": [
+      {
+        "price": 93000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 398,
+    "walk_min": 5.3,
+    "stop_name": "Abşeron küç. 318",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 55
+  },
+  {
+    "id": "5699581",
+    "price": 26100,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.2,
+    "lat": 40.55080014823062,
+    "lng": 49.98133178715081,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F11%2F29%2F11%2F02%2F13%2F8391458b-84e8-4cf2-8771-d78e0874677b%2F7721_bHPjnXeYp4-p9mLhUUuSnQ.jpg",
+    "price_history": [
+      {
+        "price": 26100,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1050,
+    "walk_min": 14.0,
+    "stop_name": "Çənlibel küç. 374B",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 80
+  },
+  {
+    "id": "6164926",
+    "price": 114000,
+    "location": "Buzovna q.",
+    "land_area_sot": 6.0,
+    "lat": 40.51449839965415,
+    "lng": 50.11085460642085,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F28%2F10%2F28%2F36%2F614f0163-45e0-4256-9528-108727914931%2F91098_2TcmUMf9_RNB_UbtLOoYrw.jpg",
+    "price_history": [
+      {
+        "price": 114000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 440,
+    "walk_min": 5.9,
+    "stop_name": "Cümə Məscidi",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 45
+  },
+  {
+    "id": "6412405",
+    "price": 60000,
+    "location": "Nardaran q.",
+    "land_area_sot": 5.0,
+    "lat": 40.56245267752639,
+    "lng": 49.97017446053876,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F27%2F23%2F18%2F18%2Fa9a9bd8c-0485-41a4-a1b2-bf2b23576dd7%2F68106_OzDdMqj50ZDdqKXi9YDufQ.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 3485,
+    "walk_min": 46.5,
+    "stop_name": "M.İbrahimov küç.",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 56
+  },
+  {
+    "id": "6411955",
+    "price": 56000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.55608193983095,
+    "lng": 49.98320877038697,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F27%2F18%2F43%2F53%2F2475dc01-f6ff-4384-9875-909cddf33ac5%2F87178_BQ-20TNj9Zy_3swAjyI8Sg.jpg",
+    "price_history": [
+      {
+        "price": 56000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1807,
+    "walk_min": 24.1,
+    "stop_name": "Çənlibel küç. 329",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 52
+  },
+  {
+    "id": "6411188",
+    "price": 59000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.0,
+    "lat": 40.5156271652824,
+    "lng": 50.09062506921304,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F27%2F15%2F53%2F46%2F72158299-8a2e-4b7b-9d8f-0ee889379d0b%2F68138_h8MYlOMhZFSrZTneTuGkHw.jpg",
+    "price_history": [
+      {
+        "price": 59000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 890,
+    "walk_min": 11.9,
+    "stop_name": "Daş bazarı",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 56
+  },
+  {
+    "id": "6410678",
+    "price": 118000,
+    "location": "Yeni Ramana q.",
+    "land_area_sot": 5.0,
+    "lat": 40.44433141765894,
+    "lng": 49.98294821166992,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F27%2F13%2F51%2F02%2Fdfc7ba5e-505c-4655-a398-fb0310d85296%2F68135_KS4YBYfLXKRU61pzzLCc_Q.jpg",
+    "price_history": [
+      {
+        "price": 118000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 605,
+    "walk_min": 8.1,
+    "stop_name": "stop#1192",
+    "bus_lines": [],
+    "deal_score": 27
+  },
+  {
+    "id": "6410383",
+    "price": 30000,
+    "location": "Nardaran q.",
+    "land_area_sot": 4.0,
+    "lat": 40.55365193126181,
+    "lng": 49.99441001062011,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F27%2F12%2F48%2F49%2F7110fdac-79dd-4bb6-af5b-9dad161f5a4d%2F87126_7E4SBxx0pFiNejZt3RQ-1w.jpg",
+    "price_history": [
+      {
+        "price": 30000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 331,
+    "walk_min": 4.4,
+    "stop_name": "295 nömrəli tam orta məktəb",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 81
+  },
+  {
+    "id": "6410240",
+    "price": 60000,
+    "location": "Maştağa q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51830583626862,
+    "lng": 50.00211674810242,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F27%2F12%2F19%2F26%2Fe44bcb87-3e39-4b5c-ba94-417ec871a748%2F87159_a_jDNh5U2VSb0jqPqG-sfg.jpg",
+    "price_history": [
+      {
+        "price": 60000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 1104,
+    "walk_min": 14.7,
+    "stop_name": "Q.Məmmədov küç. 93",
+    "bus_lines": [
+      "177"
+    ],
+    "deal_score": 63
+  },
+  {
+    "id": "5651721",
+    "price": 108000,
+    "location": "Mərdəkan q.",
+    "land_area_sot": 4.0,
+    "lat": 40.48975204527913,
+    "lng": 50.13741330941753,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F11%2F10%2F12%2F27%2F17%2Fc4fa3957-ea1d-45cc-8b96-a6b18398345b%2F4534_xdYbU3bIOPQrUyHht7lECA.jpg",
+    "price_history": [
+      {
+        "price": 108000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 335,
+    "walk_min": 4.5,
+    "stop_name": "stop#476",
+    "bus_lines": [],
+    "deal_score": 22
+  },
+  {
+    "id": "6408077",
+    "price": 94000,
+    "location": "Maştağa q.",
+    "land_area_sot": 6.0,
+    "lat": 40.531499,
+    "lng": 50.004497,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F26%2F14%2F41%2F23%2F7623bf07-ef5e-4aeb-a109-15334f72bacd%2F87182_t8HU9ZLuRyQ-52pWh1yI3Q.jpg",
+    "price_history": [
+      {
+        "price": 94000,
+        "date": "2026-09-24"
+      }
+    ],
+    "walk_m": 63,
+    "walk_min": 0.8,
+    "stop_name": "Maştağa parkı",
+    "bus_lines": [
+      "172",
+      "177",
+      "186",
+      "M8"
+    ],
+    "deal_score": 63
+  }
+]
