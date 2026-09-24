@@ -290,6 +290,8 @@ async def main() -> None:
             make_map(json.load(f))
         return
 
+    land_only = "--land-only" in sys.argv
+
     listings_by_id = {}
     if os.path.exists(LISTINGS_FILE):
         with open(LISTINGS_FILE) as f:
@@ -304,6 +306,13 @@ async def main() -> None:
     cards = []
 
     for attempt in range(1, MAX_RETRIES + 1):
+        if land_only:
+            listings = list(listings_by_id.values())
+            with open(LISTINGS_FILE, "w", encoding="utf-8") as f:
+                json.dump(listings, f, ensure_ascii=False, indent=2)
+            make_map(listings)
+            print("Skipping houses (--land-only)")
+            break
         print(f"Attempt {attempt}/{MAX_RETRIES}…")
         async with open_browser(headless=HEADLESS) as browser:
             page = await browser.new_page()
