@@ -17,6 +17,7 @@ from dotenv import load_dotenv
 
 from scraper import (
     SEARCH_URL,
+    LAND_URL,
     build_stops,
     extract_cards,
     fetch_item,
@@ -24,17 +25,20 @@ from scraper import (
     nearest_walk,
     open_browser,
     parse_card_text,
+    parse_land_card_text,
     scroll_load_all,
 )
 from map import make_map
-from score import compute_deal_scores
+from land_map import make_land_map
+from score import compute_deal_scores, compute_land_scores
 
 load_dotenv()
 
 TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 HEADLESS         = os.environ.get("HEADLESS", "false").lower() == "true"
-LISTINGS_FILE = "listings.json"
+LISTINGS_FILE      = "listings.json"
+LAND_LISTINGS_FILE = "land_listings.json"
 
 
 # ── telegram ──────────────────────────────────────────────────────────────────
@@ -213,6 +217,51 @@ async def enrich(page, card: dict, stops: list) -> dict:
     }
 
 
+# ── land enrichment + formatting ─────────────────────────────────────────────
+
+async def enrich_land(page, card: dict, stops: list) -> dict:
+    price, location, land_area_sot = parse_land_card_text(card["text"])
+    item = await fetch_item(page, card["id"])
+    walk = {}
+    if item.get("lat") and item.get("lng"):
+        walk = nearest_walk(float(item["lat"]), float(item["lng"]), stops)
+    return {
+        "id":            card["id"],
+        "price":         price,
+        "location":      location,
+        "land_area_sot": land_area_sot or item.get("land_area_sot"),
+        "lat":           item.get("lat"),
+        "lng":           item.get("lng"),
+        "photo_url":     card.get("photo_url"),
+        "price_history": [{"price": price, "date": date.today().isoformat()}],
+        **walk,
+    }
+
+
+def format_land_message(listing: dict) -> str:
+    price  = f"{listing['price']:,} AZN" if listing.get("price") else "?"
+    sot    = f"{listing['land_area_sot']} sot" if listing.get("land_area_sot") else ""
+    detail = " · ".join(filter(None, [listing.get("location"), sot]))
+    walk   = listing.get("walk_min")
+    bus    = ("Bus " + ", ".join(listing["bus_lines"])) if listing.get("bus_lines") else "no named line nearby"
+    gmaps  = f"https://www.google.com/maps?q={listing['lat']},{listing['lng']}" if listing.get("lat") else ""
+    lines  = [f"🌱 <b>New land plot: {price}</b>", f"📍 {detail}"]
+    pps = round(listing["price"] / listing["land_area_sot"]) if listing.get("price") and listing.get("land_area_sot") else None
+    if pps:
+        lines.append(f"💰 {pps:,} AZN/sot")
+    if walk is not None:
+        lines.append(f"🚶 {walk} min walk · {bus}")
+        if listing.get("stop_name"):
+            lines.append(f"   <i>{listing['stop_name']}</i>")
+    label = _score_label(listing.get("deal_score"))
+    if label:
+        lines.append(label)
+    lines.append(f'🔗 <a href="https://bina.az/items/{listing["id"]}">bina.az</a>')
+    if gmaps:
+        lines.append(f'📌 <a href="{gmaps}">Google Maps</a>')
+    return "\n".join(lines)
+
+
 # ── main ──────────────────────────────────────────────────────────────────────
 
 async def main() -> None:
@@ -347,8 +396,99 @@ async def main() -> None:
     listings = list(listings_by_id.values())
     with open(LISTINGS_FILE, "w", encoding="utf-8") as f:
         json.dump(listings, f, ensure_ascii=False, indent=2)
-
     make_map(listings)
+
+    # ── land plots ────────────────────────────────────────────────────────────
+    print("\n── Land plots ──")
+    land_by_id = {}
+    if os.path.exists(LAND_LISTINGS_FILE):
+        with open(LAND_LISTINGS_FILE) as f:
+            land_by_id = {l["id"]: l for l in json.load(f)}
+    land_seen = set(land_by_id.keys())
+
+    for attempt in range(1, MAX_RETRIES + 1):
+        print(f"Land attempt {attempt}/{MAX_RETRIES}…")
+        async with open_browser(headless=HEADLESS) as browser:
+            page = await browser.new_page()
+            await page.goto(LAND_URL, wait_until="load", timeout=60_000)
+            await scroll_load_all(page)
+            land_cards = await extract_cards(page)
+            print(f"Found {len(land_cards)} land listings")
+
+            if len(land_cards) >= 5:
+                current_land_ids = {c["id"] for c in land_cards}
+                new_land_cards = [c for c in land_cards if c["id"] not in land_seen]
+                print(f"New land: {len(new_land_cards)}")
+
+                # Mark deleted land plots
+                today = date.today().isoformat()
+                for lid, listing in land_by_id.items():
+                    if lid in current_land_ids:
+                        listing.pop("deleted_at", None)
+                    elif not listing.get("deleted_at"):
+                        listing["deleted_at"] = today
+
+                # Backfill photo_url + check price changes
+                land_price_changed = []
+                for card in land_cards:
+                    if card["id"] not in land_seen:
+                        continue
+                    existing = land_by_id.get(card["id"])
+                    if not existing:
+                        continue
+                    if card.get("photo_url") and not existing.get("photo_url"):
+                        existing["photo_url"] = card["photo_url"]
+                    card_price, *_ = parse_land_card_text(card["text"])
+                    if card_price and card_price != existing.get("price"):
+                        old_price = existing["price"]
+                        existing["price"] = card_price
+                        history = existing.get("price_history") or [{"price": old_price, "date": "unknown"}]
+                        history.append({"price": card_price, "date": today})
+                        existing["price_history"] = history
+                        land_price_changed.append((existing, old_price))
+
+                if new_land_cards or land_price_changed:
+                    new_land_enriched = []
+                    for i, card in enumerate(new_land_cards):
+                        print(f"  land [{i+1}/{len(new_land_cards)}] {card['id']}")
+                        listing = await enrich_land(page, card, stops)
+                        land_by_id[listing["id"]] = listing
+                        new_land_enriched.append(listing)
+
+                    # Score active land plots
+                    active_land = [l for l in land_by_id.values() if not l.get("deleted_at")]
+                    compute_land_scores(active_land)
+                    land_scores_by_id = {l["id"]: l["deal_score"] for l in active_land}
+                    for l in land_by_id.values():
+                        l["deal_score"] = land_scores_by_id.get(l["id"])
+
+                    for listing, old_price in land_price_changed:
+                        diff = listing["price"] - old_price
+                        arrow = "📈" if diff > 0 else "📉"
+                        send_telegram(f"{arrow} <b>Land price change: {old_price:,} → {listing['price']:,} AZN</b>\n📍 {listing.get('location')} · {listing.get('land_area_sot')} sot\n{_score_label(listing.get('deal_score'))}\n🔗 <a href=\"https://bina.az/items/{listing['id']}\">bina.az</a>")
+
+                    for listing in new_land_enriched:
+                        msg = format_land_message(listing)
+                        print(msg)
+                        send_telegram(msg)
+                else:
+                    print("Land: nothing new.")
+
+                land_seen = current_land_ids
+                break
+
+        if len(land_cards) < 5:
+            if attempt < MAX_RETRIES:
+                await asyncio.sleep(60)
+            else:
+                print("Land scraper blocked.")
+                break
+
+    land_listings = list(land_by_id.values())
+    with open(LAND_LISTINGS_FILE, "w", encoding="utf-8") as f:
+        json.dump(land_listings, f, ensure_ascii=False, indent=2)
+    make_land_map(land_listings)
+
     print("Done.")
 
 

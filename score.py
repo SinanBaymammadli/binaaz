@@ -13,6 +13,45 @@ Components:
 RENOVATION_COST_PER_M2 = 200  # AZN — estimated renovation cost for unrepaired house
 
 
+def compute_land_scores(listings: list[dict]) -> list[dict]:
+    """
+    Score land plots 0-100.
+      70 pts — price per sot (lower is better, percentile-ranked)
+      25 pts — transit (15 pts walk time + 10 pts bus line count)
+       5 pts — price drop bonus
+    """
+    pps: list[float | None] = []
+    for l in listings:
+        sot = l.get("land_area_sot")
+        price = l.get("price")
+        pps.append(price / sot if sot and price else None)
+
+    valid_idx = [i for i, v in enumerate(pps) if v is not None]
+    pps_scores_valid = _pct_scores([pps[i] for i in valid_idx], lower_is_better=True)
+    pps_scores: list[float | None] = [None] * len(listings)
+    for rank_i, list_i in enumerate(valid_idx):
+        pps_scores[list_i] = pps_scores_valid[rank_i]
+
+    for i, l in enumerate(listings):
+        score = 0.0
+
+        if pps_scores[i] is not None:
+            score += 70 * pps_scores[i]
+
+        walk = l.get("walk_min")
+        if walk is not None:
+            score += max(0.0, 15.0 * (1 - walk / 30))
+        score += min(10, len(l.get("bus_lines") or []) * 2)
+
+        history = l.get("price_history") or []
+        if len(history) >= 2 and history[-1]["price"] < history[0]["price"]:
+            score += 5
+
+        l["deal_score"] = round(score)
+
+    return listings
+
+
 def _parse_area(s: str | None) -> float | None:
     if not s:
         return None

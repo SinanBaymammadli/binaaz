@@ -17,7 +17,8 @@ Scrapes [bina.az](https://bina.az) real estate listings in Maştağa / Nardaran 
 | Map | Description |
 |-----|-------------|
 | [houses_map.html](https://sinanbaymammadli.github.io/binaaz/houses_map.html) | Heyet-evleri listings with walk times |
-| [routes_map.html](https://sinanbaymammadli.github.io/binaaz/routes_map.html) | AYNA bus routes + torpaq listings |
+| [land_map.html](https://sinanbaymammadli.github.io/binaaz/land_map.html) | Torpaq (land plot) listings |
+| [routes_map.html](https://sinanbaymammadli.github.io/binaaz/routes_map.html) | AYNA bus routes |
 
 ## Deal Score
 

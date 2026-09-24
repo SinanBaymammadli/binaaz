@@ -17,6 +17,15 @@ SEARCH_URL = (
     "&items_view=list&sorting=bumped_at%2Bdesc"
 )
 
+LAND_URL = (
+    "https://bina.az/baki/alqi-satqi/torpaq"
+    "?price_to=120000&area_from=4&area_to=6&has_bill_of_sale=true"
+    "&location_ids%5B%5D=117&location_ids%5B%5D=109&location_ids%5B%5D=108"
+    "&location_ids%5B%5D=110&location_ids%5B%5D=313&location_ids%5B%5D=122"
+    "&location_ids%5B%5D=119&location_ids%5B%5D=234&location_ids%5B%5D=78"
+    "&location_ids%5B%5D=77&items_view=list&sorting=bumped_at%2Bdesc"
+)
+
 GMAPS_KEY = "AIzaSyBsgRa2Jy4Fep0LoGsR9XRP6evoyDSyTyE"
 OSRM_URL = "https://routing.openstreetmap.de/routed-foot/route/v1/foot/{lng1},{lat1};{lng2},{lat2}?overview=false"
 
@@ -105,6 +114,24 @@ def parse_card_text(text: str) -> tuple:
         elif "m²" in l and not area_m2:
             area_m2 = l
     return price, location, rooms, area_m2
+
+
+def parse_land_card_text(text: str) -> tuple:
+    """Returns (price, location, land_area_sot) for torpaq listings."""
+    lines = [l.strip().replace("\xa0", " ") for l in text.splitlines() if l.strip()]
+    while lines and not re.search(r"\d", lines[0]):
+        lines.pop(0)
+    price = int(re.sub(r"\D", "", lines[0])) if lines else None
+    location = lines[1] if len(lines) > 1 else ""
+    land_area_sot = None
+    for l in lines[2:]:
+        if "sot" in l:
+            try:
+                land_area_sot = float(re.sub(r"[^\d.,]", "", l).replace(",", "."))
+            except ValueError:
+                pass
+            break
+    return price, location, land_area_sot
 
 
 async def fetch_item(page, item_id: str) -> dict:
