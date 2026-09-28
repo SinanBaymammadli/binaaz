@@ -145,6 +145,12 @@ def format_price_change_message(listing: dict, old_price: int) -> str:
     repair = _repair_label(listing)
     if repair:
         lines.append(f"🔧 {repair}")
+    walk = listing.get("walk_min")
+    if walk is not None:
+        bus = ("Bus " + ", ".join(listing["bus_lines"])) if listing.get("bus_lines") else "no named line nearby"
+        lines.append(f"🚶 {walk} min walk · {bus}")
+        if listing.get("stop_name"):
+            lines.append(f"   <i>{listing['stop_name']}</i>")
     label = _score_label(listing.get("deal_score"))
     if label:
         lines.append(label)
@@ -252,6 +258,36 @@ def format_land_message(listing: dict) -> str:
     if pps:
         lines.append(f"💰 {pps:,} AZN/sot")
     if walk is not None:
+        lines.append(f"🚶 {walk} min walk · {bus}")
+        if listing.get("stop_name"):
+            lines.append(f"   <i>{listing['stop_name']}</i>")
+    label = _score_label(listing.get("deal_score"))
+    if label:
+        lines.append(label)
+    lines.append(f'🔗 <a href="https://bina.az/items/{listing["id"]}">bina.az</a>')
+    if gmaps:
+        lines.append(f'📌 <a href="{gmaps}">Google Maps</a>')
+    return "\n".join(lines)
+
+
+def format_land_price_change_message(listing: dict, old_price: int) -> str:
+    new_price = listing["price"]
+    diff = new_price - old_price
+    arrow = "📈" if diff > 0 else "📉"
+    sign  = "+" if diff > 0 else ""
+    sot   = f"{listing['land_area_sot']} sot" if listing.get("land_area_sot") else ""
+    detail = " · ".join(filter(None, [listing.get("location"), sot]))
+    walk  = listing.get("walk_min")
+    gmaps = f"https://www.google.com/maps?q={listing['lat']},{listing['lng']}" if listing.get("lat") else ""
+    lines = [
+        f"{arrow} <b>Land price change: {old_price:,} → {new_price:,} AZN ({sign}{diff:,})</b>",
+        f"📍 {detail}",
+    ]
+    pps = round(new_price / listing["land_area_sot"]) if listing.get("land_area_sot") else None
+    if pps:
+        lines.append(f"💰 {pps:,} AZN/sot")
+    if walk is not None:
+        bus = ("Bus " + ", ".join(listing["bus_lines"])) if listing.get("bus_lines") else "no named line nearby"
         lines.append(f"🚶 {walk} min walk · {bus}")
         if listing.get("stop_name"):
             lines.append(f"   <i>{listing['stop_name']}</i>")
@@ -477,9 +513,9 @@ async def main() -> None:
                         l["deal_score"] = land_scores_by_id.get(l["id"])
 
                     for listing, old_price in land_price_changed:
-                        diff = listing["price"] - old_price
-                        arrow = "📈" if diff > 0 else "📉"
-                        send_telegram(f"{arrow} <b>Land price change: {old_price:,} → {listing['price']:,} AZN</b>\n📍 {listing.get('location')} · {listing.get('land_area_sot')} sot\n{_score_label(listing.get('deal_score'))}\n🔗 <a href=\"https://bina.az/items/{listing['id']}\">bina.az</a>")
+                        msg = format_land_price_change_message(listing, old_price)
+                        print(msg)
+                        send_telegram(msg)
 
                     for listing in new_land_enriched:
                         msg = format_land_message(listing)
