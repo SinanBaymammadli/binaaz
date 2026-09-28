@@ -20,11 +20,9 @@ SEARCH_URL = (
 
 LAND_URL = (
     "https://bina.az/baki/alqi-satqi/torpaq"
-    "?price_to=120000&area_from=4&area_to=6&has_bill_of_sale=true"
-    "&location_ids%5B%5D=117&location_ids%5B%5D=109&location_ids%5B%5D=108"
-    "&location_ids%5B%5D=110&location_ids%5B%5D=313&location_ids%5B%5D=122"
-    "&location_ids%5B%5D=119&location_ids%5B%5D=234&location_ids%5B%5D=78"
-    "&location_ids%5B%5D=77&items_view=list&sorting=bumped_at%2Bdesc"
+    "?price_to=250000&area_from=4&has_bill_of_sale=true"
+    "&location_ids%5B%5D=122&location_ids%5B%5D=313&location_ids%5B%5D=117"
+    "&sorting=bumped_at%2Bdesc&items_view=list"
 )
 
 GMAPS_KEY = "AIzaSyBsgRa2Jy4Fep0LoGsR9XRP6evoyDSyTyE"
