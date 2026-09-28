@@ -19,7 +19,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 38
+    "deal_score": 24
   },
   {
     "id": "6414486",
@@ -41,7 +41,8 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 82
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6374430",
@@ -61,7 +62,8 @@
     "walk_min": 13.8,
     "stop_name": "stop#2484",
     "bus_lines": [],
-    "deal_score": 16
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6158693",
@@ -81,7 +83,8 @@
     "walk_min": 22.0,
     "stop_name": "stop#324",
     "bus_lines": [],
-    "deal_score": 13
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6131203",
@@ -128,7 +131,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 67
+    "deal_score": 59
   },
   {
     "id": "6428565",
@@ -148,7 +151,8 @@
     "walk_min": 8.9,
     "stop_name": "stop#1882",
     "bus_lines": [],
-    "deal_score": 71
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5942911",
@@ -168,7 +172,8 @@
     "walk_min": 22.5,
     "stop_name": "stop#2783",
     "bus_lines": [],
-    "deal_score": 28
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6433589",
@@ -188,7 +193,8 @@
     "walk_min": 21.3,
     "stop_name": "stop#2783",
     "bus_lines": [],
-    "deal_score": 16
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6336669",
@@ -208,7 +214,8 @@
     "walk_min": 22.0,
     "stop_name": "stop#324",
     "bus_lines": [],
-    "deal_score": 16
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6488111",
@@ -234,7 +241,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 58
+    "deal_score": 46
   },
   {
     "id": "6488025",
@@ -261,7 +268,7 @@
       "107",
       "150"
     ],
-    "deal_score": 59
+    "deal_score": 46
   },
   {
     "id": "6461823",
@@ -302,7 +309,8 @@
     "walk_min": 22.0,
     "stop_name": "stop#324",
     "bus_lines": [],
-    "deal_score": 6
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6486921",
@@ -322,7 +330,8 @@
     "walk_min": 19.8,
     "stop_name": "stop#324",
     "bus_lines": [],
-    "deal_score": 11
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6439224",
@@ -348,7 +357,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 68
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6247603",
@@ -391,7 +401,8 @@
     "walk_min": 17.6,
     "stop_name": "stop#1642",
     "bus_lines": [],
-    "deal_score": 14
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6484804",
@@ -413,7 +424,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 44
+    "deal_score": 30
   },
   {
     "id": "6468939",
@@ -435,7 +446,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 50
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6484437",
@@ -455,7 +467,8 @@
     "walk_min": 138.0,
     "stop_name": "stop#879",
     "bus_lines": [],
-    "deal_score": 45
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6212358",
@@ -477,7 +490,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 69
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6422927",
@@ -499,7 +513,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 73
+    "deal_score": 65
   },
   {
     "id": "6455429",
@@ -521,7 +535,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 52
+    "deal_score": 39
   },
   {
     "id": "6483672",
@@ -541,7 +555,8 @@
     "walk_min": 143.5,
     "stop_name": "stop#1560",
     "bus_lines": [],
-    "deal_score": 59
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6483662",
@@ -561,7 +576,8 @@
     "walk_min": 143.5,
     "stop_name": "stop#1560",
     "bus_lines": [],
-    "deal_score": 58
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6482096",
@@ -587,7 +603,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 67
+    "deal_score": 54
   },
   {
     "id": "6352713",
@@ -607,7 +623,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 17
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6255018",
@@ -627,7 +644,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 31
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6353131",
@@ -649,7 +667,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 39
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6480574",
@@ -669,7 +688,8 @@
     "walk_min": 8.8,
     "stop_name": "stop#2861",
     "bus_lines": [],
-    "deal_score": 18
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6098498",
@@ -691,7 +711,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 39
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6480258",
@@ -711,7 +732,8 @@
     "walk_min": 5.4,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 31
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5628770",
@@ -754,7 +776,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 47
+    "deal_score": 33
   },
   {
     "id": "6478147",
@@ -774,7 +796,8 @@
     "walk_min": 15.5,
     "stop_name": "stop#2766",
     "bus_lines": [],
-    "deal_score": 14
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6478069",
@@ -796,7 +819,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 57
+    "deal_score": 42
   },
   {
     "id": "6477888",
@@ -816,7 +839,8 @@
     "walk_min": 5.1,
     "stop_name": "stop#1685",
     "bus_lines": [],
-    "deal_score": 38
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6392866",
@@ -836,7 +860,8 @@
     "walk_min": 17.4,
     "stop_name": "stop#1642",
     "bus_lines": [],
-    "deal_score": 17
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5665211",
@@ -856,7 +881,8 @@
     "walk_min": 12.8,
     "stop_name": "stop#1548",
     "bus_lines": [],
-    "deal_score": 34
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6477457",
@@ -876,7 +902,7 @@
     "walk_min": 4.0,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 52
+    "deal_score": 40
   },
   {
     "id": "5744961",
@@ -896,7 +922,8 @@
     "walk_min": 26.1,
     "stop_name": "stop#2790",
     "bus_lines": [],
-    "deal_score": 18
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6395363",
@@ -916,7 +943,8 @@
     "walk_min": 5.1,
     "stop_name": "stop#2344",
     "bus_lines": [],
-    "deal_score": 32
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6476971",
@@ -936,7 +964,8 @@
     "walk_min": 16.1,
     "stop_name": "stop#1882",
     "bus_lines": [],
-    "deal_score": 71
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6419546",
@@ -956,7 +985,8 @@
     "walk_min": 9.4,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 33
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6451189",
@@ -976,7 +1006,8 @@
     "walk_min": 150.1,
     "stop_name": "stop#1560",
     "bus_lines": [],
-    "deal_score": 60
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5166306",
@@ -996,7 +1027,8 @@
     "walk_min": 28.1,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 35
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5755690",
@@ -1016,7 +1048,8 @@
     "walk_min": 33.4,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 32
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6258485",
@@ -1036,7 +1069,8 @@
     "walk_min": 10.4,
     "stop_name": "stop#1237",
     "bus_lines": [],
-    "deal_score": 43
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6035125",
@@ -1056,7 +1090,8 @@
     "walk_min": 28.2,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 30
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5929669",
@@ -1076,7 +1111,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 17
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5774996",
@@ -1096,7 +1132,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 43
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6472984",
@@ -1116,7 +1153,8 @@
     "walk_min": 26.4,
     "stop_name": "stop#557",
     "bus_lines": [],
-    "deal_score": 47
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6472013",
@@ -1136,7 +1174,8 @@
     "walk_min": 7.0,
     "stop_name": "stop#2026",
     "bus_lines": [],
-    "deal_score": 80
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6471547",
@@ -1158,7 +1197,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 64
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6204965",
@@ -1178,7 +1218,8 @@
     "walk_min": 7.6,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 58
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6435926",
@@ -1198,7 +1239,8 @@
     "walk_min": 6.1,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 44
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6074878",
@@ -1218,7 +1260,8 @@
     "walk_min": 30.6,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 21
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6454931",
@@ -1238,7 +1281,8 @@
     "walk_min": 1.3,
     "stop_name": "stop#2026",
     "bus_lines": [],
-    "deal_score": 72
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6470120",
@@ -1258,7 +1302,8 @@
     "walk_min": 4.5,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 37
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6468817",
@@ -1278,7 +1323,8 @@
     "walk_min": 22.0,
     "stop_name": "stop#324",
     "bus_lines": [],
-    "deal_score": 33
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6468169",
@@ -1298,7 +1344,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 16
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6430054",
@@ -1318,7 +1365,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 22
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6273755",
@@ -1341,7 +1389,7 @@
       "107",
       "M8"
     ],
-    "deal_score": 79
+    "deal_score": 74
   },
   {
     "id": "6467266",
@@ -1363,7 +1411,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 81
+    "deal_score": 73
   },
   {
     "id": "5305010",
@@ -1383,7 +1431,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 25
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6466163",
@@ -1403,7 +1452,8 @@
     "walk_min": 9.7,
     "stop_name": "stop#2765",
     "bus_lines": [],
-    "deal_score": 17
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6374511",
@@ -1423,7 +1473,8 @@
     "walk_min": 14.4,
     "stop_name": "stop#2484",
     "bus_lines": [],
-    "deal_score": 12
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6415462",
@@ -1470,7 +1521,7 @@
       "107",
       "M8"
     ],
-    "deal_score": 65
+    "deal_score": 50
   },
   {
     "id": "6328591",
@@ -1490,7 +1541,8 @@
     "walk_min": 10.1,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 21
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6462407",
@@ -1512,7 +1564,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 57
+    "deal_score": 48
   },
   {
     "id": "6461467",
@@ -1555,7 +1607,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 63
+    "deal_score": 52
   },
   {
     "id": "6379110",
@@ -1577,7 +1629,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 24
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6400916",
@@ -1597,7 +1650,7 @@
     "walk_min": 0.0,
     "stop_name": "stop#878",
     "bus_lines": [],
-    "deal_score": 52
+    "deal_score": 38
   },
   {
     "id": "6030334",
@@ -1619,7 +1672,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 59
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6275077",
@@ -1641,7 +1695,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 73
+    "deal_score": 68
   },
   {
     "id": "6458431",
@@ -1661,7 +1715,8 @@
     "walk_min": 13.1,
     "stop_name": "stop#291",
     "bus_lines": [],
-    "deal_score": 15
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6207587",
@@ -1681,7 +1736,8 @@
     "walk_min": 10.6,
     "stop_name": "stop#1882",
     "bus_lines": [],
-    "deal_score": 74
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6077197",
@@ -1701,7 +1757,8 @@
     "walk_min": 29.8,
     "stop_name": "stop#2368",
     "bus_lines": [],
-    "deal_score": 4
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6290348",
@@ -1721,7 +1778,8 @@
     "walk_min": 17.1,
     "stop_name": "stop#312",
     "bus_lines": [],
-    "deal_score": 16
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6289476",
@@ -1741,7 +1799,8 @@
     "walk_min": 0.1,
     "stop_name": "stop#1688",
     "bus_lines": [],
-    "deal_score": 78
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6457620",
@@ -1763,7 +1822,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 31
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6457621",
@@ -1783,7 +1843,8 @@
     "walk_min": 11.9,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 27
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5774003",
@@ -1809,7 +1870,8 @@
       "189",
       "M8"
     ],
-    "deal_score": 75
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6456812",
@@ -1829,7 +1891,8 @@
     "walk_min": 4.4,
     "stop_name": "stop#1882",
     "bus_lines": [],
-    "deal_score": 41
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6456793",
@@ -1851,7 +1914,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 61
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5421449",
@@ -1871,7 +1935,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 48
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5295442",
@@ -1893,7 +1958,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 53
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6456224",
@@ -1915,7 +1981,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 49
+    "deal_score": 36
   },
   {
     "id": "5991567",
@@ -1937,7 +2003,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 69
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5527643",
@@ -1959,7 +2026,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 70
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6190873",
@@ -1981,7 +2049,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 44
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6116994",
@@ -2001,7 +2070,8 @@
     "walk_min": 17.4,
     "stop_name": "stop#1237",
     "bus_lines": [],
-    "deal_score": 8
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6453391",
@@ -2021,7 +2091,8 @@
     "walk_min": 13.0,
     "stop_name": "stop#2404",
     "bus_lines": [],
-    "deal_score": 73
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6453374",
@@ -2043,7 +2114,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 55
+    "deal_score": 41
   },
   {
     "id": "6451720",
@@ -2069,7 +2140,8 @@
       "189",
       "M8"
     ],
-    "deal_score": 88
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6450407",
@@ -2091,7 +2163,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 41
+    "deal_score": 27
   },
   {
     "id": "6450245",
@@ -2111,7 +2183,8 @@
     "walk_min": 10.4,
     "stop_name": "stop#1594",
     "bus_lines": [],
-    "deal_score": 23
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6365764",
@@ -2131,7 +2204,8 @@
     "walk_min": 11.5,
     "stop_name": "stop#1598",
     "bus_lines": [],
-    "deal_score": 44
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6449957",
@@ -2159,7 +2233,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 90
+    "deal_score": 82
   },
   {
     "id": "6448587",
@@ -2179,7 +2253,8 @@
     "walk_min": 3.2,
     "stop_name": "stop#563",
     "bus_lines": [],
-    "deal_score": 29
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6415824",
@@ -2199,7 +2274,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 13
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5917720",
@@ -2222,7 +2298,7 @@
       "107",
       "150"
     ],
-    "deal_score": 63
+    "deal_score": 53
   },
   {
     "id": "6445136",
@@ -2244,7 +2320,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 66
+    "deal_score": 58
   },
   {
     "id": "6445049",
@@ -2264,7 +2340,8 @@
     "walk_min": 18.1,
     "stop_name": "stop#1882",
     "bus_lines": [],
-    "deal_score": 68
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6424649",
@@ -2284,7 +2361,8 @@
     "walk_min": 7.3,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 39
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6442787",
@@ -2306,7 +2384,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 58
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6442513",
@@ -2331,7 +2410,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 75
+    "deal_score": 64
   },
   {
     "id": "6442384",
@@ -2351,7 +2430,8 @@
     "walk_min": 7.1,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 12
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "4569555",
@@ -2371,7 +2451,8 @@
     "walk_min": 10.1,
     "stop_name": "stop#1594",
     "bus_lines": [],
-    "deal_score": 37
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6442133",
@@ -2393,7 +2474,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 72
+    "deal_score": 64
   },
   {
     "id": "6334361",
@@ -2413,7 +2494,8 @@
     "walk_min": 18.3,
     "stop_name": "stop#2885",
     "bus_lines": [],
-    "deal_score": 29
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6244363",
@@ -2433,7 +2515,8 @@
     "walk_min": 146.6,
     "stop_name": "stop#1560",
     "bus_lines": [],
-    "deal_score": 15
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6432366",
@@ -2453,7 +2536,8 @@
     "walk_min": 22.0,
     "stop_name": "stop#324",
     "bus_lines": [],
-    "deal_score": 4
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6437682",
@@ -2475,7 +2559,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 33
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6437610",
@@ -2501,7 +2586,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 73
+    "deal_score": 58
   },
   {
     "id": "6417438",
@@ -2523,7 +2608,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 47
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5628253",
@@ -2543,7 +2629,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 29
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6435210",
@@ -2565,7 +2652,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 62
+    "deal_score": 46
   },
   {
     "id": "6433097",
@@ -2585,7 +2672,8 @@
     "walk_min": 35.7,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 41
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6432758",
@@ -2605,7 +2693,7 @@
     "walk_min": 2.7,
     "stop_name": "stop#2584",
     "bus_lines": [],
-    "deal_score": 47
+    "deal_score": 33
   },
   {
     "id": "5912752",
@@ -2629,7 +2717,8 @@
     "walk_min": 19.3,
     "stop_name": "stop#1882",
     "bus_lines": [],
-    "deal_score": 76
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5517735",
@@ -2649,7 +2738,8 @@
     "walk_min": 8.0,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 14
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5965134",
@@ -2669,7 +2759,8 @@
     "walk_min": 24.7,
     "stop_name": "stop#312",
     "bus_lines": [],
-    "deal_score": 12
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6432281",
@@ -2689,7 +2780,8 @@
     "walk_min": 18.0,
     "stop_name": "stop#288",
     "bus_lines": [],
-    "deal_score": 18
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6247011",
@@ -2715,7 +2807,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 70
+    "deal_score": 63
   },
   {
     "id": "5838037",
@@ -2735,7 +2827,8 @@
     "walk_min": 5.7,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 27
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5890619",
@@ -2757,7 +2850,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 33
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6308314",
@@ -2777,7 +2871,8 @@
     "walk_min": 7.1,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 25
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6422445",
@@ -2797,7 +2892,8 @@
     "walk_min": 3.4,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 40
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5562928",
@@ -2817,7 +2913,8 @@
     "walk_min": 27.2,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 18
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5996799",
@@ -2839,7 +2936,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 48
+    "deal_score": 36
   },
   {
     "id": "6304438",
@@ -2859,7 +2956,8 @@
     "walk_min": 6.3,
     "stop_name": "stop#556",
     "bus_lines": [],
-    "deal_score": 38
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5107959",
@@ -2881,7 +2979,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 23
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5294134",
@@ -2901,7 +3000,8 @@
     "walk_min": 40.6,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 20
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6425287",
@@ -2944,7 +3044,8 @@
     "walk_min": 12.7,
     "stop_name": "stop#1905",
     "bus_lines": [],
-    "deal_score": 28
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5751932",
@@ -2964,7 +3065,8 @@
     "walk_min": 15.8,
     "stop_name": "stop#2484",
     "bus_lines": [],
-    "deal_score": 40
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5655808",
@@ -2986,7 +3088,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 56
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6420269",
@@ -3008,7 +3111,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 58
+    "deal_score": 45
   },
   {
     "id": "6419582",
@@ -3030,7 +3133,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 64
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6211690",
@@ -3050,7 +3154,7 @@
     "walk_min": 24.9,
     "stop_name": "stop#2584",
     "bus_lines": [],
-    "deal_score": 71
+    "deal_score": 65
   },
   {
     "id": "6141739",
@@ -3070,7 +3174,8 @@
     "walk_min": 4.3,
     "stop_name": "stop#878",
     "bus_lines": [],
-    "deal_score": 13
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6418158",
@@ -3092,7 +3197,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 57
+    "deal_score": 44
   },
   {
     "id": "6418017",
@@ -3114,7 +3219,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 58
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6414348",
@@ -3157,7 +3263,8 @@
     "walk_min": 11.3,
     "stop_name": "stop#2766",
     "bus_lines": [],
-    "deal_score": 12
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "5549214",
@@ -3181,7 +3288,8 @@
     "walk_min": 10.5,
     "stop_name": "stop#446",
     "bus_lines": [],
-    "deal_score": 29
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6252960",
@@ -3203,7 +3311,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 68
+    "deal_score": 61
   },
   {
     "id": "6335340",
@@ -3225,7 +3333,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 35
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6415629",
@@ -3293,7 +3402,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 44
+    "deal_score": 31
   },
   {
     "id": "6412405",
@@ -3496,7 +3605,8 @@
     "walk_min": 41.4,
     "stop_name": "stop#217",
     "bus_lines": [],
-    "deal_score": 22
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6497994",
@@ -3518,7 +3628,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 59
+    "deal_score": 47
   },
   {
     "id": "6030534",
@@ -3541,7 +3651,7 @@
       "107",
       "186"
     ],
-    "deal_score": 64
+    "deal_score": 49
   },
   {
     "id": "5867896",
@@ -3563,7 +3673,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 43
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6495330",
@@ -3585,7 +3696,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 45
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6497060",
@@ -3605,7 +3717,8 @@
     "walk_min": 18.7,
     "stop_name": "stop#2783",
     "bus_lines": [],
-    "deal_score": 20
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6496687",
@@ -3627,7 +3740,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 52
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6495623",
@@ -3649,7 +3763,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 42
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6495493",
@@ -3671,7 +3786,8 @@
     "bus_lines": [
       "177"
     ],
-    "deal_score": 48
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6385258",
@@ -3693,7 +3809,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 49
+    "deal_score": 36
   },
   {
     "id": "6494904",
@@ -3715,7 +3831,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 45
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
   },
   {
     "id": "6494685",
@@ -3737,7 +3854,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 61
+    "deal_score": 49
   },
   {
     "id": "6397789",
@@ -3759,7 +3876,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 63
+    "deal_score": 51
   },
   {
     "id": "6492902",
@@ -3781,7 +3898,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 42
+    "deal_score": 30
   },
   {
     "id": "5900396",
@@ -3801,6 +3918,1812 @@
     "walk_min": 19.3,
     "stop_name": "stop#324",
     "bus_lines": [],
-    "deal_score": 30
+    "deal_score": null,
+    "deleted_at": "2026-09-28"
+  },
+  {
+    "id": "6462699",
+    "price": 170000,
+    "location": "Buzovna q.",
+    "land_area_sot": 9.0,
+    "lat": 40.52641236654079,
+    "lng": 50.0962204740356,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F15%2F38%2F14%2F73502568-ba32-4ff4-95fd-318c89ea4709%2F63756_rAxc9H9Vdul1qGXx8cDgog.jpg",
+    "price_history": [
+      {
+        "price": 170000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 467,
+    "walk_min": 6.2,
+    "stop_name": "Zuğulba yolu 111",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 32
+  },
+  {
+    "id": "6440726",
+    "price": 88000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.53810430226944,
+    "lng": 50.03002700759202,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F07%2F14%2F37%2F17%2F49626d4e-208d-4626-a947-36e9c82c02c6%2F63768_tt5keEhqgZ1CjXWkB8oJsA.jpg",
+    "price_history": [
+      {
+        "price": 88000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1676,
+    "walk_min": 22.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 68
+  },
+  {
+    "id": "6461644",
+    "price": 120000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.49546809586906,
+    "lng": 50.05820339933474,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F11%2F22%2F11%2Fd95e7d18-5363-4afa-bb98-d1d577e7f1d3%2F63799_9OtnXmkK1A4XBZzhfI-zaA.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1097,
+    "walk_min": 14.6,
+    "stop_name": "stop#2584",
+    "bus_lines": [],
+    "deal_score": 56
+  },
+  {
+    "id": "6495279",
+    "price": 200000,
+    "location": "Buzovna q.",
+    "land_area_sot": 9.0,
+    "lat": 40.5156142,
+    "lng": 50.10132739999995,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F27%2F00%2F13%2F28%2F6f19ae3c-c781-4b95-a999-bb167833df9c%2F76796_aHXHWikd7YY19DyfMOYBcQ.jpg",
+    "price_history": [
+      {
+        "price": 200000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1931,
+    "walk_min": 25.8,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 15
+  },
+  {
+    "id": "6495038",
+    "price": 97000,
+    "location": "Buzovna q.",
+    "land_area_sot": 6.4,
+    "lat": 40.50279001879007,
+    "lng": 50.11977034011701,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F26%2F20%2F26%2F02%2F59069faf-953f-4245-b12e-8c94565024e2%2F93818_SUpHxKqKDQDw2CVdNyQj3A.jpg",
+    "price_history": [
+      {
+        "price": 97000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1384,
+    "walk_min": 18.5,
+    "stop_name": "Zuğulba yolu 50",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 37
+  },
+  {
+    "id": "6494655",
+    "price": 185000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 10.8,
+    "lat": 40.53382611784221,
+    "lng": 50.05274851146537,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F26%2F17%2F46%2F26%2Fd515808c-19ff-4df3-9f8b-0d64b1a5613c%2F64895_Rd71ip_UlEvep309Q20EQA.jpg",
+    "price_history": [
+      {
+        "price": 185000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1010,
+    "walk_min": 13.5,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 31
+  },
+  {
+    "id": "6494394",
+    "price": 220000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.51055180829832,
+    "lng": 50.1270230493056,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F26%2F16%2F39%2F18%2Fa8ee13c1-7fa4-4d10-9243-8b0017b287f2%2F71647_cz_2bGvCBgt7223c0ipsNw.jpg",
+    "price_history": [
+      {
+        "price": 220000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 144,
+    "walk_min": 1.9,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 26
+  },
+  {
+    "id": "6493522",
+    "price": 225000,
+    "location": "Buzovna q.",
+    "land_area_sot": 7.0,
+    "lat": 40.5156142,
+    "lng": 50.10132739999995,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F26%2F13%2F03%2F39%2Fee0f0777-07f2-4344-ae69-5a9218c539e2%2F71679_dVoilm3cG7LmQ2JC46XnTg.jpg",
+    "price_history": [
+      {
+        "price": 225000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1931,
+    "walk_min": 25.8,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 6
+  },
+  {
+    "id": "6493460",
+    "price": 120000,
+    "location": "Maştağa q.",
+    "land_area_sot": 21.0,
+    "lat": 40.53714880801854,
+    "lng": 50.02491056679738,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F26%2F12%2F50%2F15%2F82cabc83-eca6-44d3-8867-2086c8fd3e13%2F71649_cZpDaymKC782Yk5iLsCBxQ.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1824,
+    "walk_min": 24.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 71
+  },
+  {
+    "id": "6492333",
+    "price": 117000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 9.0,
+    "lat": 40.54060721782197,
+    "lng": 50.03890184104539,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F25%2F19%2F36%2F26%2Fec0079ed-a991-4328-9e29-4d0fb1d64d56%2F59316_KgBKpLtpXgm1UzFf72D9sQ.jpg",
+    "price_history": [
+      {
+        "price": 117000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 2000,
+    "walk_min": 26.7,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 46
+  },
+  {
+    "id": "6491331",
+    "price": 56000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 7.0,
+    "lat": 40.53603022992726,
+    "lng": 50.01662755996496,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F25%2F15%2F40%2F46%2F05b86e13-622a-416d-a688-377382c588f4%2F71643_K7J62vIml2zJB82F38rs6Q.jpg",
+    "price_history": [
+      {
+        "price": 56000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1662,
+    "walk_min": 22.2,
+    "stop_name": "1 nömrəli Psixiatrik Xəstəxana",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 67
+  },
+  {
+    "id": "6490223",
+    "price": 110000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 8.0,
+    "lat": 40.53237718868092,
+    "lng": 50.04869247619628,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F25%2F11%2F54%2F47%2F45329b03-1fd1-41cd-9bd3-6e7171095d6b%2F71637_Jx4_TYvrBO7tP6PduZjehw.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1180,
+    "walk_min": 15.7,
+    "stop_name": "Albalılıq y/m (A.Rəhimov küç.)",
+    "bus_lines": [
+      "107",
+      "186"
+    ],
+    "deal_score": 46
+  },
+  {
+    "id": "6486380",
+    "price": 64000,
+    "location": "Maştağa q.",
+    "land_area_sot": 8.0,
+    "lat": 40.52094616025963,
+    "lng": 49.97821548645695,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F20%2F21%2F14%2F3429f3d0-d17d-4482-be7f-653e5c5f69d9%2F87824_24nWa0Z34hLpCFveqV8xoA.jpg",
+    "price_history": [
+      {
+        "price": 64000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 853,
+    "walk_min": 11.4,
+    "stop_name": "Zabrat-Maştağa şos. 153",
+    "bus_lines": [
+      "107",
+      "172",
+      "186",
+      "189",
+      "M8"
+    ],
+    "deal_score": 80
+  },
+  {
+    "id": "6486325",
+    "price": 208000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 13.0,
+    "lat": 40.54478211622342,
+    "lng": 50.04750763986539,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F19%2F50%2F16%2F40b2aa96-436e-4fbc-9b39-26bc8c2fe678%2F2837_j75AUK_IhawKE9KRdKd1VA.jpg",
+    "price_history": [
+      {
+        "price": 208000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1943,
+    "walk_min": 25.9,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 31
+  },
+  {
+    "id": "6485664",
+    "price": 160000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.53790398990365,
+    "lng": 50.04940335854027,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F23%2F16%2F56%2F44%2Fe9b074bf-f323-4b7c-97e2-9225d3678062%2F2840_fPtuk8E-r4hoOHsaLE1Jow.jpg",
+    "price_history": [
+      {
+        "price": 160000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1837,
+    "walk_min": 24.5,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 45
+  },
+  {
+    "id": "6159440",
+    "price": 235000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.5,
+    "lat": 40.51007819271086,
+    "lng": 50.12488604295056,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F25%2F17%2F07%2F12%2F35841984-e42d-4f2b-b9d9-5c4663501f7f%2F34978_Wo7RW-qy23VfP7GBuxMQWg.jpg",
+    "price_history": [
+      {
+        "price": 235000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 132,
+    "walk_min": 1.8,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 14
+  },
+  {
+    "id": "5779843",
+    "price": 155000,
+    "location": "Maştağa q.",
+    "land_area_sot": 11.3,
+    "lat": 40.52944701407723,
+    "lng": 50.01799748418238,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F01%2F05%2F00%2F42%2F42%2Fac90afd9-bfdb-49f5-af89-3a9f34a37207%2F80441_rdSjy3ThdgaA4IDBWja91g.jpg",
+    "price_history": [
+      {
+        "price": 155000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 455,
+    "walk_min": 6.1,
+    "stop_name": "Ə.Əhmədov küç. 182",
+    "bus_lines": [
+      "107",
+      "M8"
+    ],
+    "deal_score": 52
+  },
+  {
+    "id": "6141711",
+    "price": 62400,
+    "location": "Albalılıq q.",
+    "land_area_sot": 6.4,
+    "lat": 40.53463108740005,
+    "lng": 50.03675933426108,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F19%2F11%2F11%2F28%2Ff7d819ee-df60-486f-8599-cac0442744ba%2F29277_pgsx0r6bsJFLemYicsZAcA.jpg",
+    "price_history": [
+      {
+        "price": 62400,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 895,
+    "walk_min": 11.9,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 67
+  },
+  {
+    "id": "6391916",
+    "price": 180000,
+    "location": "Buzovna q.",
+    "land_area_sot": 30.5,
+    "lat": 40.51009373993804,
+    "lng": 50.06493518808589,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F20%2F14%2F10%2F25%2Fa7740631-b7ac-43de-a069-7e1655853d56%2F81311_Y7eEVI-Oc9gBXptajuMrzA.jpg",
+    "price_history": [
+      {
+        "price": 180000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1116,
+    "walk_min": 14.9,
+    "stop_name": "Abşeron küç. 318",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 74
+  },
+  {
+    "id": "6046643",
+    "price": 200000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.54018679275516,
+    "lng": 50.04582442769807,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F04%2F15%2F13%2F00%2F26%2F786e5433-3bf1-4dbd-9a81-a8a57533a8a1%2F43664_oz1b13F_6hWmss7Md2sRPg.jpg",
+    "price_history": [
+      {
+        "price": 200000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1920,
+    "walk_min": 25.6,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 26
+  },
+  {
+    "id": "6397566",
+    "price": 150000,
+    "location": "Buzovna q.",
+    "land_area_sot": 6.0,
+    "lat": 40.52834345735761,
+    "lng": 50.10705659845576,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F22%2F14%2F44%2F17%2Fbeff96b0-f033-436c-af70-f2fde4c0f0dc%2F68127_3oZQWXubfi1rmec5ux2y-g.jpg",
+    "price_history": [
+      {
+        "price": 150000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1257,
+    "walk_min": 16.8,
+    "stop_name": "26 nömrəli tam orta məktəb",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 18
+  },
+  {
+    "id": "6475795",
+    "price": 85000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 7.0,
+    "lat": 40.53749221403385,
+    "lng": 50.04982145118218,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F20%2F07%2F25%2F48%2Ffc4f609f-1ae0-45a8-baa0-3d104d79ee18%2F67886_sHisMsr5EGPFsWoQcFp2Sw.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1910,
+    "walk_min": 25.5,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 50
+  },
+  {
+    "id": "6193912",
+    "price": 249000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.53470889757972,
+    "lng": 50.10562973740701,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F08%2F12%2F59%2F55%2F211db2b5-773a-4e99-84b3-772c8c8155c6%2F12693_72BnzA4QRsQo1um906fh5Q.jpg",
+    "price_history": [
+      {
+        "price": 249000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1825,
+    "walk_min": 24.3,
+    "stop_name": "Zuğulba yolu 116",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 15
+  },
+  {
+    "id": "6474186",
+    "price": 210000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.5104609759794,
+    "lng": 50.12290143180246,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F19%2F14%2F05%2F04%2Fd540b117-774f-4578-83f5-036c4b791c26%2F90669_XqwkXxZ-owwvRojFMnANdA.jpg",
+    "price_history": [
+      {
+        "price": 210000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 223,
+    "walk_min": 3.0,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 27
+  },
+  {
+    "id": "6473937",
+    "price": 180000,
+    "location": "Buzovna q.",
+    "land_area_sot": 9.0,
+    "lat": 40.49862301063295,
+    "lng": 50.10213494732692,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F19%2F13%2F01%2F19%2Ffe272f23-28f3-4c05-b21a-daa1eb4977cd%2F68412_iWbzSxkI2vgy69vvFTLWGQ.jpg",
+    "price_history": [
+      {
+        "price": 180000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 532,
+    "walk_min": 7.1,
+    "stop_name": "Zuğulba yolu 47",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 28
+  },
+  {
+    "id": "6473485",
+    "price": 195000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.53896556517503,
+    "lng": 50.04620338623046,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F19%2F11%2F27%2F15%2F42d7de42-4ce4-42d5-a440-6d3f785c05ff%2F89591_UecpoARaVGsyUHmOYk0DHw.jpg",
+    "price_history": [
+      {
+        "price": 195000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1829,
+    "walk_min": 24.4,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 29
+  },
+  {
+    "id": "6284027",
+    "price": 240000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 24.0,
+    "lat": 40.54053102472063,
+    "lng": 50.05727554504394,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F11%2F18%2F03%2F16%2F7f274a25-38bc-4857-88b5-e32ddde5ae37%2F55445__T7Wek9Rjp5jna-8ncBpsA.jpg",
+    "price_history": [
+      {
+        "price": 240000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1168,
+    "walk_min": 15.6,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 64
+  },
+  {
+    "id": "6469555",
+    "price": 65000,
+    "location": "Maştağa q.",
+    "land_area_sot": 12.0,
+    "lat": 40.531499,
+    "lng": 50.004497,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F18%2F38%2F07%2Fcd6d6bfa-12e6-4f09-a3ef-ec878ec433b7%2F63810_KwCL0CCV-z26NBHNngi8MA.jpg",
+    "price_history": [
+      {
+        "price": 65000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 63,
+    "walk_min": 0.8,
+    "stop_name": "Maştağa parkı",
+    "bus_lines": [
+      "172",
+      "177",
+      "186",
+      "M8"
+    ],
+    "deal_score": 89
+  },
+  {
+    "id": "6466054",
+    "price": 106000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.54250602517532,
+    "lng": 50.02676074741073,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F16%2F16%2F32%2F40%2F4907f049-5583-49ae-a216-8cd0b3359ba3%2F71362_YDYHtLbQjzBmWGaCQ3dfUg.jpg",
+    "price_history": [
+      {
+        "price": 106000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1515,
+    "walk_min": 20.2,
+    "stop_name": "İ.İsmayılov küç - M.P.Vaqif küç. kəs.",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 64
+  },
+  {
+    "id": "6462278",
+    "price": 210000,
+    "location": "Buzovna q.",
+    "land_area_sot": 11.0,
+    "lat": 40.5212408408628,
+    "lng": 50.08365968921886,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F13%2F40%2F30%2Fe5560a4a-2239-4579-bbc6-f7d417f40b14%2F68828_vp_R1svR0h0ZFatbIis8Fg.jpg",
+    "price_history": [
+      {
+        "price": 210000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 630,
+    "walk_min": 8.4,
+    "stop_name": "Abşeron küç. 123",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 29
+  },
+  {
+    "id": "4524431",
+    "price": 225000,
+    "location": "Buzovna q.",
+    "land_area_sot": 7.5,
+    "lat": 40.51529995128114,
+    "lng": 50.09688377380371,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2024%2F08%2F04%2F11%2F02%2F38%2Fb2550e06-7b36-4637-a2cb-ccf92e9ad9d9%2F64677_XEKjwmAveF1J7d42VxCbsw.jpg",
+    "price_history": [
+      {
+        "price": 225000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 561,
+    "walk_min": 7.5,
+    "stop_name": "Buzovna Elektrik Yarımstansiyası",
+    "bus_lines": [
+      "107",
+      "150"
+    ],
+    "deal_score": 19
+  },
+  {
+    "id": "6002921",
+    "price": 90000,
+    "location": "Maştağa q.",
+    "land_area_sot": 18.0,
+    "lat": 40.55946542913956,
+    "lng": 49.97230770946354,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F30%2F18%2F12%2F25%2Ff18a5cb0-4be8-4e82-a843-994416080717%2F77824_jWMAfaiE052kcNdpjm0l3A.jpg",
+    "price_history": [
+      {
+        "price": 90000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 2321,
+    "walk_min": 31.0,
+    "stop_name": "Çənlibel küç. 374B",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 69
+  },
+  {
+    "id": "6461130",
+    "price": 170000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 10.0,
+    "lat": 40.53460536092623,
+    "lng": 50.0491018546224,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F14%2F22%2F13%2F41%2F4e0b879b-c211-4dd5-81c2-6227aa80c9ff%2F69349_6xrK7ZfZUdpswk0HSZQFHA.jpg",
+    "price_history": [
+      {
+        "price": 170000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1371,
+    "walk_min": 18.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 29
+  },
+  {
+    "id": "6461078",
+    "price": 52500,
+    "location": "Maştağa q.",
+    "land_area_sot": 12.0,
+    "lat": 40.531499,
+    "lng": 50.004497,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F14%2F21%2F49%2F55%2Fe926ecdd-a383-46b9-ae8e-8b21067f67f5%2F63787_YYmZBpaygOBuYyb4vhbmwQ.jpg",
+    "price_history": [
+      {
+        "price": 52500,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 63,
+    "walk_min": 0.8,
+    "stop_name": "Maştağa parkı",
+    "bus_lines": [
+      "172",
+      "177",
+      "186",
+      "M8"
+    ],
+    "deal_score": 91
+  },
+  {
+    "id": "6135082",
+    "price": 171000,
+    "location": "Buzovna q.",
+    "land_area_sot": 8.0,
+    "lat": 40.51612641908701,
+    "lng": 50.06002138117061,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F16%2F13%2F34%2F43%2F223635a5-1ff1-4fed-b5db-77605e737335%2F23449_01599La195HjiRNXcf3QrQ.jpg",
+    "price_history": [
+      {
+        "price": 171000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1018,
+    "walk_min": 13.6,
+    "stop_name": "Abşeron küç. 359",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 23
+  },
+  {
+    "id": "5903759",
+    "price": 131000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 9.6,
+    "lat": 40.5491311362531,
+    "lng": 50.06506201999743,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F02%2F20%2F11%2F19%2F06%2Fd95841f9-108a-4441-994d-26cfe2bc5592%2F14681_3Yxu3txGzNVISnsJYOpaCA.jpg",
+    "price_history": [
+      {
+        "price": 131000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1740,
+    "walk_min": 23.2,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 43
+  },
+  {
+    "id": "6454662",
+    "price": 110000,
+    "location": "Maştağa q.",
+    "land_area_sot": 10.0,
+    "lat": 40.54445664539872,
+    "lng": 50.05377126921083,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F12%2F13%2F21%2F53%2F7d94ab3e-f4f0-4ae8-830f-285eb19aedb4%2F66499_QKEP9k4ADmQPqsTP1BhP8Q.jpg",
+    "price_history": [
+      {
+        "price": 110000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1601,
+    "walk_min": 21.3,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 59
+  },
+  {
+    "id": "6458185",
+    "price": 120000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.5156142,
+    "lng": 50.10132739999995,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F13%2F21%2F39%2F49%2Facfca7be-563d-4fb6-b3ba-601533caef71%2F63779_Havp9CgV-IcazcHGSbAe5w.jpg",
+    "price_history": [
+      {
+        "price": 120000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1931,
+    "walk_min": 25.8,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 51
+  },
+  {
+    "id": "6164965",
+    "price": 115000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 9.0,
+    "lat": 40.53916067100333,
+    "lng": 50.04187807796966,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F28%2F10%2F48%2F54%2F6dc73b0a-7430-4f00-b806-559e1cf7b3f4%2F22445_UIC3j3IJdP9AkQHlhNH8OA.jpg",
+    "price_history": [
+      {
+        "price": 115000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1726,
+    "walk_min": 23.0,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 49
+  },
+  {
+    "id": "6456451",
+    "price": 122000,
+    "location": "Buzovna q.",
+    "land_area_sot": 6.6,
+    "lat": 40.49897823751141,
+    "lng": 50.11977429249988,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F13%2F01%2F41%2F09%2F1cad17cf-7ee3-4749-97e1-9d86a4a6d3be%2F63776_CE0MKTTK6kYdrMVT3ijIDA.jpg",
+    "price_history": [
+      {
+        "price": 122000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1184,
+    "walk_min": 15.8,
+    "stop_name": "Zuğulba yolu 42",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 28
+  },
+  {
+    "id": "4738135",
+    "price": 150000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51529995128114,
+    "lng": 50.09688377380371,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2024%2F11%2F03%2F14%2F43%2F55%2Fa0472efd-641b-42a6-9c7b-398225054ace%2F15247_eRuz4Do5pS0g3SY6jF6RZg.jpg",
+    "price_history": [
+      {
+        "price": 150000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 561,
+    "walk_min": 7.5,
+    "stop_name": "Buzovna Elektrik Yarımstansiyası",
+    "bus_lines": [
+      "107",
+      "150"
+    ],
+    "deal_score": 18
+  },
+  {
+    "id": "6144293",
+    "price": 175000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.49597078017939,
+    "lng": 50.11025379160152,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F20%2F07%2F04%2F03%2F071c1898-7cca-451b-b20c-5b378efeb378%2F12594_dycGF6-p6j48CXGP8zLTJA.jpg",
+    "price_history": [
+      {
+        "price": 175000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 4,
+    "walk_min": 0.0,
+    "stop_name": "Zuğulba yolu 42",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 18
+  },
+  {
+    "id": "6159335",
+    "price": 175000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.51809369117085,
+    "lng": 50.06939838388667,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F25%2F16%2F39%2F48%2F229037fd-e70a-4e68-8215-ead640565cf6%2F45848_ysguyUSi-KA6b_yhzIynRw.jpg",
+    "price_history": [
+      {
+        "price": 175000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 187,
+    "walk_min": 2.5,
+    "stop_name": "Abşeron küç. 318",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 16
+  },
+  {
+    "id": "6452253",
+    "price": 220000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.51348279397072,
+    "lng": 50.12351488325254,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F11%2F14%2F15%2F33%2F93ebe1fd-b514-46a8-9666-1ff0859247a5%2F63801_UBHmCextPBcdFh2oiIFvgw.jpg",
+    "price_history": [
+      {
+        "price": 220000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 676,
+    "walk_min": 9.0,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 22
+  },
+  {
+    "id": "6451453",
+    "price": 94999,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.7,
+    "lat": 40.53316,
+    "lng": 50.04792,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F11%2F11%2F32%2F40%2Fbfb82d0d-6404-4da0-aa74-3ffd13f0a36e%2F72341_XqzbsB3StpTOfY8qaLSxrg.jpg",
+    "price_history": [
+      {
+        "price": 94999,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1146,
+    "walk_min": 15.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 71
+  },
+  {
+    "id": "6264220",
+    "price": 210000,
+    "location": "Buzovna q.",
+    "land_area_sot": 7.0,
+    "lat": 40.5156142,
+    "lng": 50.10132739999995,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F04%2F13%2F19%2F37%2F82287fc9-47ad-432f-9d54-717976aa701d%2F96970_p5p-InL16p53Qc3rPYzlhQ.jpg",
+    "price_history": [
+      {
+        "price": 210000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1931,
+    "walk_min": 25.8,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 6
+  },
+  {
+    "id": "6449184",
+    "price": 135000,
+    "location": "Buzovna q.",
+    "land_area_sot": 15.0,
+    "lat": 40.50012346199588,
+    "lng": 50.05408396283422,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F10%2F13%2F56%2F21%2Fce5f45ab-37e5-4ecc-a221-11240b9d5f7a%2F59951_07SDmu0lNClGBBbS5q0t-Q.jpg",
+    "price_history": [
+      {
+        "price": 135000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1493,
+    "walk_min": 19.9,
+    "stop_name": "stop#2584",
+    "bus_lines": [],
+    "deal_score": 61
+  },
+  {
+    "id": "6447248",
+    "price": 230000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 20.0,
+    "lat": 40.54181134738775,
+    "lng": 50.02793636141192,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F09%2F17%2F22%2F01%2F72aa5cad-a03c-4106-92b7-66a483e6bd03%2F59836_qA4FtbHrQ542OYCxDnbv3w.jpg",
+    "price_history": [
+      {
+        "price": 230000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1510,
+    "walk_min": 20.1,
+    "stop_name": "İ.İsmayılov küç - M.P.Vaqif küç. kəs.",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 57
+  },
+  {
+    "id": "6244262",
+    "price": 135000,
+    "location": "Buzovna q.",
+    "land_area_sot": 4.7,
+    "lat": 40.51602854330201,
+    "lng": 50.10248611429439,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F26%2F21%2F09%2F24%2F721c6bb0-c946-46cb-af23-cf0904caa004%2F77745_ZxCsCY7Stsn2QWdrXsMq5g.jpg",
+    "price_history": [
+      {
+        "price": 135000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1928,
+    "walk_min": 25.7,
+    "stop_name": "Zuğulba yolu 96",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 9
+  },
+  {
+    "id": "6360492",
+    "price": 205000,
+    "location": "Buzovna q.",
+    "land_area_sot": 11.0,
+    "lat": 40.51770150545423,
+    "lng": 50.11251212020392,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F08%2F22%2F55%2F40%2Ff86f92e9-962c-4cca-bb7d-60ec2ab1b605%2F13642_pdGHZDt6ubxWm198wy7XcA.jpg",
+    "price_history": [
+      {
+        "price": 205000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 195,
+    "walk_min": 2.6,
+    "stop_name": "Cümə Məscidi",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 34
+  },
+  {
+    "id": "6445305",
+    "price": 208000,
+    "location": "Buzovna q.",
+    "land_area_sot": 8.0,
+    "lat": 40.50268413048551,
+    "lng": 50.11143969993305,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F09%2F08%2F57%2F04%2Fed49ece6-4c70-4f00-9e46-de251f01d1ee%2F63814_-7rPe2K98qIUmPAzb6ufig.jpg",
+    "price_history": [
+      {
+        "price": 208000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 594,
+    "walk_min": 7.9,
+    "stop_name": "Zuğulba yolu 50",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 19
+  },
+  {
+    "id": "6445137",
+    "price": 140000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.54254806808527,
+    "lng": 50.03170548283121,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F22%2F53%2F50%2F2abdc375-2436-4eb7-a381-6d6a0d1bc32b%2F63814_g_g00ZBQoFppI03BkYCwTA.jpg",
+    "price_history": [
+      {
+        "price": 140000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1574,
+    "walk_min": 21.0,
+    "stop_name": "İ.İsmayılov küç. 92A",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 56
+  },
+  {
+    "id": "6443230",
+    "price": 85000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 7.5,
+    "lat": 40.541656401543,
+    "lng": 50.05927335525799,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F13%2F18%2F48%2Fadafe2e0-6560-4a87-8d46-50c030325af6%2F63783_vKLynVEhe_SCFb9Vir_-kw.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1348,
+    "walk_min": 18.0,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 59
+  },
+  {
+    "id": "6442007",
+    "price": 132000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.54876603549718,
+    "lng": 50.05170473228188,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F07%2F20%2F11%2F22%2Ff302f669-2e6d-44d8-ac63-f8b045856bb8%2F57241_ImTjcDpBVYUxRtzaCxHoXA.jpg",
+    "price_history": [
+      {
+        "price": 132000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 2569,
+    "walk_min": 34.3,
+    "stop_name": "142 nömrəli tam orta mәktәb",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 54
+  },
+  {
+    "id": "6441221",
+    "price": 90000,
+    "location": "Maştağa q.",
+    "land_area_sot": 9.0,
+    "lat": 40.55280014153087,
+    "lng": 49.97279362643305,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F07%2F16%2F26%2F11%2F25aed18c-3f88-405f-8873-041f4e0fde37%2F63788_afRE4KWTNl5u6Hi8ab2aCQ.jpg",
+    "price_history": [
+      {
+        "price": 90000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1715,
+    "walk_min": 22.9,
+    "stop_name": "Çənlibel küç. 212",
+    "bus_lines": [
+      "189"
+    ],
+    "deal_score": 60
+  },
+  {
+    "id": "5905275",
+    "price": 32000,
+    "location": "Buzovna q.",
+    "land_area_sot": 12.0,
+    "lat": 40.51027717406433,
+    "lng": 50.12560263410262,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F02%2F20%2F16%2F11%2F31%2F0ae55a46-b670-4ddb-a114-28a6541e7fe1%2F14671_rZtGjLhJH9PHCJTnP1u9Xw.jpg",
+    "price_history": [
+      {
+        "price": 32000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 44,
+    "walk_min": 0.6,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 84
+  },
+  {
+    "id": "6439319",
+    "price": 95900,
+    "location": "Albalılıq q.",
+    "land_area_sot": 7.0,
+    "lat": 40.54219269903092,
+    "lng": 50.05880131626674,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F07%2F04%2F43%2F49%2F4d32c7a1-2e82-4505-8d75-1a229b704920%2F72308_2BIsQ_Li17988dRYXiihmw.jpg",
+    "price_history": [
+      {
+        "price": 95900,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1408,
+    "walk_min": 18.8,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 44
+  },
+  {
+    "id": "6438786",
+    "price": 135000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.3,
+    "lat": 40.52846309856503,
+    "lng": 50.10579392898259,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F06%2F18%2F37%2F27%2Fcfbb9e93-0a3c-4a50-93e2-0505fee04aba%2F63793_BaCr_BrNPkQVz2C0giJtwg.jpg",
+    "price_history": [
+      {
+        "price": 135000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1322,
+    "walk_min": 17.6,
+    "stop_name": "Zuğulba yolu 116",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 15
+  },
+  {
+    "id": "6438745",
+    "price": 125000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.49757219474846,
+    "lng": 50.09872585073574,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F06%2F18%2F13%2F34%2F9b2f3445-13df-4d55-8395-ba253a538e3a%2F63807__PEUGJdJHSJG-xXJz0FFig.jpg",
+    "price_history": [
+      {
+        "price": 125000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 774,
+    "walk_min": 10.3,
+    "stop_name": "Zuğulba yolu 47",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 21
+  },
+  {
+    "id": "6438594",
+    "price": 200000,
+    "location": "Buzovna q.",
+    "land_area_sot": 7.0,
+    "lat": 40.53214486636453,
+    "lng": 50.09204241263639,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F06%2F17%2F31%2F43%2F9741a334-d2d6-46d8-8797-d97546051820%2F72344_y_v_DEVfXgY6A_xIR4nB6g.jpg",
+    "price_history": [
+      {
+        "price": 200000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 347,
+    "walk_min": 4.6,
+    "stop_name": "Zuğulba yolu 131",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 20
+  },
+  {
+    "id": "6427326",
+    "price": 130000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 10.0,
+    "lat": 40.53445832137881,
+    "lng": 50.04389291580588,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F02%2F15%2F50%2F44%2F21d265ba-c3cf-4e5e-91b1-ee7763f7168f%2F63786_WdwaTC9z0Lg0J02dIASj9g.jpg",
+    "price_history": [
+      {
+        "price": 130000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 989,
+    "walk_min": 13.2,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 53
+  },
+  {
+    "id": "6352386",
+    "price": 215000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 20.0,
+    "lat": 40.54669466607202,
+    "lng": 50.05255485717773,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F06%2F11%2F29%2F52%2Fcd45d30d-6739-4d0d-aec0-d2877936c155%2F97098_jQV6LtakFXXM6Sf0xVprIQ.jpg",
+    "price_history": [
+      {
+        "price": 215000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 2434,
+    "walk_min": 32.5,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 55
+  },
+  {
+    "id": "6434914",
+    "price": 85000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.53856113187557,
+    "lng": 50.03632519279083,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F05%2F10%2F56%2F50%2Fdcc65aef-f9ab-434e-b8a0-443ed9accded%2F72345_zMS8HCl-IhTgDHr8SDJhxQ.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1551,
+    "walk_min": 20.7,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 70
+  },
+  {
+    "id": "6433569",
+    "price": 120999,
+    "location": "Albalılıq q.",
+    "land_area_sot": 9.5,
+    "lat": 40.53489085873587,
+    "lng": 50.04024201437078,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F16%2F31%2F10%2Fa0ee064d-f8ff-436c-98cd-2ee6129e2bdc%2F49883_bWPjOZdS3Kt_L-gdSa3L3g.jpg",
+    "price_history": [
+      {
+        "price": 120999,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 745,
+    "walk_min": 9.9,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 57
+  },
+  {
+    "id": "6433234",
+    "price": 125000,
+    "location": "Buzovna q.",
+    "land_area_sot": 5.0,
+    "lat": 40.50279279691703,
+    "lng": 50.1071037002306,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F15%2F19%2F29%2Ff8dfa245-b052-4ca0-adc4-85e65aa35993%2F72293_1MJJjJzR3-fmU9aj9RjyjQ.jpg",
+    "price_history": [
+      {
+        "price": 125000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 116,
+    "walk_min": 1.5,
+    "stop_name": "Zuğulba yolu 60",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 25
+  },
+  {
+    "id": "6432572",
+    "price": 126000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 20.0,
+    "lat": 40.53869735384992,
+    "lng": 50.02478666428205,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F12%2F34%2F48%2Faa1c13ec-9285-4678-8b56-204c6f631ee8%2F72305_i5RIHtt6mgUo6vXyQhQm1A.jpg",
+    "price_history": [
+      {
+        "price": 126000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1853,
+    "walk_min": 24.7,
+    "stop_name": "İ.İsmayılov küç. 22",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 68
+  },
+  {
+    "id": "6432546",
+    "price": 160000,
+    "location": "Buzovna q.",
+    "land_area_sot": 8.0,
+    "lat": 40.52796320040885,
+    "lng": 50.05090612878647,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F12%2F38%2F23%2Ffe71985c-f31c-40f2-9364-0ec09543d443%2F72302_Tw53NLgR23djQ1yV2z3LHw.jpg",
+    "price_history": [
+      {
+        "price": 160000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 612,
+    "walk_min": 8.2,
+    "stop_name": "Albalılıq y/m (A.Rəhimov küç.)",
+    "bus_lines": [
+      "107",
+      "186"
+    ],
+    "deal_score": 29
+  },
+  {
+    "id": "6432518",
+    "price": 162000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.5426468032843,
+    "lng": 50.0640668448925,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F12%2F32%2F16%2Ff092b52f-9cdc-4673-bcae-d98169fa5d45%2F63760_vyDYTd1sC7zMeq7GHt76LQ.jpg",
+    "price_history": [
+      {
+        "price": 162000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 861,
+    "walk_min": 11.5,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 49
+  },
+  {
+    "id": "6337715",
+    "price": 250000,
+    "location": "Buzovna q.",
+    "land_area_sot": 9.0,
+    "lat": 40.528755291385,
+    "lng": 50.10115911792104,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F31%2F19%2F18%2F00%2Fa865a564-f1c1-4f75-92be-b7b5876dfbc3%2F98745_5dh-eCPNDD44tOJagepbbA.jpg",
+    "price_history": [
+      {
+        "price": 250000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 781,
+    "walk_min": 10.4,
+    "stop_name": "Zuğulba yolu 116",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 17
+  },
+  {
+    "id": "6428907",
+    "price": 200000,
+    "location": "Maştağa q.",
+    "land_area_sot": 10.0,
+    "lat": 40.50571304015315,
+    "lng": 49.97408359823503,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F03%2F10%2F21%2F24%2F54dd9640-e076-4ceb-9291-333374924c89%2F72350_r29H8zh-BxooP_S1oL9dAQ.jpg",
+    "price_history": [
+      {
+        "price": 200000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 211,
+    "walk_min": 2.8,
+    "stop_name": "Zabrat-Maştağa şos. 198",
+    "bus_lines": [
+      "107",
+      "172",
+      "186",
+      "189",
+      "M8"
+    ],
+    "deal_score": 37
+  },
+  {
+    "id": "6428813",
+    "price": 36000,
+    "location": "Maştağa q.",
+    "land_area_sot": 12.0,
+    "lat": 40.50191044158464,
+    "lng": 49.99947195014993,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F03%2F07%2F52%2F57%2F80310324-e381-47c8-a898-036d582c90e2%2F72337_J1sHSXYVWk1Z3-_rJyKgCA.jpg",
+    "price_history": [
+      {
+        "price": 36000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 824,
+    "walk_min": 11.0,
+    "stop_name": "stop#1895",
+    "bus_lines": [],
+    "deal_score": 78
+  },
+  {
+    "id": "6097939",
+    "price": 250000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.51545282017008,
+    "lng": 50.13782587399,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F04%2F09%2F16%2F24%2Fd8d439a1-70fb-49ba-9c3a-f9caf0c0aba9%2F40041_EjPowT0JJTF9ZEgmZRyNCg.jpg",
+    "price_history": [
+      {
+        "price": 250000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 995,
+    "walk_min": 13.3,
+    "stop_name": "stop#1237",
+    "bus_lines": [],
+    "deal_score": 16
+  },
+  {
+    "id": "6426813",
+    "price": 186000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 12.0,
+    "lat": 40.53890721626594,
+    "lng": 50.04651551472127,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F02%2F14%2F04%2F27%2F243ccecb-7b88-42a1-a54f-3fcb39ec23ee%2F72313_26HoP-Am8dwiFn5cwMZWSQ.jpg",
+    "price_history": [
+      {
+        "price": 186000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1807,
+    "walk_min": 24.1,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 33
+  },
+  {
+    "id": "4891273",
+    "price": 230000,
+    "location": "Buzovna q.",
+    "land_area_sot": 8.0,
+    "lat": 40.52316193464404,
+    "lng": 50.09101793986285,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F05%2F06%2F13%2F14%2F01%2Fb9092826-d8dc-4dbc-9dc6-d1a29844c6a8%2F90941_pEdzVXN_qIkjJHk8mVJfRA.jpg",
+    "price_history": [
+      {
+        "price": 230000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 853,
+    "walk_min": 11.4,
+    "stop_name": "Daş bazarı",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 15
+  },
+  {
+    "id": "6335760",
+    "price": 130000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 16.0,
+    "lat": 40.53423498157874,
+    "lng": 50.03181926572656,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F31%2F11%2F19%2F28%2F3a5a4d7f-4a62-44a9-9290-3db72736be88%2F64566_PSMDLlpDUns7sYqGOC6eFQ.jpg",
+    "price_history": [
+      {
+        "price": 130000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 696,
+    "walk_min": 9.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 72
+  },
+  {
+    "id": "6341464",
+    "price": 140000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 30.0,
+    "lat": 40.5295068022691,
+    "lng": 50.0372769946289,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F02%2F13%2F19%2F35%2Fbe491aa3-5e13-49f7-a1ae-e07f15434808%2F32160_cMeDXVGE8ZhIxdrT1d35Nw.jpg",
+    "price_history": [
+      {
+        "price": 140000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 418,
+    "walk_min": 5.6,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 82
+  },
+  {
+    "id": "5754070",
+    "price": 85000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.50202895481005,
+    "lng": 50.05399214467458,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F20%2F22%2F17%2F36%2F341d7b24-43eb-4df1-8dd1-8c1a57815233%2F22693_oVBA3hoTIGNzNbpdgw0bzg.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1792,
+    "walk_min": 23.9,
+    "stop_name": "stop#2584",
+    "bus_lines": [],
+    "deal_score": 61
+  },
+  {
+    "id": "5849434",
+    "price": 85000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 7.9,
+    "lat": 40.5413849200306,
+    "lng": 50.02370473521827,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F01%2F30%2F22%2F36%2F47%2F99b94f46-5798-4dff-a245-8199730e5407%2F43447_WjZPW-CTD5wd2Xzc6rB2Fg.jpg",
+    "price_history": [
+      {
+        "price": 85000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 1434,
+    "walk_min": 19.1,
+    "stop_name": "İ.İsmayılov küç. 92A",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 60
+  },
+  {
+    "id": "5985884",
+    "price": 250000,
+    "location": "Maştağa q.",
+    "land_area_sot": 100.0,
+    "lat": 40.50281409950213,
+    "lng": 49.96969943636704,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F23%2F23%2F42%2F16%2Fcdedf874-60d3-4e77-b218-116c3c6f8257%2F3894_cJy7Gg02iNFftqhSWcVdcw.jpg",
+    "price_history": [
+      {
+        "price": 250000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 349,
+    "walk_min": 4.7,
+    "stop_name": "Maştağa Olimpiya İdman Kompleksi",
+    "bus_lines": [
+      "107",
+      "172",
+      "186",
+      "189",
+      "M8"
+    ],
+    "deal_score": 93
+  },
+  {
+    "id": "6419555",
+    "price": 188000,
+    "location": "Buzovna q.",
+    "land_area_sot": 7.5,
+    "lat": 40.50999756038965,
+    "lng": 50.1123607096461,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F30%2F23%2F09%2F11%2F5700d36f-1e9a-485a-944e-843ec0617909%2F21307_F3arU91xG2URPkn6Hh1xcA.jpg",
+    "price_history": [
+      {
+        "price": 188000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 952,
+    "walk_min": 12.7,
+    "stop_name": "Cümə Məscidi",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 18
+  },
+  {
+    "id": "6245364",
+    "price": 130000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 9.5,
+    "lat": 40.5197422190177,
+    "lng": 50.05547310058597,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F27%2F13%2F41%2F49%2Fb802cd26-5b44-440e-9b35-78b0e3e67bd8%2F75565__sYbIedspQuQxsZhSxGg-Q.jpg",
+    "price_history": [
+      {
+        "price": 130000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 862,
+    "walk_min": 11.5,
+    "stop_name": "Abşeron küç. 359",
+    "bus_lines": [
+      "107"
+    ],
+    "deal_score": 48
+  },
+  {
+    "id": "6161226",
+    "price": 195000,
+    "location": "Buzovna q.",
+    "land_area_sot": 10.0,
+    "lat": 40.51238597429737,
+    "lng": 50.12838486311563,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F26%2F12%2F46%2F21%2F5f07955f-d7b0-445b-a4cc-984c8282a479%2F47906_5ktMwiZuea-UE8jkPONq_A.jpg",
+    "price_history": [
+      {
+        "price": 195000,
+        "date": "2026-09-28"
+      }
+    ],
+    "walk_m": 521,
+    "walk_min": 7.0,
+    "stop_name": "stop#856",
+    "bus_lines": [],
+    "deal_score": 27
   }
 ]
