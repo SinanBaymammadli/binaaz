@@ -1474,7 +1474,8 @@
     ],
     "deal_score": 74,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F12%2F29%2F56%2F6d893cfe-7184-4731-8393-078f4cc7438a%2F21437_3PZ0goSNACrskPI7jjcyWg.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-09-30"
   },
   {
     "id": "6419252",
@@ -1558,7 +1559,8 @@
     ],
     "deal_score": 48,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F12%2F03%2F18%2F4bf32c8e-3a1c-4cbc-b207-08b953d31e22%2F68090_slaeZrg-XAMFs4D9xmVd8g.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-09-30"
   },
   {
     "id": "6293502",
@@ -4308,8 +4310,7 @@
     ],
     "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F08%2F02%2F15%2F36%2F50%2F2c165f29-30b7-443f-84bb-14148db16540%2F92313_wLbwyJGJi75X1LikQGRJwg.jpg",
-    "has_repair": true,
-    "deleted_at": "2026-09-28"
+    "has_repair": true
   },
   {
     "id": "6255310",
@@ -4387,7 +4388,8 @@
     ],
     "deal_score": 26,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F16%2F12%2F23%2F08%2F9e560c73-3988-4eff-a926-cb7789513799%2F40099_XbEB8m6JtZ6DSKAc9cBiXg.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-09-30"
   },
   {
     "id": "6419156",
