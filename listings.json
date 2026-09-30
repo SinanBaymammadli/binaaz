@@ -3190,7 +3190,8 @@
     ],
     "deal_score": 41,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F22%2F19%2F34%2F20%2F8960455c-c680-4460-b973-9ad584a74262%2F87153_C4uL0AhGJ3Z1yGy5mo3NCg.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-09-30"
   },
   {
     "id": "6159088",
@@ -4363,7 +4364,8 @@
     ],
     "deal_score": 37,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F16%2F10%2F57%2Fa5e2f4d7-0ef7-4959-b7bc-0143cd8e0fc3%2F68139_-UQDY8IAtLSei02LKpKx9Q.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-09-30"
   },
   {
     "id": "5970569",
