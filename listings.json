@@ -662,7 +662,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 63,
+    "deal_score": 62,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F14%2F30%2F57%2F2128cbc2-0fc4-437b-8063-b2f267065e69%2F63782_1_KET7nF-9ApjO_GgSLs4g.jpg",
     "has_repair": true
   },
@@ -718,7 +718,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 56,
+    "deal_score": 57,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F27%2F18%2F19%2F04%2F5603619a-5753-4ecd-b12d-9e82ca9f866a%2F72820_aOWjXUM1rCMl602eTu5BIA.jpg",
     "has_repair": false
   },
@@ -949,7 +949,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 33,
+    "deal_score": 32,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F04%2F23%2F21%2F49%2F56%2Fe72d5dcd-be61-4c41-9762-89db1e362330%2F96865_W55H-SE-XY7egnMx-ZBjzw.jpg",
     "has_repair": true
   },
@@ -1393,9 +1393,10 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 66,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F01%2F15%2F47%2F27%2F432f7f57-4399-4ab5-8c0b-a577650ed987%2F63776_EWvtSOaB0ly5QV7--1D9QQ.jpg",
-    "has_repair": false
+    "has_repair": false,
+    "deleted_at": "2026-10-01"
   },
   {
     "id": "6256829",
@@ -1678,7 +1679,7 @@
       "107",
       "186"
     ],
-    "deal_score": 57,
+    "deal_score": 58,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2024%2F12%2F18%2F12%2F29%2F35%2Fb842754d-064a-4ec5-ba76-9947847a229e%2F82570_03Jwy_e00fC2mfxpGD9upA.jpg",
     "has_repair": true
   },
@@ -2257,7 +2258,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 28,
+    "deal_score": 27,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F24%2F01%2F02%2F58%2Fa8d179f6-12c9-483b-a4fb-e5c98fbbc587%2F68102_OlhcYUfxlT1y3pnDXEccKw.jpg",
     "has_repair": true
   },
@@ -2366,7 +2367,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 64,
+    "deal_score": 65,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F16%2F19%2F55%2F10%2F3b8bfb18-50e9-4a88-8549-5aaf532cd7f6%2F69697_3x3Vbpk7s8W4oKn7GQyxDQ.jpg",
     "has_repair": true
   },
@@ -2459,10 +2460,9 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": null,
+    "deal_score": 53,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F28%2F12%2F56%2F47%2Fbace1aa4-f30b-477b-89c7-cc1924f1567f%2F68091_oISmIVf9rfW1jIvxIG8HpQ.jpg",
-    "has_repair": false,
-    "deleted_at": "2026-09-28"
+    "has_repair": false
   },
   {
     "id": "5951169",
@@ -2992,7 +2992,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 57,
+    "deal_score": 56,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F22%2F11%2F03%2F35%2Fa5eb6ac8-3ce0-4dd9-b85f-e7fe7a7f5fbf%2F72842_qQYKXtHCewlBL5vr-aGy-A.jpg",
     "has_repair": true
   },
@@ -3543,7 +3543,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 26,
+    "deal_score": 25,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F07%2F01%2F20%2F29%2F30%2F42c1c595-1296-4986-a233-a6854a1704f4%2F4513_SdFmiiX51JZHxZnCDO0xMg.jpg",
     "has_repair": true
   },
@@ -23074,7 +23074,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 68
+    "deal_score": 69
   },
   {
     "id": "5886940",
@@ -23375,5 +23375,34 @@
       "150"
     ],
     "deal_score": 49
+  },
+  {
+    "id": "6507054",
+    "price": 228000,
+    "location": "Maştağa q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "200 m²",
+    "land_area_sot": 4,
+    "lat": 40.51661499535548,
+    "lng": 49.98359948346586,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F10%2F01%2F12%2F16%2F56%2Fc9f3f948-d467-461b-9ca5-16522ba653d5%2F90117_Oz6r6jDzqJRUFXGMYTpMyQ.jpg",
+    "has_repair": true,
+    "price_history": [
+      {
+        "price": 228000,
+        "date": "2026-10-01"
+      }
+    ],
+    "walk_m": 53,
+    "walk_min": 0.7,
+    "stop_name": "Zabrat-Maştağa şos. 153",
+    "bus_lines": [
+      "107",
+      "172",
+      "186",
+      "189",
+      "M8"
+    ],
+    "deal_score": 57
   }
 ]
