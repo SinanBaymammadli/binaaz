@@ -756,7 +756,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 24,
+    "deal_score": 25,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F03%2F46%2F17%2Ff2822fa3-a6f3-42a0-822e-090416fff358%2F68277_HbaMWIG2t7_2pAdF7gbqQA.jpg",
     "has_repair": true
   },
@@ -773,7 +773,7 @@
     "walk_min": 8.7,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 60,
+    "deal_score": 59,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F01%2F16%2F35%2F14%2Fbc3ba71b-a8ef-4d08-a784-c2448704a86e%2F57878_aUnbfPzlCk0UiEeGmiFxVA.jpg",
     "has_repair": true
   },
@@ -1167,7 +1167,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 15,
+    "deal_score": 16,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F14%2F11%2F47%2F29%2F27361bd1-2c9e-4d4a-bfa6-92376bc93d5c%2F46608_i9yEHDWKilyqVomp1Mzdtg.jpg",
     "has_repair": true
   },
@@ -1284,7 +1284,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 63,
+    "deal_score": 62,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F29%2F20%2F35%2F46%2F51743ac5-d816-45ee-9323-bc607db32acf%2F43329_jlNn8qezu6n1AhuhTbmcQw.jpg",
     "has_repair": true
   },
@@ -1373,7 +1373,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 39,
+    "deal_score": 40,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F05%2F17%2F09%2F04%2F43%2F8fdbf022-1000-4ed5-a1af-707950ba6052%2F66008_-f1hpkebL9FYqnHCOa3oWQ.jpg",
     "has_repair": true
   },
@@ -1472,7 +1472,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 74,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F12%2F29%2F56%2F6d893cfe-7184-4731-8393-078f4cc7438a%2F21437_3PZ0goSNACrskPI7jjcyWg.jpg",
     "has_repair": true,
     "deleted_at": "2026-09-30"
@@ -1557,7 +1557,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 48,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F12%2F03%2F18%2F4bf32c8e-3a1c-4cbc-b207-08b953d31e22%2F68090_slaeZrg-XAMFs4D9xmVd8g.jpg",
     "has_repair": true,
     "deleted_at": "2026-09-30"
@@ -1889,9 +1889,10 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 53,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F01%2F15%2F39%2F17%2Fa1c3965e-66cc-4b0c-9465-2682eb26f022%2F63770_k6W9S_Kir8Co-epktaX6yw.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-10-01"
   },
   {
     "id": "6407779",
@@ -2035,7 +2036,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 75,
+    "deal_score": 74,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F13%2F18%2F02%2F10%2Feada5267-a79b-42ea-a5b1-aec392306dc5%2F25059_Ww0k7E_G3yBSGeL2fRStew.jpg",
     "has_repair": true
   },
@@ -2190,7 +2191,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 55,
+    "deal_score": 54,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F01%2F12%2F56%2F24%2F24cf1713-3e84-40fd-bf27-bb4b66a17fa4%2F72319_M7YQthr2q46pvJnMHoGr9Q.jpg",
     "has_repair": true
   },
@@ -2253,7 +2254,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 28,
+    "deal_score": 27,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F24%2F01%2F02%2F58%2Fa8d179f6-12c9-483b-a4fb-e5c98fbbc587%2F68102_OlhcYUfxlT1y3pnDXEccKw.jpg",
     "has_repair": true
   },
@@ -2436,7 +2437,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 73,
+    "deal_score": 72,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F04%2F16%2F26%2F33%2F0806880a-91be-4de0-9998-ec4c97147adf%2F72352__Ccz7NhsbzMvoqpfRu_pFw.jpg",
     "has_repair": false
   },
@@ -2531,7 +2532,7 @@
     "walk_min": 18.2,
     "stop_name": "stop#2584",
     "bus_lines": [],
-    "deal_score": 71,
+    "deal_score": 70,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F05%2F13%2F57%2F24%2Fef249fc9-9b3d-419c-ac57-1ce25c9e4e55%2F63773_LipfPCNMftR2y6teCrIDaw.jpg",
     "has_repair": false,
     "price_history": [
@@ -2560,7 +2561,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 47,
+    "deal_score": 46,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F11%2F15%2F10%2F49%2F0fa73537-0b33-495d-903c-63b11847e8f2%2F91847_jI5S-03SbKTzPFRKa4oWSA.jpg",
     "has_repair": false
   },
@@ -2702,7 +2703,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 74,
+    "deal_score": 75,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F16%2F13%2F45%2F19%2F188d2ab1-7a48-4699-b092-95966a113d5a%2F8411_pwov0iMbRtlCbmFMItHRDQ.jpg",
     "has_repair": true
   },
@@ -3113,7 +3114,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 25,
+    "deal_score": 26,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F10%2F23%2F07%2F14%2F36%2Fe3b5e7fa-8a8b-4d71-a4e3-7fab01a151d9%2F37302_ksBAd98Yipnr_0BzNr1yHg.jpg",
     "has_repair": true
   },
@@ -3188,7 +3189,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 41,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F22%2F19%2F34%2F20%2F8960455c-c680-4460-b973-9ad584a74262%2F87153_C4uL0AhGJ3Z1yGy5mo3NCg.jpg",
     "has_repair": true,
     "deleted_at": "2026-09-30"
@@ -3214,7 +3215,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 35,
+    "deal_score": 36,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F24%2F15%2F53%2F25%2Fa01c6e1d-f844-46f6-a201-f61b65dc299b%2F55539_SE5nm_BvYfdmVNh7YgK-gw.jpg",
     "has_repair": true
   },
@@ -3239,7 +3240,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 26,
+    "deal_score": 27,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F02%2F22%2F34%2F55%2Fa1734480-e6a6-4d6c-acf3-ee759f1a729e%2F72325_LYvGdUh-5aLEJmRFelX-xQ.jpg",
     "has_repair": true
   },
@@ -3318,13 +3319,13 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 64,
+    "deal_score": 63,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F07%2F59%2F27%2F932ffe7d-24b2-43ed-962a-e1952084e106%2F70716_FqbE_26hTekAlAvCYsT0Bg.jpg",
     "has_repair": true
   },
   {
     "id": "6476763",
-    "price": 205000,
+    "price": 215000,
     "location": "Maştağa q.",
     "rooms": "7 otaqlı",
     "area_m2": "240 m²",
@@ -3339,6 +3340,10 @@
       {
         "price": 205000,
         "date": "2026-09-28"
+      },
+      {
+        "price": 215000,
+        "date": "2026-10-01"
       }
     ],
     "walk_m": 63,
@@ -3350,7 +3355,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 64,
+    "deal_score": 62,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F20%2F15%2F39%2F24%2F7af90a6c-8f07-4648-b6f0-54362f17ca77%2F73318_71RXBhikHLD3iI0hTxQBZg.jpg",
     "has_repair": true
   },
@@ -3402,7 +3407,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 59,
+    "deal_score": 58,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F20%2F38%2F12%2F5a0890d3-8cd3-40a2-a22f-9e91bc8ab495%2F90032_8R6-x7w2XNtHn1FO-y7Hgw.jpg",
     "has_repair": true
   },
@@ -3585,7 +3590,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 40,
+    "deal_score": 41,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F01%2F14%2F27%2F39%2Ff32d88bb-65b2-4261-8de7-c6593944603b%2F60820_M8ynd7IvUgj0KwAgTAEYtw.jpg",
     "has_repair": true
   },
@@ -3664,7 +3669,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 35,
+    "deal_score": 34,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F09%2F11%2F18%2F40%2F42%2Ff82f3316-18ed-4157-bc94-6d4d1f55b6c7%2F66008_-f1hpkebL9FYqnHCOa3oWQ.jpg",
     "has_repair": true
   },
@@ -3815,7 +3820,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 39,
+    "deal_score": 40,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F30%2F18%2F14%2F46%2Fd51b91bd-2134-4da8-b203-e2f69204efb3%2F77770_PoAKfKvsN6GzotFpHm_heQ.jpg",
     "has_repair": true
   },
@@ -3865,7 +3870,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 36,
+    "deal_score": 35,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F09%2F20%2F25%2F16%2Fc2be3546-8319-4db6-96bb-ba2c28f8bf85%2F89576_GvalXXm4iPMsqAXsOACbgQ.jpg",
     "has_repair": true
   },
@@ -3893,7 +3898,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 79,
+    "deal_score": 78,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F30%2F13%2F19%2F27%2F3f9b66f6-6ade-4215-943c-babffc3fb776%2F45174_-4y43DObTVwZTcc2Qen2RQ.jpg",
     "has_repair": true
   },
@@ -4226,7 +4231,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 44,
+    "deal_score": 45,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F09%2F19%2F22%2F47%2F0efa17dd-4a15-4771-b2cb-683437cb436c%2F60361_OtexIiHpna6_dyrLGFZfOA.jpg",
     "has_repair": true
   },
@@ -4309,7 +4314,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": null,
+    "deal_score": 20,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F08%2F02%2F15%2F36%2F50%2F2c165f29-30b7-443f-84bb-14148db16540%2F92313_wLbwyJGJi75X1LikQGRJwg.jpg",
     "has_repair": true
   },
@@ -4362,7 +4367,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 37,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F31%2F16%2F10%2F57%2Fa5e2f4d7-0ef7-4959-b7bc-0143cd8e0fc3%2F68139_-UQDY8IAtLSei02LKpKx9Q.jpg",
     "has_repair": true,
     "deleted_at": "2026-09-30"
@@ -4388,7 +4393,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 26,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F16%2F12%2F23%2F08%2F9e560c73-3988-4eff-a926-cb7789513799%2F40099_XbEB8m6JtZ6DSKAc9cBiXg.jpg",
     "has_repair": true,
     "deleted_at": "2026-09-30"
@@ -4895,7 +4900,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 47
+    "deal_score": 46
   },
   {
     "id": "6486843",
@@ -4955,7 +4960,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 77
+    "deal_score": 76
   },
   {
     "id": "6458506",
@@ -22780,7 +22785,7 @@
     "walk_min": 8.2,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 52
+    "deal_score": 53
   },
   {
     "id": "6497242",
@@ -22855,7 +22860,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 30
+    "deal_score": 31
   },
   {
     "id": "6496336",
@@ -23061,7 +23066,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 69
+    "deal_score": 68
   },
   {
     "id": "5886940",
@@ -23211,7 +23216,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 44
+    "deal_score": 45
   },
   {
     "id": "6498791",
