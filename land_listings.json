@@ -517,8 +517,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": null,
-    "deleted_at": "2026-10-01"
+    "deal_score": 72
   },
   {
     "id": "6455429",
@@ -612,7 +611,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 55
+    "deal_score": 56
   },
   {
     "id": "6352713",
@@ -911,7 +910,7 @@
     "walk_min": 4.0,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 43
+    "deal_score": 42
   },
   {
     "id": "5744961",
@@ -1573,7 +1572,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 49
+    "deal_score": 48
   },
   {
     "id": "6461467",
@@ -1990,7 +1989,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 37
+    "deal_score": 36
   },
   {
     "id": "5991567",
@@ -2123,7 +2122,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 42
+    "deal_score": 43
   },
   {
     "id": "6451720",
@@ -2307,7 +2306,7 @@
       "107",
       "150"
     ],
-    "deal_score": 55
+    "deal_score": 54
   },
   {
     "id": "6445136",
@@ -2945,7 +2944,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 38
+    "deal_score": null,
+    "deleted_at": "2026-10-02"
   },
   {
     "id": "6304438",
@@ -3208,8 +3208,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": null,
-    "deleted_at": "2026-09-29"
+    "deal_score": 46
   },
   {
     "id": "6418017",
@@ -3641,7 +3640,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 48
+    "deal_score": 49
   },
   {
     "id": "6030534",
@@ -3890,7 +3889,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 52
+    "deal_score": 53
   },
   {
     "id": "6492902",
@@ -4067,7 +4066,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 32
+    "deal_score": 31
   },
   {
     "id": "6494394",
@@ -4153,7 +4152,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 48
+    "deal_score": 47
   },
   {
     "id": "6491331",
@@ -4425,7 +4424,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 52
+    "deal_score": 51
   },
   {
     "id": "6193912",
@@ -4533,7 +4532,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 66
+    "deal_score": 65
   },
   {
     "id": "6469555",
@@ -4804,7 +4803,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 51
+    "deal_score": 50
   },
   {
     "id": "6456451",
@@ -4826,7 +4825,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 28
+    "deal_score": 27
   },
   {
     "id": "4738135",
@@ -4979,7 +4978,7 @@
     "walk_min": 19.9,
     "stop_name": "stop#2584",
     "bus_lines": [],
-    "deal_score": 63
+    "deal_score": 62
   },
   {
     "id": "6447248",
@@ -5045,7 +5044,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 34
+    "deal_score": 33
   },
   {
     "id": "6445305",
@@ -5111,7 +5110,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 61
+    "deal_score": 60
   },
   {
     "id": "6442007",
@@ -5155,7 +5154,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 62
+    "deal_score": 61
   },
   {
     "id": "5905275",
@@ -5241,7 +5240,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 21
+    "deal_score": 20
   },
   {
     "id": "6438594",
@@ -5285,7 +5284,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 54
+    "deal_score": null,
+    "deleted_at": "2026-10-02"
   },
   {
     "id": "6352386",
@@ -5885,7 +5885,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 34
+    "deal_score": 33
   },
   {
     "id": "6505575",
@@ -5950,7 +5950,7 @@
     "walk_min": 15.6,
     "stop_name": "stop#2464",
     "bus_lines": [],
-    "deal_score": 63
+    "deal_score": 62
   },
   {
     "id": "6506160",
@@ -6086,5 +6086,27 @@
       "M8"
     ],
     "deal_score": 54
+  },
+  {
+    "id": "6511902",
+    "price": 80000,
+    "location": "Maştağa q.",
+    "land_area_sot": 5.0,
+    "lat": 40.54241690433267,
+    "lng": 50.05636019351196,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F10%2F02%2F18%2F55%2F02%2F087b1953-d591-48d2-97e8-3dd8a25485a9%2F44822_OzLf1N6UiOrNitgtq7eYcQ.jpg",
+    "price_history": [
+      {
+        "price": 80000,
+        "date": "2026-10-02"
+      }
+    ],
+    "walk_m": 1357,
+    "walk_min": 18.1,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 36
   }
 ]

@@ -2243,7 +2243,8 @@
     ],
     "deal_score": 67,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F02%2F18%2F58%2F01%2F220df7f1-32a2-43c0-ab31-7d1e351abc52%2F63757_yRH-8BNDX-hTA1MdhzP9GQ.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-10-02"
   },
   {
     "id": "6425338",
