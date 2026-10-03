@@ -5508,7 +5508,8 @@
     "walk_min": 11.0,
     "stop_name": "stop#1895",
     "bus_lines": [],
-    "deal_score": 78
+    "deal_score": 78,
+    "deleted_at": "2026-10-03"
   },
   {
     "id": "6097939",
@@ -5528,7 +5529,8 @@
     "walk_min": 13.3,
     "stop_name": "stop#1237",
     "bus_lines": [],
-    "deal_score": 16
+    "deal_score": 16,
+    "deleted_at": "2026-10-03"
   },
   {
     "id": "6426813",
