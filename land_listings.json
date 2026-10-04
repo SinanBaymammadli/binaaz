@@ -2703,7 +2703,8 @@
     "walk_min": 2.7,
     "stop_name": "stop#2584",
     "bus_lines": [],
-    "deal_score": 31
+    "deal_score": 31,
+    "deleted_at": "2026-10-04"
   },
   {
     "id": "5912752",
@@ -5415,7 +5416,8 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 67
+    "deal_score": 67,
+    "deleted_at": "2026-10-04"
   },
   {
     "id": "6432546",
@@ -5438,7 +5440,8 @@
       "107",
       "186"
     ],
-    "deal_score": 28
+    "deal_score": 28,
+    "deleted_at": "2026-10-04"
   },
   {
     "id": "6432518",
@@ -5460,7 +5463,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 49
+    "deal_score": 49,
+    "deleted_at": "2026-10-04"
   },
   {
     "id": "6337715",
@@ -5482,7 +5486,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 16
+    "deal_score": 16,
+    "deleted_at": "2026-10-04"
   },
   {
     "id": "6428907",
