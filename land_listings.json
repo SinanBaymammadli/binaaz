@@ -1421,7 +1421,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 75
+    "deal_score": 74
   },
   {
     "id": "5305010",
@@ -2243,7 +2243,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 84
+    "deal_score": 83
   },
   {
     "id": "6448587",
@@ -4134,7 +4134,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 71
+    "deal_score": 70
   },
   {
     "id": "6492333",
@@ -4178,7 +4178,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 68
+    "deal_score": 67
   },
   {
     "id": "6490223",
@@ -4475,7 +4475,7 @@
   },
   {
     "id": "6473937",
-    "price": 162000,
+    "price": 150000,
     "location": "Buzovna q.",
     "land_area_sot": 9.0,
     "lat": 40.49862301063295,
@@ -4489,6 +4489,10 @@
       {
         "price": 162000,
         "date": "2026-10-04"
+      },
+      {
+        "price": 150000,
+        "date": "2026-10-05"
       }
     ],
     "walk_m": 532,
@@ -4497,7 +4501,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 37
+    "deal_score": 41
   },
   {
     "id": "6473485",
@@ -4541,7 +4545,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 66
+    "deal_score": 65
   },
   {
     "id": "6469555",
@@ -4566,7 +4570,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 89
+    "deal_score": 88
   },
   {
     "id": "6466054",
@@ -4655,7 +4659,7 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 69
+    "deal_score": 68
   },
   {
     "id": "6461130",
@@ -4702,7 +4706,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 91
+    "deal_score": 90
   },
   {
     "id": "6135082",
@@ -4995,7 +4999,7 @@
     "walk_min": 19.9,
     "stop_name": "stop#2584",
     "bus_lines": [],
-    "deal_score": 63
+    "deal_score": 62
   },
   {
     "id": "6447248",
@@ -5191,7 +5195,7 @@
     "walk_min": 0.6,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 84
+    "deal_score": 83
   },
   {
     "id": "6439319",
@@ -5324,7 +5328,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 57
+    "deal_score": null,
+    "deleted_at": "2026-10-05"
   },
   {
     "id": "6434914",
@@ -5649,7 +5654,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 82
+    "deal_score": 81
   },
   {
     "id": "5754070",
@@ -6380,5 +6385,27 @@
       "186"
     ],
     "deal_score": 21
+  },
+  {
+    "id": "6417380",
+    "price": 14500,
+    "location": "Albalılıq q.",
+    "land_area_sot": 8.0,
+    "lat": 40.54360701454064,
+    "lng": 50.03371523627285,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F12%2F19%2F15%2F10%2Fa7452cb7-5654-4de7-a66e-5d1cc8edfa74%2F72319_72xPGLZ5j-MI2wdVsndbOg.jpg",
+    "price_history": [
+      {
+        "price": 14500,
+        "date": "2026-10-05"
+      }
+    ],
+    "walk_m": 2019,
+    "walk_min": 26.9,
+    "stop_name": "İ.İsmayılov küç. - Cavadxan küç. kəs.",
+    "bus_lines": [
+      "172"
+    ],
+    "deal_score": 73
   }
 ]
