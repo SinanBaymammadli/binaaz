@@ -895,7 +895,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 23,
+    "deal_score": 24,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F14%2F11%2F08%2F51%2F2df3a6b7-cef5-4923-b4f0-e7a9f619e58e%2F63760_kuYXpPf_FIttL0bTAaV5BA.jpg",
     "has_repair": true
   },
@@ -1156,7 +1156,7 @@
       "107",
       "186"
     ],
-    "deal_score": 47,
+    "deal_score": 48,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F24%2F03%2F14%2F52%2F80021bf1-ca16-4762-a4a7-6736f07d8c32%2F55361_8wDd5jjLNoPVyEJfpDVePw.jpg"
   },
   {
@@ -1213,8 +1213,9 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 31,
-    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F03%2F09%2F26%2F18%2F4624da31-ed36-4439-88b5-45fea54b4790%2F85805_dhDHqKn4gTzU0Sqv96naSw.jpg"
+    "deal_score": null,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F03%2F09%2F26%2F18%2F4624da31-ed36-4439-88b5-45fea54b4790%2F85805_dhDHqKn4gTzU0Sqv96naSw.jpg",
+    "deleted_at": "2026-10-05"
   },
   {
     "id": "6248934",
@@ -3384,13 +3385,13 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 63,
+    "deal_score": 64,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F07%2F59%2F27%2F932ffe7d-24b2-43ed-962a-e1952084e106%2F70716_FqbE_26hTekAlAvCYsT0Bg.jpg",
     "has_repair": true
   },
   {
     "id": "6476763",
-    "price": 205000,
+    "price": 215000,
     "location": "Maştağa q.",
     "rooms": "7 otaqlı",
     "area_m2": "240 m²",
@@ -3413,6 +3414,10 @@
       {
         "price": 205000,
         "date": "2026-10-03"
+      },
+      {
+        "price": 215000,
+        "date": "2026-10-05"
       }
     ],
     "walk_m": 63,
@@ -3424,7 +3429,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 64,
+    "deal_score": 62,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F20%2F15%2F39%2F24%2F7af90a6c-8f07-4648-b6f0-54362f17ca77%2F73318_71RXBhikHLD3iI0hTxQBZg.jpg",
     "has_repair": true
   },
@@ -3476,7 +3481,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 59,
+    "deal_score": 60,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F20%2F38%2F12%2F5a0890d3-8cd3-40a2-a22f-9e91bc8ab495%2F90032_8R6-x7w2XNtHn1FO-y7Hgw.jpg",
     "has_repair": true
   },
@@ -3864,7 +3869,7 @@
       "107",
       "186"
     ],
-    "deal_score": 29,
+    "deal_score": 30,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F01%2F02%2F20%2F17%2F26%2F356b5617-b2c5-405a-b44f-7b0b2c660a0a%2F80125_6zfNkfXdU8BoLQs1iF0LnQ.jpg",
     "has_repair": true
   },
@@ -3939,7 +3944,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 36,
+    "deal_score": 37,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F09%2F20%2F25%2F16%2Fc2be3546-8319-4db6-96bb-ba2c28f8bf85%2F89576_GvalXXm4iPMsqAXsOACbgQ.jpg",
     "has_repair": true
   },
@@ -4473,10 +4478,9 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": null,
+    "deal_score": 26,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F16%2F12%2F23%2F08%2F9e560c73-3988-4eff-a926-cb7789513799%2F40099_XbEB8m6JtZ6DSKAc9cBiXg.jpg",
-    "has_repair": true,
-    "deleted_at": "2026-09-30"
+    "has_repair": true
   },
   {
     "id": "6419156",
@@ -22804,7 +22808,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 11
+    "deal_score": 12
   },
   {
     "id": "6498273",
@@ -22857,7 +22861,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 21
+    "deal_score": 22
   },
   {
     "id": "6497444",
@@ -23491,7 +23495,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 57
+    "deal_score": 58
   },
   {
     "id": "6294637",
