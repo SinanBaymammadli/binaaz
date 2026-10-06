@@ -544,7 +544,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 49
+    "deal_score": 50
   },
   {
     "id": "6483672",
@@ -828,7 +828,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 43
+    "deal_score": 44
   },
   {
     "id": "6477888",
@@ -1421,7 +1421,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 75
+    "deal_score": 74
   },
   {
     "id": "5305010",
@@ -1991,7 +1991,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 36
+    "deal_score": 37
   },
   {
     "id": "5991567",
@@ -2484,7 +2484,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 66
+    "deal_score": 65
   },
   {
     "id": "6334361",
@@ -2596,7 +2596,8 @@
       "189",
       "M8"
     ],
-    "deal_score": 59
+    "deal_score": null,
+    "deleted_at": "2026-10-06"
   },
   {
     "id": "6417438",
@@ -2949,7 +2950,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 37
+    "deal_score": 38
   },
   {
     "id": "6304438",
@@ -4070,7 +4071,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 30
+    "deal_score": 31
   },
   {
     "id": "6494394",
@@ -4505,7 +4506,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 41
+    "deal_score": 42
   },
   {
     "id": "6473485",
@@ -4596,7 +4597,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 65
+    "deal_score": 64
   },
   {
     "id": "6462278",
@@ -4618,7 +4619,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 28
+    "deal_score": 29
   },
   {
     "id": "4524431",
@@ -4931,7 +4932,7 @@
     "walk_min": 9.0,
     "stop_name": "stop#856",
     "bus_lines": [],
-    "deal_score": 23
+    "deal_score": 22
   },
   {
     "id": "6451453",
@@ -5243,7 +5244,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 15
+    "deal_score": 14
   },
   {
     "id": "6438745",
@@ -5635,8 +5636,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": null,
-    "deleted_at": "2026-10-02"
+    "deal_score": 72
   },
   {
     "id": "6341464",
@@ -5836,7 +5836,7 @@
     "walk_min": 14.1,
     "stop_name": "stop#2584",
     "bus_lines": [],
-    "deal_score": 43
+    "deal_score": 44
   },
   {
     "id": "6499007",
@@ -5880,7 +5880,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 25
+    "deal_score": 26
   },
   {
     "id": "6046662",
@@ -5902,7 +5902,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 25
+    "deal_score": 26
   },
   {
     "id": "6505727",
@@ -5924,7 +5924,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 33
+    "deal_score": 34
   },
   {
     "id": "6505575",
@@ -6011,7 +6011,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 27
+    "deal_score": 28
   },
   {
     "id": "6348762",
@@ -6192,7 +6192,7 @@
       "107",
       "186"
     ],
-    "deal_score": 67
+    "deal_score": 66
   },
   {
     "id": "6367418",
@@ -6214,7 +6214,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 75
+    "deal_score": 74
   },
   {
     "id": "6378993",
@@ -6476,6 +6476,51 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 29
+    "deal_score": 30
+  },
+  {
+    "id": "6238999",
+    "price": 118000,
+    "location": "Albalılıq q.",
+    "land_area_sot": 8.0,
+    "lat": 40.5393847799971,
+    "lng": 50.06469828365146,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F24%2F23%2F18%2F03%2F924b6ded-f0c3-421f-b64a-4f5aad0fbc3c%2F77742_oMn_DmFxMmYx2V_kEXf0wg.jpg",
+    "price_history": [
+      {
+        "price": 118000,
+        "date": "2026-10-06"
+      }
+    ],
+    "walk_m": 466,
+    "walk_min": 6.2,
+    "stop_name": "M.Namazov küç. 9",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 48
+  },
+  {
+    "id": "6520399",
+    "price": 145000,
+    "location": "Buzovna q.",
+    "land_area_sot": 7.1,
+    "lat": 40.52455605597382,
+    "lng": 50.06427971937114,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F10%2F06%2F11%2F57%2F50%2F7e639e87-f8a1-47f7-819b-a18779475ecf%2F66464_uskJnFoOlIRhASIX4xsgnA.jpg",
+    "price_history": [
+      {
+        "price": 145000,
+        "date": "2026-10-06"
+      }
+    ],
+    "walk_m": 385,
+    "walk_min": 5.1,
+    "stop_name": "A.Rəhimov küç. (Albalılıq y/m)",
+    "bus_lines": [
+      "107",
+      "186"
+    ],
+    "deal_score": 31
   }
 ]

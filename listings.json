@@ -667,7 +667,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 63,
+    "deal_score": 64,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F14%2F30%2F57%2F2128cbc2-0fc4-437b-8063-b2f267065e69%2F63782_1_KET7nF-9ApjO_GgSLs4g.jpg",
     "has_repair": true
   },
@@ -1143,7 +1143,7 @@
   },
   {
     "id": "6155822",
-    "price": 210000,
+    "price": 195000,
     "location": "Buzovna q.",
     "rooms": "4 otaqlı",
     "area_m2": "176 m²",
@@ -1157,8 +1157,18 @@
       "107",
       "186"
     ],
-    "deal_score": 49,
-    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F24%2F03%2F14%2F52%2F80021bf1-ca16-4762-a4a7-6736f07d8c32%2F55361_8wDd5jjLNoPVyEJfpDVePw.jpg"
+    "deal_score": 60,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F24%2F03%2F14%2F52%2F80021bf1-ca16-4762-a4a7-6736f07d8c32%2F55361_8wDd5jjLNoPVyEJfpDVePw.jpg",
+    "price_history": [
+      {
+        "price": 210000,
+        "date": "unknown"
+      },
+      {
+        "price": 195000,
+        "date": "2026-10-06"
+      }
+    ]
   },
   {
     "id": "5965730",
@@ -1707,7 +1717,7 @@
       "107",
       "186"
     ],
-    "deal_score": 60,
+    "deal_score": 59,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2024%2F12%2F18%2F12%2F29%2F35%2Fb842754d-064a-4ec5-ba76-9947847a229e%2F82570_03Jwy_e00fC2mfxpGD9upA.jpg",
     "has_repair": true
   },
@@ -1763,9 +1773,10 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 67,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F06%2F14%2F06%2F22%2F6e14972b-db00-4582-9f24-6f18c0cec981%2F63778_5HdawNF_ZSMido7fu3A6HQ.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-10-06"
   },
   {
     "id": "6360577",
@@ -1891,7 +1902,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 52,
+    "deal_score": 51,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F02%2F22%2F44%2F20%2F95bd2bc1-6d67-470d-97f1-3fb4859c8e44%2F72336_QXVFXq_zW8OuLjT2W7xRcw.jpg",
     "has_repair": true
   },
@@ -1972,7 +1983,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 47,
+    "deal_score": 46,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F20%2F19%2F50%2F52%2F601bd8f4-9d27-410c-a6ce-6cf7b735bc84%2F68276_O6DJJqiwS99a_HXZcEbGxg.jpg",
     "has_repair": false
   },
@@ -2394,7 +2405,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 84,
+    "deal_score": 83,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F14%2F08%2F07%2Fe2f2fb41-b8aa-4614-83a9-e54277e63047%2F63763_jZKBTetpY6_fTE5sZj1ZMQ.jpg",
     "has_repair": true
   },
@@ -3572,7 +3583,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 53,
+    "deal_score": 54,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F27%2F21%2F07%2F43%2F919d959a-a60b-4078-aa7e-bf2a606c6895%2F68101_5Ye3wg5XWLatmoNdbWqaFA.jpg",
     "has_repair": true
   },
@@ -4030,7 +4041,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 37,
+    "deal_score": 38,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F18%2F12%2F26%2F7c2a3b9f-3951-47ef-84e1-11d60c30df95%2F63758_GeN6XobO_i94EndVAqgqLA.jpg",
     "has_repair": true
   },
@@ -4058,7 +4069,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 76,
+    "deal_score": 77,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F29%2F10%2F58%2F37%2F03670d0c-5a57-4187-baa7-57f8a34e4654%2F55538_ZjsPU-mLZAsZbTcNG-TvRA.jpg",
     "has_repair": true
   },
@@ -4815,7 +4826,7 @@
   },
   {
     "id": "6407215",
-    "price": 143500,
+    "price": 143000,
     "location": "Buzovna q.",
     "rooms": "6 otaqlı",
     "area_m2": "320 m²",
@@ -4842,6 +4853,10 @@
       {
         "price": 143500,
         "date": "2026-10-04"
+      },
+      {
+        "price": 143000,
+        "date": "2026-10-06"
       }
     ],
     "walk_m": 353,
@@ -5035,7 +5050,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 78
+    "deal_score": 79
   },
   {
     "id": "6488309",
@@ -23072,7 +23087,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 30
+    "deal_score": 31
   },
   {
     "id": "6248521",
@@ -23097,7 +23112,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 54
+    "deal_score": 55
   },
   {
     "id": "6326560",
@@ -23842,7 +23857,7 @@
   },
   {
     "id": "6518577",
-    "price": 174000,
+    "price": 150000,
     "location": "Maştağa q.",
     "rooms": "8 otaqlı",
     "area_m2": "250 m²",
@@ -23855,6 +23870,10 @@
       {
         "price": 174000,
         "date": "2026-10-05"
+      },
+      {
+        "price": 150000,
+        "date": "2026-10-06"
       }
     ],
     "walk_m": 137,
@@ -23866,7 +23885,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 80
+    "deal_score": 89
   },
   {
     "id": "6518574",
