@@ -3980,7 +3980,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 69
+    "deal_score": 69,
+    "deleted_at": "2026-10-07"
   },
   {
     "id": "6461644",
@@ -5185,7 +5186,8 @@
     "bus_lines": [
       "189"
     ],
-    "deal_score": 61
+    "deal_score": 61,
+    "deleted_at": "2026-10-07"
   },
   {
     "id": "5905275",

@@ -1285,7 +1285,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 18,
+    "deal_score": 19,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F22%2F23%2F46%2F09%2Fab5f676c-88db-46f4-b4e5-f09c718b5e57%2F29746_PlUohOkC4jOXaFsGa1ubow.jpg",
     "has_repair": true
   },
@@ -2042,7 +2042,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 45,
+    "deal_score": 46,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F11%2F12%2F31%2F09%2Fd6b57010-72e6-496c-b13c-bb5487e0e5ff%2F14155_K0gpK0tkivO0SjQW1ZfMqg.jpg",
     "has_repair": true,
     "price_history": [
@@ -24148,7 +24148,7 @@
   },
   {
     "id": "6524024",
-    "price": 140000,
+    "price": 145000,
     "location": "Maştağa q.",
     "rooms": "4 otaqlı",
     "area_m2": "100 m²",
@@ -24161,6 +24161,10 @@
       {
         "price": 140000,
         "date": "2026-10-07"
+      },
+      {
+        "price": 145000,
+        "date": "2026-10-07"
       }
     ],
     "walk_m": 63,
@@ -24172,7 +24176,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 49
+    "deal_score": 47
   },
   {
     "id": "6521143",
