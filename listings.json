@@ -91,7 +91,7 @@
         "date": "2026-09-23"
       }
     ],
-    "deal_score": 40,
+    "deal_score": 41,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F17%2F00%2F50%2F2a7c3602-0a5e-486e-b230-182add703aff%2F63778_gGk2e_8Uo6qIy5LY4SDFuA.jpg",
     "has_repair": true
   },
@@ -564,7 +564,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 28,
+    "deal_score": 27,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F17%2F13%2F54%2F39%2F0d3fe17c-072c-4b02-8667-cdc9d97af4c1%2F56351_dzof7LnmJsiwZ-7wFyjCkA.jpg",
     "price_history": [
       {
@@ -1140,7 +1140,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 52,
+    "deal_score": 53,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F22%2F17%2F50%2Ff739b720-4e2e-4f42-9d96-98c13bfa04a7%2F70919_HkvGXRi3WxeJ41CTjbzCMQ.jpg",
     "has_repair": false
   },
@@ -1296,7 +1296,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 18,
+    "deal_score": 19,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F06%2F22%2F23%2F46%2F09%2Fab5f676c-88db-46f4-b4e5-f09c718b5e57%2F29746_PlUohOkC4jOXaFsGa1ubow.jpg",
     "has_repair": true
   },
@@ -1910,9 +1910,10 @@
       "107",
       "M8"
     ],
-    "deal_score": 40,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F09%2F10%2F33%2F07%2Fcabd54a7-4c7c-49dc-9fa8-114e76d99769%2F72336_uW4kFkVzZDIqn91Mq0pdzg.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-10-09"
   },
   {
     "id": "6434977",
@@ -1972,7 +1973,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 50,
+    "deal_score": 49,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F02%2F12%2F09%2F13%2Fceaeed1b-293c-4787-9f76-394d731374b0%2F72295_TeZlT_TD1dW7qeLiDUMibA.jpg",
     "has_repair": true
   },
@@ -2053,7 +2054,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 45,
+    "deal_score": 46,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F08%2F11%2F12%2F31%2F09%2Fd6b57010-72e6-496c-b13c-bb5487e0e5ff%2F14155_K0gpK0tkivO0SjQW1ZfMqg.jpg",
     "has_repair": true,
     "price_history": [
@@ -2257,7 +2258,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 57,
+    "deal_score": 58,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F02%2F14%2F11%2F50%2F24%2Fe2475e97-3ba8-46d2-9a06-abcbc67a3d46%2F710_n_84bQNwZvpGSEPPCvJ-ng.jpg",
     "has_repair": true
   },
@@ -2428,7 +2429,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 80,
+    "deal_score": 79,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F21%2F11%2F04%2F31%2F2958f268-cf1e-46b6-8259-a451c781c381%2F68112_6J0DhROkExpbQyQm0h_2wg.jpg",
     "has_repair": true
   },
@@ -2450,7 +2451,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 84,
+    "deal_score": 83,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F17%2F14%2F08%2F07%2Fe2f2fb41-b8aa-4614-83a9-e54277e63047%2F63763_jZKBTetpY6_fTE5sZj1ZMQ.jpg",
     "has_repair": true
   },
@@ -2746,10 +2747,9 @@
       "107",
       "150"
     ],
-    "deal_score": null,
+    "deal_score": 64,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F09%2F19%2F16%2F28%2F58%2F9ac63267-3b38-4271-a4b2-f3d6a9743b59%2F66008_-f1hpkebL9FYqnHCOa3oWQ.jpg",
-    "has_repair": true,
-    "deleted_at": "2026-10-09"
+    "has_repair": true
   },
   {
     "id": "6444066",
@@ -2865,7 +2865,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 73,
+    "deal_score": 72,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F15%2F19%2F51%2F20%2Ff1453713-9744-4fed-a11a-d80cc164c724%2F63765_0h1gWPjMWj6wXrCNd0nlFg.jpg",
     "has_repair": true
   },
@@ -2921,7 +2921,7 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 75,
+    "deal_score": 74,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F18%2F12%2F40%2F07%2Fbceaa5d7-6ec1-4f56-ad26-6dac0e140857%2F82379_UO6QVVRW3uXMxEgWGy86mQ.jpg",
     "has_repair": false
   },
@@ -2943,7 +2943,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 86,
+    "deal_score": 85,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F05%2F12%2F56%2F20%2F6ef01f2b-75d4-4d21-acaa-f55da3e9a48c%2F72318_zttisDbeXqjRWf5ziZienQ.jpg",
     "has_repair": true
   },
@@ -3343,7 +3343,7 @@
     "bus_lines": [
       "107"
     ],
-    "deal_score": 36,
+    "deal_score": 37,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F24%2F15%2F53%2F25%2Fa01c6e1d-f844-46f6-a201-f61b65dc299b%2F55539_SE5nm_BvYfdmVNh7YgK-gw.jpg",
     "has_repair": true
   },
@@ -3544,7 +3544,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 60,
+    "deal_score": 61,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F18%2F20%2F38%2F12%2F5a0890d3-8cd3-40a2-a22f-9e91bc8ab495%2F90032_8R6-x7w2XNtHn1FO-y7Hgw.jpg",
     "has_repair": true
   },
@@ -3702,7 +3702,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 21,
+    "deal_score": 22,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F08%2F07%2F15%2F49%2F06%2F37e3cb09-fccf-4167-a335-8fadbbdb6723%2F4513_SdFmiiX51JZHxZnCDO0xMg.jpg",
     "has_repair": true
   },
@@ -4035,7 +4035,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 80,
+    "deal_score": 79,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F12%2F30%2F13%2F19%2F27%2F3f9b66f6-6ade-4215-943c-babffc3fb776%2F45174_-4y43DObTVwZTcc2Qen2RQ.jpg",
     "has_repair": true
   },
@@ -4060,9 +4060,10 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 17,
+    "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F03%2F18%2F59%2F58%2F585eb99c-26cf-4770-a323-3ede7993cba1%2F82706_cDtLmJdd_sOxxZeOVOFprA.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-10-09"
   },
   {
     "id": "6444585",
@@ -4488,7 +4489,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 60,
+    "deal_score": 61,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F01%2F12%2F01%2F29%2Fc2d744ca-64fe-4a3d-b8a0-aaa9a63c8171%2F46358_UtJLCEeFtKog2C2fSAdOkQ.jpg",
     "has_repair": true
   },
@@ -4543,7 +4544,7 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 37,
+    "deal_score": 38,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F03%2F16%2F12%2F23%2F08%2F9e560c73-3988-4eff-a926-cb7789513799%2F40099_XbEB8m6JtZ6DSKAc9cBiXg.jpg",
     "has_repair": true
   },
@@ -5128,7 +5129,7 @@
       "186",
       "M8"
     ],
-    "deal_score": 77
+    "deal_score": 76
   },
   {
     "id": "6458506",
@@ -24108,7 +24109,7 @@
       "189",
       "M8"
     ],
-    "deal_score": 85
+    "deal_score": 84
   },
   {
     "id": "6522705",
@@ -24250,7 +24251,7 @@
       "107",
       "186"
     ],
-    "deal_score": 31
+    "deal_score": 30
   },
   {
     "id": "6526291",
@@ -24299,5 +24300,109 @@
       "172"
     ],
     "deal_score": 44
+  },
+  {
+    "id": "6529543",
+    "price": 205000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "145 m²",
+    "land_area_sot": 4,
+    "lat": 40.53259622188237,
+    "lng": 50.07042333307395,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F10%2F09%2F12%2F47%2F31%2Fd3c0fdd2-d36b-4894-a0d7-4c89576cf0fd%2F37077_dL2wCdAztne9ZRtDxckesA.jpg",
+    "has_repair": true,
+    "price_history": [
+      {
+        "price": 205000,
+        "date": "2026-10-09"
+      }
+    ],
+    "walk_m": 823,
+    "walk_min": 11.0,
+    "stop_name": "322 nömrəli tam orta məktəb",
+    "bus_lines": [
+      "107",
+      "186"
+    ],
+    "deal_score": 31
+  },
+  {
+    "id": "6306025",
+    "price": 215000,
+    "location": "Buzovna q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "135 m²",
+    "land_area_sot": 3,
+    "lat": 40.5036561709293,
+    "lng": 50.1077641329143,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F20%2F12%2F42%2F32%2F853ec18e-dadc-4f3e-9833-52ff5994bee5%2F75687_ZoC5gbNvmVdLJzHhcqSzlw.jpg",
+    "has_repair": true,
+    "price_history": [
+      {
+        "price": 215000,
+        "date": "2026-10-09"
+      }
+    ],
+    "walk_m": 254,
+    "walk_min": 3.4,
+    "stop_name": "Zuğulba yolu 60",
+    "bus_lines": [
+      "150"
+    ],
+    "deal_score": 25
+  },
+  {
+    "id": "6529646",
+    "price": 210000,
+    "location": "Maştağa q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "160 m²",
+    "land_area_sot": 5,
+    "lat": 40.531499,
+    "lng": 50.004497,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F10%2F09%2F13%2F01%2F19%2Ff5da1a08-3bf0-4a9d-b30f-258b0e73226d%2F37089_gkcFg_7VsmmQCSX_HSTV1w.jpg",
+    "has_repair": true,
+    "price_history": [
+      {
+        "price": 210000,
+        "date": "2026-10-09"
+      }
+    ],
+    "walk_m": 63,
+    "walk_min": 0.8,
+    "stop_name": "Maştağa parkı",
+    "bus_lines": [
+      "172",
+      "177",
+      "186",
+      "M8"
+    ],
+    "deal_score": 50
+  },
+  {
+    "id": "6529615",
+    "price": 245000,
+    "location": "Albalılıq q.",
+    "rooms": "4 otaqlı",
+    "area_m2": "190 m²",
+    "land_area_sot": 32,
+    "lat": 40.53316,
+    "lng": 50.04792,
+    "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F10%2F09%2F13%2F04%2F18%2F438efe1e-7b22-4b8e-a4a6-207b00cc0805%2F37058_hDGBviKkXY0htM03NdlR-Q.jpg",
+    "has_repair": true,
+    "price_history": [
+      {
+        "price": 245000,
+        "date": "2026-10-09"
+      }
+    ],
+    "walk_m": 1146,
+    "walk_min": 15.3,
+    "stop_name": "Maştağa elektrik yarımstansiyası",
+    "bus_lines": [
+      "186"
+    ],
+    "deal_score": 43
   }
 ]
