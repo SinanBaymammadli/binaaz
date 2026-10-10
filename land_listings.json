@@ -2181,7 +2181,8 @@
     "bus_lines": [
       "172"
     ],
-    "deal_score": 35
+    "deal_score": 35,
+    "deleted_at": "2026-10-10"
   },
   {
     "id": "6450245",
@@ -2251,7 +2252,8 @@
       "186",
       "M8"
     ],
-    "deal_score": 83
+    "deal_score": 83,
+    "deleted_at": "2026-10-10"
   },
   {
     "id": "6448587",
