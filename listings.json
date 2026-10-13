@@ -14,8 +14,7 @@
     "land_area_sot": 7,
     "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F05%2F22%2F23%2F02%2F59%2F8791981a-79f7-4fa4-83f8-a55d822d9a46%2F75556_RvodBNVeCdUCk5rpZuUTUA.jpg",
-    "has_repair": true,
-    "deleted_at": "2026-09-29"
+    "has_repair": true
   },
   {
     "id": "5821934",
@@ -1354,7 +1353,8 @@
     ],
     "deal_score": 63,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F07%2F29%2F20%2F35%2F46%2F51743ac5-d816-45ee-9323-bc607db32acf%2F43329_jlNn8qezu6n1AhuhTbmcQw.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-10-13"
   },
   {
     "id": "5686268",
@@ -1718,8 +1718,7 @@
     ],
     "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2025%2F11%2F09%2F13%2F14%2F10%2F8e55e66e-183e-4320-89fd-1f53d61c5508%2F63785_kCUjjVQzBKeSMjpjSjc_hQ.jpg",
-    "has_repair": true,
-    "deleted_at": "2026-10-01"
+    "has_repair": true
   },
   {
     "id": "6446854",
@@ -1817,7 +1816,8 @@
     ],
     "deal_score": 36,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F12%2F21%2F20%2F04%2Fba8ac23f-5ebf-4f31-95c3-c35c79e07564%2F63763_yP-hKs7lrbnx3pfdYFJYiw.jpg",
-    "has_repair": true
+    "has_repair": true,
+    "deleted_at": "2026-10-13"
   },
   {
     "id": "6438017",
@@ -2913,7 +2913,8 @@
     "bus_lines": [],
     "deal_score": 71,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F13%2F08%2F58%2F14%2F1eff70cb-a177-4b55-af00-0cab15c27ddd%2F59951_4TyF9OxtzSy5EBoxV9aqMA.jpg",
-    "has_repair": false
+    "has_repair": false,
+    "deleted_at": "2026-10-13"
   },
   {
     "id": "6438381",
@@ -4143,8 +4144,7 @@
     ],
     "deal_score": null,
     "photo_url": "https://bina.azstatic.com/uploads/f460x345/2026%2F09%2F08%2F18%2F12%2F26%2F7c2a3b9f-3951-47ef-84e1-11d60c30df95%2F63758_GeN6XobO_i94EndVAqgqLA.jpg",
-    "has_repair": true,
-    "deleted_at": "2026-10-08"
+    "has_repair": true
   },
   {
     "id": "5862957",
