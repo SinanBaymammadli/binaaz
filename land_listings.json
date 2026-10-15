@@ -1662,7 +1662,8 @@
     "walk_min": 0.0,
     "stop_name": "stop#878",
     "bus_lines": [],
-    "deal_score": 39
+    "deal_score": 39,
+    "deleted_at": "2026-10-15"
   },
   {
     "id": "6030334",
@@ -4711,7 +4712,8 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": 29
+    "deal_score": 29,
+    "deleted_at": "2026-10-15"
   },
   {
     "id": "6461078",
@@ -4736,7 +4738,8 @@
       "186",
       "M8"
     ],
-    "deal_score": 91
+    "deal_score": 91,
+    "deleted_at": "2026-10-15"
   },
   {
     "id": "6135082",
@@ -7168,8 +7171,7 @@
     "bus_lines": [
       "186"
     ],
-    "deal_score": null,
-    "deleted_at": "2026-10-13"
+    "deal_score": null
   },
   {
     "id": "6539455",
@@ -7367,7 +7369,8 @@
     "bus_lines": [
       "150"
     ],
-    "deal_score": 32
+    "deal_score": 32,
+    "deleted_at": "2026-10-15"
   },
   {
     "id": "5950383",
